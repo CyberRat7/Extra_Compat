@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dyedcampfires"
+    }
+  ],
+  "tip": {
+    "text": "Right click a campfire with a dye to change its color."
+  }
+}

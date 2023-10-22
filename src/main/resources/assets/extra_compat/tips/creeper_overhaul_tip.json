@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "creeperoverhaul"
+    }
+  ],
+  "tip": {
+    "text": "Every biome has its own creeper varient."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "shinyhorses"
+    }
+  ],
+  "tip": {
+    "text": "You can enchant your horse armor at an enchanting table."
+  }
+}

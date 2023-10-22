@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bottleyourxp"
+    }
+  ],
+  "tip": {
+    "text": "You can bottle your collected XP by crouching and right-clicking the air."
+  }
+}

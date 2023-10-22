@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "galosphere"
+    }
+  ],
+  "tip": {
+    "text": "Charge a monstrometer with lumiere blocks to reveal what blocks hostile mobs can spawn on."
+  }
+}

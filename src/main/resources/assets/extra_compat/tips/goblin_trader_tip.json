@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "goblintraders"
+    }
+  ],
+  "tip": {
+    "text": "Goblin traders can be found in the nether and underground and will trade rare items with you."
+  }
+}

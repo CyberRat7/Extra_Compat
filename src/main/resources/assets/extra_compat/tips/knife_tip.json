@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "tip": {
+    "text": "Use a knife to obtain straw from grass."
+  }
+}

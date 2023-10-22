@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
+  ],
+  "tip": {
+    "text": "Use waystones and warp scrolls to travel the world."
+  }
+}

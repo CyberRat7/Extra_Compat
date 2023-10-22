@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sullysmod"
+    }
+  ],
+  "tip": {
+    "text": "Jade shields will deflect projectiles back at your enemies."
+  }
+}

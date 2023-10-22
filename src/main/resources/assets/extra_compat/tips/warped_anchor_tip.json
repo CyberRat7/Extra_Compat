@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "galosphere"
+    }
+  ],
+  "tip": {
+    "text": "Charge a warped anchor with allurite blocks and teleport to it with an ender pearl."
+  }
+}

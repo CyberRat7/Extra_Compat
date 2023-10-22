@@ -1,0 +1,105 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "crabbersdelight:bisque",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:fish_stick",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:clam_chowder",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:clam_bake",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:crab_cakes",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:shrimp_skewer",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:surf_and_turf",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:seafood_gumbo",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:crab_legs",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_clam_meat",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_clawster",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_crab",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:cooked_shrimp",
+      "required": false
+    },
+    {
+      "id": "endersdelight:pearl_pasta_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:pearl_pasta",
+      "required": false
+    },
+    {
+      "id": "endersdelight:ender_paella",
+      "required": false
+    },
+    {
+      "id": "endersdelight:ender_paella_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:stuffed_shulker_bowl",
+      "required": false
+    },
+    {
+      "id": "endersdelight:endermite_stew_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:endermite_stew",
+      "required": false
+    },
+    {
+      "id": "endersdelight:chorus_stew",
+      "required": false
+    },
+    {
+      "id": "endersdelight:chorus_stew_wood",
+      "required": false
+    },
+    {
+      "id": "sullysmod:cooked_lanternfish",
+      "required": false
+    },
+    {
+      "id": "sullysmod:cooked_lanternfish_slice",
+      "required": false
+    },
+    {
+      "id": "goated:cooked_chevron",
+      "required": false
+    }
+  ]
+}

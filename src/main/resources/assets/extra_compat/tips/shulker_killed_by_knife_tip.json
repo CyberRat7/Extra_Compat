@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "endersdelight"
+    }
+  ],
+  "tip": {
+    "text": "If you kill a shulker with a knife it will drop unique items."
+  }
+}

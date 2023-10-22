@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ender_chested"
+    }
+  ],
+  "tip": {
+    "text": "Put an ender chest on your horse to access your private items while you ride."
+  }
+}

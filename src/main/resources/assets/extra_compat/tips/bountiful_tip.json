@@ -1,0 +1,11 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bountiful"
+    }
+  ],
+  "tip": {
+    "text": "You can start missions from a bounty board in a village"
+  }
+}

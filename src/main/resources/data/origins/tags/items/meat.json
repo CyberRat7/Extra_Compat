@@ -1,0 +1,413 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "upgrade_aquatic:perch",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:cooked_perch",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:pike",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:cooked_pike",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:lionfish",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:cooked_lionfish",
+      "required": false
+    },
+    {
+      "id": "environmental:koi",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:glazed_porkchop",
+      "required": false
+    },
+    {
+      "id": "babyfat:ranchu",
+      "required": false
+    },
+    {
+      "id": "bettas:betta_fish",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:smoked_ham",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:ham",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:salmon_roll",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cod_roll",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:mutton_wrap",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bacon_sandwich",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chicken_sandwich",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:hamburger",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cooked_salmon_slice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:salmon_slice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cooked_cod_slice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cod_slice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:steak_and_potatoes",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:beef_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:fish_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chicken_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:noodle_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pumpkin_soup",
+      "required": false
+    },
+    {
+      "id": "babydelight:ranchu_soup",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:blazing_chilli",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_cod",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:tea_curry",
+      "required": false
+    },
+    {
+      "id": "autumnity:foul_soup",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:baked_cod_stew",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bacon_and_eggs",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pasta_with_meatballs",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:roasted_mutton_chops",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pasta_with_mutton_chop",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:roast_chicken",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:barbecue_stick",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:dumplings",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:grilled_salmon",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_glazed_ham",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:shepherds_pie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:squid_ink_pasta",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cabbage_roll",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:perch_slice",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:cooked_perch_slice",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:cooked_pike_slice",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:pike_slice",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:escargot",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:seared_venison",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:passionfruit_glazed_duck",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:duck_noodles",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:dune_platter",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:perch_with_mushrooms",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:pike_with_beetroot",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:venison_with_bamboo_shoots",
+      "required": false
+    },
+    {
+      "id": "neapolitan:chocolate_spider_eye",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:warped_moldy_meat",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:grilled_strider",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:strider_moss_stew",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:plate_of_stuffed_hoglin_snout",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:plate_of_stuffed_hoglin_ham",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:plate_of_stuffed_hoglin_roast",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:nether_skewer",
+      "required": false
+    },
+    {
+      "id": "sullysmod:lanternfish_slice",
+      "required": false
+    },
+    {
+      "id": "sullysmod:cooked_lanternfish_slice",
+      "required": false
+    },
+    {
+      "id": "sullysmod:lanternfish_roll",
+      "required": false
+    },
+    {
+      "id": "sullysmod:cooked_lanternfish",
+      "required": false
+    },
+    {
+      "id": "sullysmod:cave_chum_bucket",
+      "required": false
+    },
+    {
+      "id": "sullysmod:lanternfish",
+      "required": false
+    },
+    {
+      "id": "endersdelight:uncanny_cookies",
+      "required": false
+    },
+    {
+      "id": "endersdelight:strange_eclair",
+      "required": false
+    },
+    {
+      "id": "endersdelight:shulker_mollusk",
+      "required": false
+    },
+    {
+      "id": "endersdelight:shulker_filet",
+      "required": false
+    },
+    {
+      "id": "endersdelight:crispy_skewer",
+      "required": false
+    },
+    {
+      "id": "endersdelight:mite_crust",
+      "required": false
+    },
+    {
+      "id": "endersdelight:crawling_sandwich",
+      "required": false
+    },
+    {
+      "id": "endersdelight:endermite_stew_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:endermite_stew",
+      "required": false
+    },
+    {
+      "id": "endersdelight:twisted_cereal_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:twisted_cereal",
+      "required": false
+    },
+    {
+      "id": "endersdelight:pearl_pasta_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:pearl_pasta",
+      "required": false
+    },
+    {
+      "id": "endersdelight:ender_paella",
+      "required": false
+    },
+    {
+      "id": "endersdelight:ender_paella_wood",
+      "required": false
+    },
+    {
+      "id": "endersdelight:stuffed_shulker_bowl",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:clam_bake",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:crab_cakes",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:shrimp_skewer",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:surf_and_turf",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:seafood_gumbo",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:stuffed_nautilus_shell",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:bisque",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:fish_stick",
+      "required": false
+    },
+    {
+      "id": "crabbersdelight:clam_chowder",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:rainbow_jelly",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:mosquito_repellent_stew",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:maggot",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:shrimp_fried_rice",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cosmic_cod",
+      "required": false
+    }
+  ]
+}
