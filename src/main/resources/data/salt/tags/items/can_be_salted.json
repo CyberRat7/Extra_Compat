@@ -100,6 +100,62 @@
     {
       "id": "goated:cooked_chevon",
       "required": false
+    },
+    {
+      "id": "alexsmobs:shrimp_fried_rice",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cooked_trilocaris_tail",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cooked_lobster_tail",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cooked_kangaroo_meat",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cooked_catfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:lanternfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:cooked_lanternfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:radgill",
+      "required": false
+    },
+    {
+      "id": "alexscaves:cooked_radgill",
+      "required": false
+    },
+    {
+      "id": "alexscaves:tripodfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:cooked_tripodfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:vesper_stew",
+      "required": false
+    },
+    {
+      "id": "alexscaves:cooked_mussel",
+      "required": false
+    },
+    {
+      "id": "alexscaves:slam",
+      "required": false
     }
   ]
 }
