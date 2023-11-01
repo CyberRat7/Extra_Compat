@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Use waystones and warp scrolls to travel across the world."
+    "translate": "extra_compat.tip.waystones_tip"
   }
 }

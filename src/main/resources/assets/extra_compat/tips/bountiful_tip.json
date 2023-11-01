@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "You can start bounties for rewards from a bounty board in a village"
+    "translate": "extra_compat.bountiful_tip"
   }
 }

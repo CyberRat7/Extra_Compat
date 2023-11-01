@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Put an ender chest on your horse to access your private items while you ride."
+    "translate": "extra_compat.ender_chest_horse_tip"
   }
 }

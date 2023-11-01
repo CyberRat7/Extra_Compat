@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Every biome has its own enderman varient."
+    "translate": "extra_compat.enderman_overhaul_tip"
   }
 }

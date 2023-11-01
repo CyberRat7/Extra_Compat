@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Every biome has its own creeper varient."
+    "translate": "extra_compat.creeper_overhaul_tip"
   }
 }
