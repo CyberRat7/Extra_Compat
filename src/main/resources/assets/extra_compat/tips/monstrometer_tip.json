@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Charge a monstrometer with lumiere blocks to reveal what blocks hostile mobs can spawn on."
+    "translate": "extra_compat.monstrometer_tip"
   }
 }

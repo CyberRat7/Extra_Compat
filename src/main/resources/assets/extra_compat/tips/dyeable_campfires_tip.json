@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Right click a campfire with a dye to change its color."
+    "translate": "extra_compat.dyeable_campfires_tip"
   }
 }

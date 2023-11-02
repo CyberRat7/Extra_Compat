@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "You can enchant your horse armor at an enchanting table."
+    "translate": "extra_compat.enchantable_horse_armor"
   }
 }

@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Jade shields will deflect projectiles back at your enemies."
+    "translate": "extra_compat.jade_shield_tip"
   }
 }

@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "You can bottle your collected XP by crouching and right-clicking the air."
+    "translate": "extra_compat.tip.xp_bottling_tip"
   }
 }
