@@ -1,4 +1,27 @@
 {
   "enchantment.wisdom_enchantment.wisdom.desc": "Mobs will drop more XP when killed.",
-  "enchantment.persistent.persistent.desc": "Causes armor and gear in a loaded chunk to take 20 minutes to despawn rather than 5."
+  "enchantment.persistent.persistent.desc": "Causes armor and gear in a loaded chunk to take 20 minutes to despawn rather than 5.",
+  "enchantment.endlessbiomes.shared_pain.desc": "When a mob is killed with this weapon and more damage is dealt than necessary to kill it the excess damage will be dealt to other nearby enemies.",
+
+  "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
+  "effect.endersdelight.phasing.description": "Randomly teleports the affected player.",
+
+  "extra_compat.anvil_repair_tip": "You can repair a damaged anvil by right-clicking it with an iron ingot.",
+  "extra_compat.bountiful_tip": "You can start bounties for rewards from a bounty board in a village",
+  "extra_compat.chalk_tip": "If you crouch and right click while holding chalk you can change the pattern that is drawn",
+  "extra_compat.creeper_overhaul_tip": "Every biome has its own creeper varient.",
+  "extra_compat.dyeable_campfires_tip": "Right click a campfire with a dye to change its color.",
+  "extra_compat.enchantable_horse_armor": "You can enchant your horse armor at an enchanting table.",
+  "extra_compat.ender_chest_horse_tip": "Put an ender chest on your horse to access your private items while you ride.",
+  "extra_compat.enderman_killed_by_knife_tip": "If you kill an enderman with a knife it will drop unique items.",
+  "extra_compat.enderman_overhaul_tip": "Every biome has its own enderman varient.",
+  "extra_compat.goblin_trader_tip": "Goblin traders can be found in the nether and underground and will trade rare items with you.",
+  "extra_compat.jade_shield_tip": "Jade shields will deflect projectiles back at your enemies.",
+  "extra_compat.knife_tip": "Use a knife to obtain straw from grass.",
+  "extra_compat.monstrometer_tip": "Charge a monstrometer with lumiere blocks to reveal what blocks hostile mobs can spawn on.",
+  "extra_compat.shulker_killed_by_knife_tip": "If you kill a shulker with a knife it will drop unique items.",
+  "extra_compat.soil_tip": "Use rich soil to grow your crops faster.",
+  "extra_compat.warped_anchor_tip": "Charge a warped anchor with allurite blocks and teleport to it with an ender pearl.",
+  "extra_compat.tip.waystones_tip": "Use waystones and warp scrolls to travel across the world.",
+  "extra_compat.tip.xp_bottling_tip": "You can bottle your collected XP by crouching and right-clicking the air."
 }
