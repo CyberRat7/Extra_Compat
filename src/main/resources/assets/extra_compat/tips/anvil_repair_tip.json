@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "You can repair a damaged anvil by right-clicking it with an iron ingot."
+    "translate": "extra_compat.anvil_repair_tip"
   }
 }

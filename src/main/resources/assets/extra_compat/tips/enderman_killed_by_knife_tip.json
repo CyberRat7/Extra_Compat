@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "If you kill an enderman with a knife it will drop unique items."
+    "translate": "extra_compat.enderman_killed_by_knife_tip"
   }
 }

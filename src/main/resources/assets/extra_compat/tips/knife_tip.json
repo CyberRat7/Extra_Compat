@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Use a knife to obtain straw from grass."
+    "translate": "extra_compat.knife_tip"
   }
 }

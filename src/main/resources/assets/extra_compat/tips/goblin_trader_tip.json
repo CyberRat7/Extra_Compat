@@ -6,6 +6,6 @@
     }
   ],
   "tip": {
-    "text": "Goblin traders can be found in the nether and underground and will trade rare items with you."
+    "translate": "extra_compat.goblin_trader_tip"
   }
 }
