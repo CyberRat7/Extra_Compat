@@ -1,5 +1,6 @@
 {
   "enchantment.wisdom_enchantment.wisdom.desc": "Mobs will drop more XP when killed.",
+  "enchantment.endlessbiomes.shared_pain.desc": "If you kill an enemy with more damage than necessary to kill it then the excess damage is dealt to other nearby enemies.",
   "enchantment.persistent.persistent.desc": "Causes armor and gear in a loaded chunk to take 20 minutes to despawn rather than 5.",
   "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
   "effect.endersdelight.phasing.description": "Randomly teleports the affected player."
