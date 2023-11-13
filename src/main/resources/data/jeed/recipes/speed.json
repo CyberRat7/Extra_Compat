@@ -1,0 +1,21 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:speed",
+  "providers": [
+    {
+      "item": "farmersdelight:apple_pie"
+    },
+    {
+      "item": "endersdelight:chorus_pie"
+    },
+    {
+      "item": "farmersdelight:chocolate_pie"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake"
+    },
+    {
+      "item": "goated:barbaric_helmet"
+    }
+  ]
+}

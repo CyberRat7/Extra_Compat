@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "habitat:blast_endurance",
+  "providers": [
+    {
+      "item": "habitat:kabloom_pulp_block"
+    }
+  ]
+}
