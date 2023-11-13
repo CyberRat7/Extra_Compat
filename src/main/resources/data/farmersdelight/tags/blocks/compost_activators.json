@@ -1,13 +1,5 @@
 {
   "replace": false,
-  "values": [
-    {
-      "id": "biomesoplenty:glowshroom",
-      "required": false
-    },
-    {
-      "id": "biomesoplenty:toadstool",
-      "required": false
+  "values": "deep_aether:lightcap_mushrooms"
+    ]
     }
-  ]
-}
