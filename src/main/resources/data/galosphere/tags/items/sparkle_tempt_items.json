@@ -1,5 +1,8 @@
 {
   "values": [
-    "twigs:petrified_lichen"
+    {
+      "id": "twigs:petrified_lichen",
+      "required": false
+    }
   ]
 }

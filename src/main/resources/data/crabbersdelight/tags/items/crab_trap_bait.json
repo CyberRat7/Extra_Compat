@@ -1,17 +1,57 @@
 {
+  "replace": false,
   "values": [
-    "sullysmod:lanternfish",
-    "alexsmobs:blobfish",
-    "alexsmobs:flying_fish",
-    "alexsmobs:cosmic_cod",
-    "alexscaves:lanternfish",
-    "alexscaves:radgill",
-    "alexscaves:tripodfish",
-    "cataclysm:lionfish",
-    "deep_aether:raw_aerglow_fish",
-    "blue_skies:grittle_flatfish",
-    "blue_skies:charscale_moki",
-    "blue_skies:horizofin_tunid",
-    "blue_skies:municipal_monkfish"
+    {
+      "id": "sullysmod:lanternfish",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:blobfish",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:flying_fish",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:flying_fish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:lanternfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:radgill",
+      "required": false
+    },
+    {
+      "id": "alexscaves:tripodfish",
+      "required": false
+    },
+    {
+      "id": "cataclysm:lionfish",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_aerglow_fish",
+      "required": false
+    },
+    {
+      "id": "blue_skies:grittle_flatfish",
+      "required": false
+    },
+    {
+      "id": "blue_skies:charscale_moki",
+      "required": false
+    },
+    {
+      "id": "blue_skies:horizofin_tunid",
+      "required": false
+    },
+    {
+      "id":  "blue_skies:municipal_monkfish",
+      "required": false
+    }
   ]
 }
