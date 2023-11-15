@@ -52,6 +52,26 @@
     {
       "id":  "blue_skies:municipal_monkfish",
       "required": false
+    },
+    {
+      "id":  "rainbowreef:raw_boxfish",
+      "required": false
+    },
+    {
+      "id":  "rainbowreef:raw_butterflyfish",
+      "required": false
+    },
+    {
+      "id":  "rainbowreef:raw_clownfish",
+      "required": false
+    },
+    {
+      "id":  "rainbowreef:raw_goby",
+      "required": false
+    },
+    {
+      "id":  "rainbowreef:raw_tang",
+      "required": false
     }
   ]
 }
