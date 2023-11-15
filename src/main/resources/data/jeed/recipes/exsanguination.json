@@ -1,0 +1,12 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "alexsmobs:exsanguination",
+  "providers": [
+    {
+      "item": "alexsmobs:spawn_egg_frilled_shark"
+    }
+    ,  {
+      "item": "alexsmobs:shield_of_the_deep"
+    }
+  ]
+}

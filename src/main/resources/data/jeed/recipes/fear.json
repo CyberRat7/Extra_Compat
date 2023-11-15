@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "alexsmobs:fear",
+  "providers": [
+    {
+      "item": "alexsmobs:spawn_egg_tiger"
+    }
+  ]
+}

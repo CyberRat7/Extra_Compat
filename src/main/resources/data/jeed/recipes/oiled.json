@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "alexsmobs:oiled",
+  "providers": [
+    {
+      "item": "alexsmobs:fish_oil"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "alexsmobs:orcas_might",
+  "providers": [
+    {
+      "item": "alexsmobs:spawn_egg_orca"
+    }
+  ]
+}

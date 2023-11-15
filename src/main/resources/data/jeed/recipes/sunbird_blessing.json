@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "alexsmobs:sunbird_blessing",
+  "providers": [
+    {
+      "item": "alexsmobs:spawn_egg_sunbird"
+    }
+  ]
+}
