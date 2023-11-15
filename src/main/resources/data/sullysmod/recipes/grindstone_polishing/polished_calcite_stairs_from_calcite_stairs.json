@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "twigs:calcite_stairs"
+    }
+  ],
+  "result": {
+    "item": "twigs:polished_calcite_stairs"
+  }
+}

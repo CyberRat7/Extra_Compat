@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "twigs:tuff_slab"
+    }
+  ],
+  "result": {
+    "item": "twigs:polished_tuff_slab"
+  }
+}
