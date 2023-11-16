@@ -64,6 +64,10 @@
     {
       "id": "tintedcampfires:orange_campfire",
       "required": false
+    },
+    {
+      "id": "#hearth_and_home:chimneys",
+      "required": false
     }
   ]
 }
