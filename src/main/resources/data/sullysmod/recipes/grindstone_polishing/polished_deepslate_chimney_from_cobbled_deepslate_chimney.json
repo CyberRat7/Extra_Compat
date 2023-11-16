@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "hearth_and_home:cobbled_deepslate_chimney"
+    }
+  ],
+  "result": {
+    "item": "hearth_and_home:polished_deepslate_chimney"
+  }
+}

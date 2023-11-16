@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "hearth_and_home:blackstone_chimney"
+    }
+  ],
+  "result": {
+    "item": "hearth_and_home:polished_blackstone_chimney"
+  }
+}
