@@ -1,21 +1,69 @@
 {
   "replace": false,
   "values": [
-    "tintedcampfires:cyan_campfire",
-    "tintedcampfires:red_campfire",
-    "tintedcampfires:blue_campfire",
-    "tintedcampfires:yellow_campfire",
-    "tintedcampfires:black_campfire",
-    "tintedcampfires:brown_campfire",
-    "tintedcampfires:pink_campfire",
-    "tintedcampfires:white_campfire",
-    "tintedcampfires:purple_campfire",
-    "tintedcampfires:gray_campfire",
-    "tintedcampfires:green_campfire",
-    "tintedcampfires:magenta_campfire",
-    "tintedcampfires:light_blue_campfire",
-    "tintedcampfires:light_gray_campfire",
-    "tintedcampfires:lime_campfire",
-    "tintedcampfires:orange_campfire"
+    {
+      "id": "tintedcampfires:cyan_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:red_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:blue_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:yellow_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:black_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:brown_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:pink_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:white_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:purple_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:gray_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:green_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:magenta_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:light_blue_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:light_gray_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:lime_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:orange_campfire",
+      "required": false
+    }
   ]
 }
