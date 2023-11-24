@@ -5,6 +5,7 @@
   "enchantment.betterarcheology.penetrating_strike.desc": "Damage dealt by the enchanted weapon ignores the protection enchantment.",
   "enchantment.betterarcheology.tunneling.desc": "Breaks the block that is underneath the block broken with this tool.",
   "enchantment.betterarcheology.soaring_winds.desc": "The enchanted elytra gives the wearer a small boost when taking off.",
+  "enchantment.hunters_return.bounce.desc": "The enchanted boomerang will bounce more when thrown.",
 
   "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
   "effect.endersdelight.phasing.description": "Randomly teleports the affected player.",
