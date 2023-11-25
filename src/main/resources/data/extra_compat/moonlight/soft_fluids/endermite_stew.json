@@ -1,0 +1,19 @@
+{
+  "color": "#0e3636",
+  "containers": [
+    {
+      "filled": [
+        "endersdelight:endermite_stew"
+      ],
+      "empty": "endersdelight:shulker_bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "endersdelight:endermite_stew"
+  },
+  "from_mod": "endersdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}

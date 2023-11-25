@@ -1,0 +1,19 @@
+{
+  "color": "#543464",
+  "containers": [
+    {
+      "filled": [
+        "endersdelight:chorus_stew"
+      ],
+      "empty": "endersdelight:shulker_bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "endersdelight:chorus_stew"
+  },
+  "from_mod": "endersdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}

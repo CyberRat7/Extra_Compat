@@ -1,4 +1,4 @@
-package net.cyber2000.extra_compat;
+package net.cyber_rat.extra_compat;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
