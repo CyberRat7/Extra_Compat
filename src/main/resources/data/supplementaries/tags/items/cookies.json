@@ -4,6 +4,10 @@
     {
       "id": "endersdelight:uncanny_cookies",
       "required": false
+    },
+    {
+      "id": "twilightdelight:torchberry_cookie",
+      "required": false
     }
   ]
 }
