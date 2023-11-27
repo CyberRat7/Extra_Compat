@@ -1,0 +1,19 @@
+{
+  "color": "#7c944c",
+  "containers": [
+    {
+      "filled": [
+        "alexsmobs:mosquito_repellent_stew"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "alexsmobs:mosquito_repellent_stew"
+  },
+  "from_mod": "alexsmobs",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}
