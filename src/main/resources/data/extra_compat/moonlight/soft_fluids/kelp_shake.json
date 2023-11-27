@@ -1,0 +1,19 @@
+{
+  "color": "#5c8434",
+  "containers": [
+    {
+      "filled": [
+        "crabbersdelight:kelp_shake"
+      ],
+      "empty": "minecraft:bottle",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "crabbersdelight:kelp_shake"
+  },
+  "from_mod": "crabbersdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}

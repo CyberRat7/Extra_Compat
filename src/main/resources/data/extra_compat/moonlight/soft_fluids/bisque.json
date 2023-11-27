@@ -1,0 +1,19 @@
+{
+  "color": "#bc741c",
+  "containers": [
+    {
+      "filled": [
+        "crabbersdelight:bisque"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "crabbersdelight:bisque"
+  },
+  "from_mod": "crabbersdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}
