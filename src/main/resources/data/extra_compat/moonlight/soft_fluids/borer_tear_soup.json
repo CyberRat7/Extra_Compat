@@ -1,0 +1,19 @@
+{
+  "color": "#840c0c",
+  "containers": [
+    {
+      "filled": [
+        "twilightdelight:borer_tear_soup"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "twilightdelight:borer_tear_soup"
+  },
+  "from_mod": "twilightdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}
