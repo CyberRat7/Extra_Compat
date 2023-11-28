@@ -1,0 +1,19 @@
+{
+  "color": "#840c0c",
+  "containers": [
+    {
+      "filled": [
+        "oceansdelight:bowl_of_guardian_soup"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "oceansdelight:bowl_of_guardian_soup"
+  },
+  "from_mod": "oceansdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid"
+}
