@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "galosphere:glow_ink_clumps",
+      "required": false
+    },
+    {
+      "id": "sullysmod:lanternfish",
+      "required": false
+    },
+    {
+      "id": "sullysmod:lanternfish_slice",
+      "required": false
+    }
+  ]
+}
