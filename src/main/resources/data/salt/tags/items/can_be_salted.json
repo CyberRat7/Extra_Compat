@@ -180,6 +180,14 @@
     {
       "id": "oceansdelight:squid_rings",
       "required": false
+    },
+    {
+      "id": "oceansdelight:squid_rings",
+      "required": false
+    },
+    {
+      "id": "spawn:cooked_tuna_chunk",
+      "required": false
     }
   ]
 }

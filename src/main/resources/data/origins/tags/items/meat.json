@@ -520,6 +520,22 @@
     {
       "id": "oceansdelight:elder_guardian_slab",
       "required": false
+    },
+    {
+      "id": "spawn:cooked_tuna_chunk",
+      "required": false
+    },
+    {
+      "id": "spawn:tuna_chunk",
+      "required": false
+    },
+    {
+      "id": "spawn:tuna_sandwich",
+      "required": false
+    },
+    {
+      "id": "spawn:escargot",
+      "required": false
     }
   ]
 }
