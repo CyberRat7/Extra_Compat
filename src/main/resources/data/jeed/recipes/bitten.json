@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "enemyexpansion:bitten",
+  "providers": [
+    {
+      "item": "enemyexpansion:vampire_spawn_egg"
+    }
+  ]
+}
