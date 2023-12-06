@@ -394,6 +394,14 @@
       "required": false
     },
     {
+      "id": "alexsmobs:cooked_moose_ribs",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:kangaroo_burger",
+      "required": false
+    },
+    {
       "id": "alexsmobs:mosquito_repellent_stew",
       "required": false
     },

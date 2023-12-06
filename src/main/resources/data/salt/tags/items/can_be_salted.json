@@ -122,6 +122,18 @@
       "required": false
     },
     {
+      "id": "alexsmobs:cooked_moose_ribs",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cooked_moose_ribs",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:kangaroo_burger",
+      "required": false
+    },
+    {
       "id": "alexscaves:lanternfish",
       "required": false
     },
@@ -187,6 +199,18 @@
     },
     {
       "id": "spawn:cooked_tuna_chunk",
+      "required": false
+    },
+    {
+      "id": "spawn:escargot",
+      "required": false
+    },
+    {
+      "id": "delightful:sinigang",
+      "required": false
+    },
+    {
+      "id": "hauntedharvest:succotash",
       "required": false
     }
   ]
