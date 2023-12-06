@@ -1,9 +1,9 @@
 {
-  "color": "#840c0c",
+  "color": "#c09d58",
   "containers": [
     {
       "filled": [
-        "oceansdelight:bowl_of_guardian_soup"
+        "delightful:sinigang"
       ],
       "empty": "minecraft:bowl",
       "capacity": 2
@@ -12,9 +12,9 @@
   "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
   "food": {
     "divider": 2,
-    "item": "oceansdelight:bowl_of_guardian_soup"
+    "item": "delightful:sinigang"
   },
-  "from_mod": "oceansdelight",
+  "from_mod": "delightful",
   "still_texture": "moonlight:block/soft_fluids/soup_liquid",
-  "translation_key": "item.oceansdelight.bowl_of_guardian_soup"
+  "translation_key": "item.delightful.sinigang"
 }

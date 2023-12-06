@@ -1,0 +1,20 @@
+{
+  "color": "#dcbc34",
+  "containers": [
+    {
+      "filled": [
+        "delightful:animal_oil_bottle"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "minecraft:block/water_flow",
+  "food": {
+    "divider": 1,
+    "item": "delightful:animal_oil_bottle"
+  },
+  "from_mod": "delightful",
+  "still_texture": "minecraft:block/water_still",
+  "translation_key": "fluid.extra_compat.nut_butter_bottle"
+}
