@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "netherdungeons:vampirism",
+  "providers": [
+    {
+      "item": "netherdungeons:baby_ghast_spawn_egg"
+    }
+  ]
+}

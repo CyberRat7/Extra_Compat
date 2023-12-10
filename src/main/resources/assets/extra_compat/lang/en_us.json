@@ -11,6 +11,9 @@
   "effect.endersdelight.phasing.description": "Randomly teleports the affected player.",
   "effect.enemyexpansion.bitten.description": "Causes the affected entity to burn in daylight.",
   "effect.enemyexpansion.swift_flight.description": "An unobtainable effect used only for certain mob's abilities.",
+  "effect.netherdungeons.vampirism.description": "When the affected player kills an entity they gain a few health points.",
+  "effect.netherdungeons.durability.description": "When being hurt the affected entity has a 25% chance to ignore all damage.",
+  "effect.netherdungeons.vulnerability.description": "Causes the affected entity to take more damage when hurt.",
 
   "extra_compat.anvil_repair_tip": "You can repair a damaged anvil by right-clicking it with an iron ingot.",
   "extra_compat.bountiful_tip": "You can start bounties for rewards from a bounty board in a village",
