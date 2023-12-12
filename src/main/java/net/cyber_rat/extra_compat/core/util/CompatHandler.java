@@ -6,19 +6,19 @@ import net.minecraftforge.fml.ModList;
 
 public class CompatHandler {
 
-    public static final boolean netherDungeons;
+    public static final boolean farmersDelight;
     public static final boolean sniffsWeapons;
 
     static {
         ModList mods = ModList.get();
-        netherDungeons = mods.isLoaded("netherdungeons");
+        farmersDelight = mods.isLoaded("farmersdelight");
         sniffsWeapons = mods.isLoaded("sniffsweapons");
     }
 
     public static void register() {
 
         if (sniffsWeapons) SWCompatRegistry.register();
-        if (netherDungeons) FDCompatRegistry.register();
+        if (farmersDelight) FDCompatRegistry.register();
 
     }
 
