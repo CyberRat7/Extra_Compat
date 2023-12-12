@@ -7,6 +7,13 @@
   "enchantment.betterarcheology.soaring_winds.desc": "The enchanted elytra gives the wearer a small boost when taking off.",
   "enchantment.hunters_return.bounce.desc": "The enchanted boomerang will bounce more when thrown.",
 
+  "item.extra_compat.reinforced_gold_knife": "Reinforced Gold Knife",
+  "item.extra_compat.reinforced_gold_great_axe": "Reinforced Gold Great Axe",
+  "item.extra_compat.reinforced_gold_greatsword": "Reinforced Gold Greatsword",
+
+  "extra_compat.sniffs_weapons_tab": "Sniff's Weapons Compat",
+  "extra_compat.farmers_delight_tab": "Farmer's Delight Compat",
+
   "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
   "effect.endersdelight.phasing.description": "Randomly teleports the affected player.",
   "effect.enemyexpansion.bitten.description": "Causes the affected entity to burn in daylight.",
