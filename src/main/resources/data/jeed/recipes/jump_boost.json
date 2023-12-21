@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:jump_boost",
+  "providers": [
+    {
+      "item": "enemyexpansion:phantasm_leggings"
+    }
+  ]
+}

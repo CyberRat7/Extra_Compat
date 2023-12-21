@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "netherdungeons:ominous_quartz_slab"
+    }
+  ],
+  "result": {
+    "item": "netherdungeons:polished_ominous_quartz_slab"
+  }
+}

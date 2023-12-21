@@ -11,7 +11,7 @@ public class CompatHandler {
 
     static {
         ModList mods = ModList.get();
-        farmersDelight = mods.isLoaded("farmersdelight");
+        farmersDelight = mods.isLoaded("farmersdelight"); 
         sniffsWeapons = mods.isLoaded("sniffsweapons");
     }
 

@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "geologicexpansion:lime_prismatic_stone_stairs"
+    }
+  ],
+  "result": {
+    "item": "geologicexpansion:lime_polished_prismatic_stone_stairs"
+  }
+}

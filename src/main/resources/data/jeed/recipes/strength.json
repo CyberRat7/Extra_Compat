@@ -4,6 +4,12 @@
   "providers": [
     {
       "item": "goated:barbaric_helmet"
+    },
+    {
+      "item": "enemyexpansion:meathead_helmet"
+    },
+    {
+      "item": "endermanoverhaul:crimson_pearl"
     }
   ]
 }

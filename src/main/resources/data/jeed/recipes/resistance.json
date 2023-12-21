@@ -1,0 +1,12 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:resistance",
+  "providers": [
+    {
+      "item": "enemyexpansion:phantasm_chestplate"
+    },
+    {
+      "item": "endermanoverhaul:warped_pearl"
+    }
+  ]
+}

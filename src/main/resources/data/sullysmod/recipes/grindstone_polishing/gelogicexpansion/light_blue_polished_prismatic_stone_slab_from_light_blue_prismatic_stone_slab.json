@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "geologicexpansion:light_blue_prismatic_stone_slab"
+    }
+  ],
+  "result": {
+    "item": "geologicexpansion:light_blue_polished_prismatic_stone_slab"
+  }
+}

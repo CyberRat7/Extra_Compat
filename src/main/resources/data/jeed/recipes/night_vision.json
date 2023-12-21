@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:night_vision",
+  "providers": [
+    {
+      "item": "enemyexpansion:phantasm_helmet"
+    }
+  ]
+}
