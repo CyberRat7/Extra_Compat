@@ -544,6 +544,78 @@
     {
       "id": "spawn:escargot",
       "required": false
+    },
+    {
+      "id": "alexsmobs:gongylidia",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:maggot_salad",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:kangaroo_stew",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:lobster_pasta",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:bison_burger",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:bunfungus_sandwich",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:kangaroo_pasta",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:gongylidia_bruschetta",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:goby_gummy",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:dwarf_angelfish_tarts",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:clownfish_cupcake",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:buttered_butterflyfish",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:basslet_cookie",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:boxfish_bread",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:pipefish_sushi",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:tangy_soup",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:parrotfish_punch",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:hogfish_bacon",
+      "required": false
     }
   ]
 }
