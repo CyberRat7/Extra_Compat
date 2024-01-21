@@ -8,6 +8,10 @@
     {
       "id": "twilightdelight:torchberry_cookie",
       "required": false
+    },
+    {
+      "id": "rainbowreef:basslet_cookie",
+      "required": false
     }
   ]
 }

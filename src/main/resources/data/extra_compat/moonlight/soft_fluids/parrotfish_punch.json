@@ -1,0 +1,20 @@
+{
+  "color": "#5c8cc4",
+  "containers": [
+    {
+      "filled": [
+        "rainbowreef:parrotfish_punch"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "rainbowreef:parrotfish_punch"
+  },
+  "from_mod": "rainbowreef",
+  "still_texture": "minecraft:block/water_still",
+  "translation_key": "item.rainbowreef.parrotfish_punch"
+}

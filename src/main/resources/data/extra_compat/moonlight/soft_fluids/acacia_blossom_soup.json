@@ -1,0 +1,20 @@
+{
+  "color": "#c4904a",
+  "containers": [
+    {
+      "filled": [
+        "alexsdelight:acacia_blossom_soup"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "alexsdelight:acacia_blossom_soup"
+  },
+  "from_mod": "alexsdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.alexsdelight.acacia_blossom_soup"
+}
