@@ -6,6 +6,9 @@
   "enchantment.betterarcheology.tunneling.desc": "Breaks the block that is underneath the block broken with this tool.",
   "enchantment.betterarcheology.soaring_winds.desc": "The enchanted elytra gives the wearer a small boost when taking off.",
   "enchantment.hunters_return.bounce.desc": "The enchanted boomerang will bounce more when thrown.",
+  "enchantment.galosphere.rupture.desc": "Shatters the saltbound tablet's pillars into shard projectiles once they break.",
+  "enchantment.galosphere.sustain.desc": "Extends the duration of the saltbound tablet's pillars.",
+  "enchantment.galosphere.enfeeble.desc": "Inflicts slowness on entities hit by the saltbound tablet's pillars.",
 
   "item.extra_compat.reinforced_gold_knife": "Reinforced Gold Knife",
   "item.extra_compat.reinforced_gold_great_axe": "Reinforced Gold Great Axe",
@@ -15,6 +18,7 @@
   "extra_compat.farmers_delight_tab": "Farmer's Delight Compat",
 
   "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
+  "effect.galosphere.astral.description": "Allows the affected player to phase through blocks.",
   "effect.endersdelight.phasing.description": "Randomly teleports the affected player.",
   "effect.enemyexpansion.bitten.description": "Causes the affected entity to burn in daylight.",
   "effect.enemyexpansion.swift_flight.description": "An unobtainable effect used only for certain mob's abilities.",
@@ -42,5 +46,7 @@
   "extra_compat.tip.xp_bottling_tip": "You can bottle your collected XP by crouching and right-clicking the air.",
 
   "fluid.extra_compat.animal_oil_bottle": "Animal Oil",
-  "fluid.extra_compat.nut_butter_bottle": "Nut Butter"
+  "fluid.extra_compat.nut_butter_bottle": "Nut Butter",
+
+  "item.minecraft.tipped_arrow.effect.astral" : "Arrow of Astral"
 }
