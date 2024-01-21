@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobs:knockback_resistance",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:poison_resistance",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:lava_vision",
+      "required": false
+    },
+    {
+      "id": "habitat:blast_endurance",
+      "required": false
+    },
+    {
+      "id": "habitat:prickling",
+      "required": false
+    },
+    {
+      "id": "galosphere:astral",
+      "required": false
+    }
+  ]
+}
