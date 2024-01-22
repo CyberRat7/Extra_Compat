@@ -616,6 +616,18 @@
     {
       "id": "rainbowreef:hogfish_bacon",
       "required": false
+    },
+    {
+      "id": "quarkdelight:crab_pasta",
+      "required": false
+    },
+    {
+      "id": "quarkdelight:cooked_whole_crab",
+      "required": false
+    },
+    {
+      "id": "quarkdelight:crab_bars",
+      "required": false
     }
   ]
 }
