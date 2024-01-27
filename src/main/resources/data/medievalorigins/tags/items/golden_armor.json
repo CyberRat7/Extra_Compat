@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:golden_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_horned_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_surcoat",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:plated_golden_chestplate",
+      "required": false
+    }
+  ]
+}

@@ -22,6 +22,8 @@ public class FDCompatRegistry {
                 output.accept(FDCompatRegistry.REINFORCED_GOLD_KNIFE.get());
             } ).build());
 
+
+
     public static void register() {
 
     }

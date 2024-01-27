@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:iron_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_great_pickaxe",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:iron_knife",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:iron_machete",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "scuba_gear:scuba_helmet",
+      "required": false
+    },
+    {
+      "id": "galosphere:sterling_helmet",
+      "required": false
+    },
+    {
+      "id": "goated:barbaric_helmet",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:frostalker_helmet",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:spiked_turtle_shell",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:fedora",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:sombrero",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:frontier_cap",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:moose_headgear",
+      "required": false
+    },
+    {
+      "id": "minecraft:shulker_shell",
+      "required": false
+    },
+    {
+      "id": "minecraft:turtle_shell",
+      "required": false
+    },
+    {
+      "id": "quark:forgotten_hat",
+      "required": false
+    },
+    {
+      "id": "conjurer_illager:conjurer_hat",
+      "required": false
+    }
+  ]
+}

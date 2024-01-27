@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:iron_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_horned_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_surcoat",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:plated_iron_chestplate",
+      "required": false
+    }
+  ]
+}

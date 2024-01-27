@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:golden_great_pickaxe",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:golden_knife",
+      "required": false
+    },
+    {
+      "id": "nethersdelight:golden_machete",
+      "required": false
+    }
+  ]
+}

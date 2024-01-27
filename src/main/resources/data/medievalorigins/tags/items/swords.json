@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:wooden_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:stone_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:diamond_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:reinforced_gold_great_sword",
+      "required": false
+    },
+    {
+      "id": "netherdungeons:reinforced_gold_sword",
+      "required": false
+    }
+  ]
+}

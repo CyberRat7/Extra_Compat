@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:golden_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_great_axe",
+      "required": false
+    }
+  ]
+}

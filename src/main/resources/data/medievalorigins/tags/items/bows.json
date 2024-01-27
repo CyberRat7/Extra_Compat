@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:great_bow",
+      "required": false
+    }
+  ]
+}
