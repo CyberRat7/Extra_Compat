@@ -1,9 +1,9 @@
 {
-  "color": "#5c8cc4",
+  "color": "#ccbcd4",
   "containers": [
     {
       "filled": [
-        "rainbowreef:parrotfish_punch"
+        "quarkdelight:cloud_latte"
       ],
       "empty": "minecraft:glass_bottle",
       "capacity": 1
@@ -12,9 +12,9 @@
   "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
   "food": {
     "divider": 1,
-    "item": "rainbowreef:parrotfish_punch"
+    "item": "quarkdelight:cloud_latte"
   },
-  "from_mod": "rainbowreef",
+  "from_mod": "quarkdelight",
   "still_texture": "minecraft:block/water_still",
-  "translation_key": "item.rainbowreef.parrotfish_punch"
+  "translation_key": "item.quarkdelight.cloud_latte"
 }
