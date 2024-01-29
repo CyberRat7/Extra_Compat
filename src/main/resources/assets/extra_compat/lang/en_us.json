@@ -48,5 +48,7 @@
   "fluid.extra_compat.animal_oil_bottle": "Animal Oil",
   "fluid.extra_compat.nut_butter_bottle": "Nut Butter",
 
-  "item.minecraft.tipped_arrow.effect.astral" : "Arrow of Astral"
+  "item.minecraft.tipped_arrow.effect.astral" : "Arrow of Astral",
+
+  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate"
 }

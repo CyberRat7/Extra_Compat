@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:obsidian",
+    "quark:obsidian_pressure_plate",
+    "minecraft:netherite_block",
+    "minecraft:ancient_debris",
+    "minecraft:reinforced_deepslate",
+    "supplementaries:netherite_door",
+    "supplementaries:netherite_trapdoor"
+  ]
+}
