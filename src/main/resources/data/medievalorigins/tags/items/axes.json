@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:wooden_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:stone_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:diamond_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:reinforced_gold_great_axe",
+      "required": false
+    },
+    {
+      "id": "netherdungeons:reinforced_gold_axe",
+      "required": false
+    }
+  ]
+}
