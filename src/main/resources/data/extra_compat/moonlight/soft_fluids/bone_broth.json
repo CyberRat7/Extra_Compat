@@ -1,0 +1,20 @@
+{
+  "color": "#846520",
+  "containers": [
+    {
+      "filled": [
+        "farmersdelight:bone_broth"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "farmersdelight:bone_broth"
+  },
+  "from_mod": "farmersdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.farmersdelight.bone_broth"
+}
