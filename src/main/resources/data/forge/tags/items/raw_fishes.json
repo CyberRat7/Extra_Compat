@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "rainbowreef:raw_tang",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_basslet",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_pipefish",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_parrotfish",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_butterflyfish",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_dwarf_angelfish",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_goby",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_clownfish",
+      "required": false
+    },
+    {
+      "id": "rainbowreef:raw_hogfish",
+      "required": false
+    }
+  ]
+}
