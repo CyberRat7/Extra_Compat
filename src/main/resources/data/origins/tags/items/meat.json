@@ -628,6 +628,10 @@
     {
       "id": "quarkdelight:crab_bars",
       "required": false
+    },
+    {
+      "id": "onion_onion:motley_grill",
+      "required": false
     }
   ]
 }
