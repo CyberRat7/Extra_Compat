@@ -1,6 +1,6 @@
 package net.cyber_rat.extra_compat.core.registry;
 
-import net.cyber_rat.extra_compat.core.registry.ExtraCompatTiers;
+
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
