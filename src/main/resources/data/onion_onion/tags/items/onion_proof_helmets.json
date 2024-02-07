@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "galosphere:sterling_helmet",
+      "required": false
+    },
+    {
+      "id": "scuba_gear:scuba_helmet",
+      "required": false
+    }
+  ]
+}
