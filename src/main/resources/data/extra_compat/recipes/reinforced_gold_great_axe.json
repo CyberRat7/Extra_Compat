@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "netherdungeons:reinforced_gold_axe"
+      "item": "netherdungeons:reinforced_gold_pickaxe"
     },
     "X": {
       "item": "netherdungeons:reinforced_gold_ingot"

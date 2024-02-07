@@ -80,7 +80,8 @@ dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
-    implementation fg.deobf("curse.maven:sniffs-weapons-739757:4809084")
+    implementation fg.deobf("curse.maven:sniffs-weapons-739757:5061624")
+    implementation fg.deobf("curse.maven:nethers-delight-496394:4736227")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

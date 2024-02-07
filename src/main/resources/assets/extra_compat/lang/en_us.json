@@ -12,10 +12,13 @@
 
   "item.extra_compat.reinforced_gold_knife": "Reinforced Gold Knife",
   "item.extra_compat.reinforced_gold_great_axe": "Reinforced Gold Great Axe",
+  "item.extra_compat.reinforced_gold_great_pickaxe": "Reinforced Gold Great Pickaxe",
   "item.extra_compat.reinforced_gold_greatsword": "Reinforced Gold Greatsword",
+  "item.extra_compat.reinforced_gold_machete": "Reinforced Gold Machete",
 
   "extra_compat.sniffs_weapons_tab": "Sniff's Weapons Compat",
   "extra_compat.farmers_delight_tab": "Farmer's Delight Compat",
+  "extra_compat.nethers_delight_tab": "Nether's Delight Compat",
 
   "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
   "effect.galosphere.astral.description": "Allows the affected player to phase through blocks.",
