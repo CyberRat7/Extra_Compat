@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "galosphere:sterling_helmet"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:leather"
+    },
+    {
+      "count": 1,
+      "item": "galosphere:silver_nugget"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}

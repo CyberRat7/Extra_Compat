@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "alexsmobs:falconry_glove"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:leather"
+    },
+    {
+      "chance": 0.10,
+      "count": 1,
+      "item": "alexsmobs:bear_fur"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}
