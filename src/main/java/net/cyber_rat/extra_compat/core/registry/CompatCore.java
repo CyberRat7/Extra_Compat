@@ -43,7 +43,7 @@ public class CompatCore {
 
         if (hasSniffsWeapons) {
             tabAdder.addAllToTab(CreativeModeTabs.COMBAT,
-                    SWExtraItems.REINFORCED_GREATSWORD, SWExtraItems.REINFORCED_GREAT_AXE
+                    SWExtraItems.REINFORCED_GREATSWORD, SWExtraItems.REINFORCED_GREAT_AXE, SWExtraItems.REINFORCED_GREAT_PICKAXE
             );
 
             System.out.println("2");

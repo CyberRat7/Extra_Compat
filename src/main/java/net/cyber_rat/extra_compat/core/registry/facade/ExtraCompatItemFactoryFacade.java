@@ -1,18 +1,16 @@
 package net.cyber_rat.extra_compat.core.registry.facade;
 
 import com.temporal.api.core.registry.factory.common.ItemFactory;
-import net.cyber_rat.extra_compat.core.registry.extension.ExtraAxeExtension;
-import net.cyber_rat.extra_compat.core.registry.extension.ExtraSwordExtension;
-import net.cyber_rat.extra_compat.core.registry.extension.KnifeExtension;
-import net.cyber_rat.extra_compat.core.registry.extension.MacheteExtension;
+import net.cyber_rat.extra_compat.core.registry.extension.*;
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatItems;
 import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.registries.RegistryObject;
 import umpaz.nethersdelight.common.item.MacheteItem;
 import vectorwing.farmersdelight.common.item.KnifeItem;
 
-public class ExtraCompatItemFactoryFacade extends ItemFactory implements ExtraSwordExtension, ExtraAxeExtension, KnifeExtension, MacheteExtension {
+public class ExtraCompatItemFactoryFacade extends ItemFactory implements ExtraSwordExtension, ExtraAxeExtension, ExtraPickaxeExtension, KnifeExtension, MacheteExtension {
     private static volatile ExtraCompatItemFactoryFacade instance;
 
     private ExtraCompatItemFactoryFacade() {
@@ -25,6 +23,10 @@ public class ExtraCompatItemFactoryFacade extends ItemFactory implements ExtraSw
 
     public RegistryObject<? extends AxeItem> createGreatAxe(String name, Object... args) {
         return ExtraAxeExtension.super.createGreatAxe(name, this, args);
+    }
+
+    public RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, Object... args) {
+        return ExtraPickaxeExtension.super.createGreatPickaxe(name, this, args);
     }
 
     public RegistryObject<KnifeItem> createKnife(String name, Object... args) {
