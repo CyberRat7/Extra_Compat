@@ -10,11 +10,8 @@ import java.util.function.Supplier;
 
 @SuppressWarnings("unchecked")
 public interface MacheteExtension {
-    /**
-     * @param args = args[0] - tier, args[1] - damage, args[2] - speed
-     */
-    default RegistryObject<MacheteItem> createMachete(String name, TypedFactory<Item> tTypedFactory, Object... args) {
-        return (RegistryObject<MacheteItem>) tTypedFactory.createTyped(name, () -> new MacheteItem((Tier) args[0], (Integer) args[1], (Float) args[2], new Item.Properties()));
+    default RegistryObject<MacheteItem> createMachete(String name, TypedFactory<Item> tTypedFactory, Tier tier, int damage, float speed) {
+        return (RegistryObject<MacheteItem>) tTypedFactory.createTyped(name, () -> new MacheteItem(tier, damage, speed, new Item.Properties()));
     }
 
     default RegistryObject<? extends MacheteItem> createMachete(String name, TypedFactory<Item> tTypedFactory, Supplier<? extends MacheteItem> tTypedSupplier) {

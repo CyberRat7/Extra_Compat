@@ -10,11 +10,8 @@ import java.util.function.Supplier;
 
 @SuppressWarnings("unchecked")
 public interface KnifeExtension {
-    /**
-     * @param args = args[0] - tier, args[1] - damage, args[2] - speed
-     */
-    default RegistryObject<KnifeItem> createKnife(String name, TypedFactory<Item> tTypedFactory, Object... args) {
-        return (RegistryObject<KnifeItem>) tTypedFactory.createTyped(name, () -> new KnifeItem((Tier) args[0], (Float) args[1], (Float) args[2], new Item.Properties()));
+    default RegistryObject<KnifeItem> createKnife(String name, TypedFactory<Item> tTypedFactory, Tier tier, int damage, float speed) {
+        return (RegistryObject<KnifeItem>) tTypedFactory.createTyped(name, () -> new KnifeItem(tier, damage, speed, new Item.Properties()));
     }
 
     default RegistryObject<? extends KnifeItem> createKnife(String name, TypedFactory<Item> tTypedFactory, Supplier<? extends KnifeItem> tTypedSupplier) {

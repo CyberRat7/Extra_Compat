@@ -10,10 +10,7 @@ import nl.sniffiandros.sniffsweapons.item.GreatPickaxeItem;
 
 @SuppressWarnings("unchecked")
 public interface ExtraPickaxeExtension extends PickaxeExtension {
-    /**
-     * @param args = args[0] - tier, args[1] - damage, args[2] - speed
-     */
-    default RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, TypedFactory<Item> tTypedFactory, Object... args) {
-        return createPickaxe(name, tTypedFactory, () -> new GreatPickaxeItem((Tier) args[0], (Integer) args[1], (Float) args[2], new Item.Properties()));
+    default RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, TypedFactory<Item> tTypedFactory, Tier tier, int damage, float speed) {
+        return createPickaxe(name, tTypedFactory, () -> new GreatPickaxeItem(tier, damage, speed, new Item.Properties()));
     }
 }

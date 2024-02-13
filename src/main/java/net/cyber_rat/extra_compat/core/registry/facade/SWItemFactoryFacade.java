@@ -8,6 +8,7 @@ import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatItems;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
 import net.minecraftforge.registries.RegistryObject;
 
 public class SWItemFactoryFacade extends ItemFactory implements ExtraSwordExtension, ExtraAxeExtension, ExtraPickaxeExtension {
@@ -17,16 +18,16 @@ public class SWItemFactoryFacade extends ItemFactory implements ExtraSwordExtens
         super(ExtraCompatItems.ITEMS);
     }
     
-    public RegistryObject<? extends AxeItem> createGreatAxe(String name, Object... args) {
-        return ExtraAxeExtension.super.createGreatAxe(name, this, args);
+    public RegistryObject<? extends AxeItem> createGreatAxe(String name, Tier tier, int damage, float speed) {
+        return ExtraAxeExtension.super.createGreatAxe(name, this, tier, damage, speed);
     }
     
-    public RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, Object... args) {
-        return ExtraPickaxeExtension.super.createGreatPickaxe(name, this, args);
+    public RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, Tier tier, int damage, float speed) {
+        return ExtraPickaxeExtension.super.createGreatPickaxe(name, this, tier, damage, speed);
     }
     
-    public RegistryObject<? extends SwordItem> createGreatSword(String name, Object... args) {
-        return ExtraSwordExtension.super.createGreatSword(name, this, args);
+    public RegistryObject<? extends SwordItem> createGreatSword(String name, Tier tier, int damage, float speed) {
+        return ExtraSwordExtension.super.createGreatSword(name, this, tier, damage, speed);
     }
 
     public static SWItemFactoryFacade getInstance() {

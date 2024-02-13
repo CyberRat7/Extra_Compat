@@ -10,10 +10,7 @@ import nl.sniffiandros.sniffsweapons.item.GreatAxeItem;
 
 @SuppressWarnings("unchecked")
 public interface ExtraAxeExtension extends AxeExtension {
-    /**
-     * @param args = args[0] - tier, args[1] - damage, args[2] - speed
-     */
-    default RegistryObject<? extends AxeItem> createGreatAxe(String name, TypedFactory<Item> tTypedFactory, Object... args) {
-        return createAxe(name, tTypedFactory, () -> new GreatAxeItem((Tier) args[0], (Integer) args[1], (Float) args[2], new Item.Properties()));
+    default RegistryObject<? extends AxeItem> createGreatAxe(String name, TypedFactory<Item> tTypedFactory, Tier tier, int damage, float speed) {
+        return createAxe(name, tTypedFactory, () -> new GreatAxeItem(tier, damage, speed, new Item.Properties()));
     }
 }
