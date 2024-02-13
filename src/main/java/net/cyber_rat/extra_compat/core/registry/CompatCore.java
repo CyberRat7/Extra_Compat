@@ -31,32 +31,25 @@ public class CompatCore {
     }
 
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        System.out.println("We've started here");
         SimpleTabAdder tabAdder = new SimpleTabAdder(event);
         if (hasFarmersDelight) {
             tabAdder.addAllToTab(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(),
                     FDExtraItems.REINFORCED_GOLD_KNIFE
             );
-
-            System.out.println("1");
         }
 
         if (hasSniffsWeapons) {
             tabAdder.addAllToTab(CreativeModeTabs.COMBAT,
                     SWExtraItems.REINFORCED_GREATSWORD, SWExtraItems.REINFORCED_GREAT_AXE, SWExtraItems.REINFORCED_GREAT_PICKAXE
             );
-
-            System.out.println("2");
         }
 
         if (hasNetherDelight) {
             tabAdder.addAllToTab(NDCreativeTab.NETHERS_DELIGHT_TAB.getKey(),
                     NDExtraItems.REINFORCED_GOLD_MACHETE
+            ).addAllToTab(CreativeModeTabs.TOOLS_AND_UTILITIES,
+                    NDExtraItems.REINFORCED_GOLD_MACHETE
             );
-
-            System.out.println("3");
         }
-
-        System.out.println("We've ended here");
     }
 }
