@@ -1,6 +1,7 @@
-package net.cyber_rat.extra_compat.core.registry;
+package net.cyber_rat.extra_compat.core;
 
 import com.temporal.api.core.event.tab.SimpleTabAdder;
+import com.temporal.api.core.event.tab.TabAdder;
 import com.temporal.api.core.util.forge.ModListContainer;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.FDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.nethersdelight.NDExtraItems;
@@ -30,8 +31,9 @@ public class CompatCore {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
-        SimpleTabAdder tabAdder = new SimpleTabAdder(event);
+        TabAdder tabAdder = new SimpleTabAdder(event);
         if (hasFarmersDelight) {
             tabAdder.addAllToTab(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(),
                     FDExtraItems.REINFORCED_GOLD_KNIFE

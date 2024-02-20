@@ -1,7 +1,8 @@
 package net.cyber_rat.extra_compat;
 
 import com.mojang.logging.LogUtils;
-import net.cyber_rat.extra_compat.core.registry.CompatCore;
+import com.temporal.api.core.engine.TemporalEngine;
+import net.cyber_rat.extra_compat.core.CompatCore;
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -17,6 +18,7 @@ public class ExtraCompat {
 
     public ExtraCompat() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        TemporalEngine.process();
 
         CompatCore.register();
         ExtraCompatItems.register(modEventBus);
