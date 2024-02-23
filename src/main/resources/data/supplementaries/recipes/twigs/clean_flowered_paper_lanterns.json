@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sticks",
+  "ingredients": [
+    {
+      "tag": "extra_compat:flowered_paper_lanterns"
+    },
+    {
+      "item": "supplementaries:soap"
+    }
+  ],
+  "result": {
+    "item": "twigs:paper_lantern",
+    "count": 1
+  }
+}

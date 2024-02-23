@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "twigs:allium_paper_lantern",
+      "required": false
+    },
+    {
+      "id": "twigs:blue_orchid_paper_lantern",
+      "required": false
+    },
+    {
+      "id": "twigs:crimson_roots_paper_lantern",
+      "required": false
+    },
+    {
+      "id": "twigs:dandelion_paper_lantern",
+      "required": false
+    },
+    {
+      "id": "twigs:torchflower_paper_lantern",
+      "required": false
+    }
+  ]
+}

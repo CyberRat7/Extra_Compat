@@ -10,5 +10,6 @@ public class ExtraCompatTags {
         private static final TagFactory<Item> ITEM_TAG_FACTORY = ItemTagFactory.getInstance();
 
         public static final TagKey<Item> REINFORCED_GOLD_TOOL_REPAIRABLES = ITEM_TAG_FACTORY.createTag("reinforced_gold_tool_repairables");
+        public static final TagKey<Item>  FLOWERED_PAPER_LANTERNS = ITEM_TAG_FACTORY.createTag("flowered_paper_lanterns");
     }
 }
