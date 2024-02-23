@@ -9,6 +9,7 @@
   "enchantment.galosphere.rupture.desc": "Shatters the saltbound tablet's pillars into shard projectiles once they break.",
   "enchantment.galosphere.sustain.desc": "Extends the duration of the saltbound tablet's pillars.",
   "enchantment.galosphere.enfeeble.desc": "Inflicts slowness on entities hit by the saltbound tablet's pillars.",
+  "enchantment.spawnersplus.soul_stealing.desc": "Causes certain mobs to drop their souls when killed.",
 
   "item.extra_compat.reinforced_gold_knife": "Reinforced Gold Knife",
   "item.extra_compat.reinforced_gold_great_axe": "Reinforced Gold Great Axe",
