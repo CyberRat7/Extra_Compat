@@ -18,7 +18,7 @@ public class ExtraCompat {
 
     public ExtraCompat() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        TemporalEngine.process();
+        TemporalEngine.process(ExtraCompat.class);
 
         CompatCore.register();
         ExtraCompatItems.register(modEventBus);
