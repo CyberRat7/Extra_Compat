@@ -16,6 +16,7 @@ public class CompatCore {
     private static final boolean hasFarmersDelight = MOD_LIST_CONTAINER.contains("farmersdelight");
     private static final boolean hasSniffsWeapons = MOD_LIST_CONTAINER.contains("sniffsweapons");
     private static final boolean hasNetherDelight = MOD_LIST_CONTAINER.contains("nethersdelight");
+    private static final boolean hasNetherDungeons = MOD_LIST_CONTAINER.contains("netherdungeons");
 
     public static void register() {
         if (hasFarmersDelight) {
@@ -34,19 +35,19 @@ public class CompatCore {
     @SuppressWarnings("unchecked")
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
         TabAdder tabAdder = new SimpleTabAdder(event);
-        if (hasFarmersDelight) {
+        if (hasNetherDungeons) {
             tabAdder.addAllToTab(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(),
                     FDExtraItems.REINFORCED_GOLD_KNIFE
             );
         }
 
-        if (hasSniffsWeapons) {
+        if (hasNetherDungeons) {
             tabAdder.addAllToTab(CreativeModeTabs.COMBAT,
                     SWExtraItems.REINFORCED_GREATSWORD, SWExtraItems.REINFORCED_GREAT_AXE, SWExtraItems.REINFORCED_GREAT_PICKAXE
             );
         }
 
-        if (hasNetherDelight) {
+        if (hasNetherDungeons) {
             tabAdder.addAllToTab(NDCreativeTab.NETHERS_DELIGHT_TAB.getKey(),
                     NDExtraItems.REINFORCED_GOLD_MACHETE
             ).addAllToTab(CreativeModeTabs.TOOLS_AND_UTILITIES,
