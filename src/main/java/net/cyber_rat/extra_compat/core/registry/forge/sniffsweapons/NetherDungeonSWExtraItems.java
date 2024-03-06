@@ -8,7 +8,7 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.registries.RegistryObject;
 
-public class SWExtraItems {
+public class NetherDungeonSWExtraItems {
     public static final SWItemFactory ITEM_FACTORY = SWItemFactory.getInstance();
 
     public static final RegistryObject<? extends SwordItem> REINFORCED_GREATSWORD = ITEM_FACTORY.createGreatSword("reinforced_gold_greatsword", ExtraCompatTiers.EXTRA_COMPAT_REINFORCED_GOLD, 8, -2.9f);
