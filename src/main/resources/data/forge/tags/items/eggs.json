@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "geologicexpansion:duck_egg",
+      "required": false
+    },
+    {
+      "id": "sullysmod:tortoise_egg",
+      "required": false
+    }
+  ]
+}
