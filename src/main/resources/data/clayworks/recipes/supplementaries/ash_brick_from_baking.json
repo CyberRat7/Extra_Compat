@@ -1,0 +1,23 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "clayworks:config",
+          "value": "kiln"
+        }
+      ],
+      "recipe": {
+        "type": "clayworks:baking",
+        "category": "misc",
+        "cookingtime": 100,
+        "experience": 0.3,
+        "ingredient": {
+          "item": "supplementaries:ash"
+        },
+        "result": "supplementaries:ash_brick"
+      }
+    }
+  ]
+}
