@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "minecraft:slimeball",
+      "required": false
+    },
+    {
+      "id": "autumnity:snail_goo",
+      "required": false
+    }
+  ]
+}
