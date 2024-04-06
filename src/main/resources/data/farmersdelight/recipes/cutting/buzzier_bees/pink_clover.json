@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "buzzier_bees:pink_clover"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
