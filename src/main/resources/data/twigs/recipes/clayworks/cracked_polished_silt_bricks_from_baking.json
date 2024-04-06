@@ -1,14 +1,10 @@
 {
-  "type": "forge:conditional",
-  "recipes": [
+  "conditions": [
     {
-      "conditions": [
-        {
-          "type": "clayworks:config",
-          "value": "kiln"
-        }
-      ],
-      "recipe": {
+      "type": "forge:mod_loaded",
+      "modid": "twigs"
+    }
+  ],
         "type": "clayworks:baking",
         "category": "blocks",
         "cookingtime": 100,
