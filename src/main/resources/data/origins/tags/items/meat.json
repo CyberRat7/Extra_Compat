@@ -632,6 +632,42 @@
     {
       "id": "onion_onion:motley_grill",
       "required": false
+    },
+    {
+      "id": "berry_good:sweet_berry_mince",
+      "required": false
+    },
+    {
+      "id": "berry_good:sweet_berry_meatballs",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_quail",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cooked_quail",
+      "required": false
+    },
+    {
+      "id": "aetherdelight:quail_stew",
+      "required": false
+    },
+    {
+      "id": "deep_aether:raw_aerglow_fish",
+      "required": false
+    },
+    {
+      "id": "deep_aether:cooked_aerglow_fish",
+      "required": false
+    },
+    {
+      "id": "aetherdelight:cooked_aerfillet",
+      "required": false
+    },
+    {
+      "id": "aetherdelight:raw_aerfillet",
+      "required": false
     }
   ]
 }
