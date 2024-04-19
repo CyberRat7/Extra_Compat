@@ -67,6 +67,10 @@ dependencies {
     implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
     implementation fg.deobf("curse.maven:sniffs-weapons-739757:5061624")
     implementation fg.deobf("curse.maven:nethers-delight-496394:4736227")
+    implementation fg.deobf("curse.maven:aether-255308:5263397")
+    implementation fg.deobf("curse.maven:sullys-mod-386534:4976375")
+    implementation fg.deobf("curse.maven:quark-243121:5264412")
+    implementation fg.deobf("curse.maven:alexs-mobs-426558:5160697")
 }
 
 tasks.named('processResources', ProcessResources).configure {
