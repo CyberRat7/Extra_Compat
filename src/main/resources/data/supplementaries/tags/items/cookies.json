@@ -12,6 +12,18 @@
     {
       "id": "rainbowreef:basslet_cookie",
       "required": false
+    },
+    {
+      "id": "aether:gingerbread_man",
+      "required": false
+    },
+    {
+      "id": "aether:candy_cane",
+      "required": false
+    },
+    {
+      "id": "aetherdelight:oat_cookie",
+      "required": false
     }
   ]
 }
