@@ -4,6 +4,10 @@
     {
       "id": "endersdelight:chorus_crate",
       "required": false
+    },
+    {
+      "id": "extra_compat:tortoise_egg_crate",
+      "required": false
     }
   ]
 }

@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.temporal.api.core.engine.TemporalEngine;
 import net.cyber_rat.extra_compat.core.CompatCore;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.SullysModAEExtraItems;
+import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatBlocks;
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,6 +24,7 @@ public class ExtraCompat {
 
         CompatCore.register();
         ExtraCompatItems.register(modEventBus);
+        ExtraCompatBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         MinecraftForge.EVENT_BUS.register(this);

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "extra_compat:block/tortoise_egg_crate_bottom",
+    "side": "extra_compat:block/tortoise_egg_crate_side",
+    "top": "extra_compat:block/tortoise_egg_crate_top"
+  }
+}

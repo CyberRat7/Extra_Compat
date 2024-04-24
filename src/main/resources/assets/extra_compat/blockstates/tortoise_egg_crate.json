@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "extra_compat:block/tortoise_egg_crate"
+    }
+  }
+}

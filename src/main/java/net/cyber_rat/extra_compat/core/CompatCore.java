@@ -7,6 +7,7 @@ import com.temporal.api.core.util.forge.ModListContainer;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AlexsMobsAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.SullysModAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.NetherDungeonFDExtraItems;
+import net.cyber_rat.extra_compat.core.registry.forge.incubation.IncubationSMExtraBlocks;
 import net.cyber_rat.extra_compat.core.registry.forge.nethersdelight.NetherDungeonNDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons.NetherDungeonSWExtraItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -24,7 +25,14 @@ public class CompatCore {
     private static final boolean hasSullysMod = MOD_LIST_CONTAINER.contains("sullysmod");
     private static final boolean hasAlexsMobs = MOD_LIST_CONTAINER.contains("alexsmobs");
 
+    private static final boolean hasIncubation = MOD_LIST_CONTAINER.contains("incubation");
+
     public static void register() {
+        if(hasIncubation){
+            if (hasSullysMod){
+                IncubationSMExtraBlocks.register();
+            }
+        }
         if (hasAether) {
             if (hasAlexsMobs){
                 AlexsMobsAEExtraItems.register();
@@ -53,6 +61,13 @@ public class CompatCore {
     @SuppressWarnings("unchecked")
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
         TabAdder tabAdder = new SimpleTabAdder(event);
+        if (hasIncubation){
+            if (hasSullysMod){
+                tabAdder.addAllToTab(CreativeModeTabs.BUILDING_BLOCKS,
+                        IncubationSMExtraBlocks.TORTOISE_EGG_CRATE
+                );
+            }
+        }
 
         if (hasAether) {
             if (hasSullysMod){

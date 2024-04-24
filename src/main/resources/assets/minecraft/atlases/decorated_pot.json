@@ -47,7 +47,10 @@
         "aether_gravitite": "aether:entity/decorated_pot_trim_palettes/gravitite",
         "aether_golden_amber": "aether:entity/decorated_pot_trim_palettes/golden_amber",
         "deep_aether_skyjade": "deep_aether:entity/decorated_pot_trim_palettes/skyjade",
-        "deep_aether_stratus": "deep_aether:entity/decorated_pot_trim_palettes/stratus"
+        "deep_aether_stratus": "deep_aether:entity/decorated_pot_trim_palettes/stratus",
+        "geode_plus_wrappist": "geode_plus:entity/decorated_pot_trim_palettes/wrappist",
+        "geode_plus_celestite": "geode_plus:entity/decorated_pot_trim_palettes/celestite",
+        "geode_plus_pink_topaz": "geode_plus:entity/decorated_pot_trim_palettes/pink_topaz"
       }
     }
   ]
