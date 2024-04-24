@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "wilderness:trims/models/armor/roots",
+        "wilderness:trims/models/armor/roots_leggings"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "wrappist": "geode_plus:trims/color_palettes/wrappist",
+        "celestite": "geode_plus:trims/color_palettes/celestite",
+        "pink_topaz": "geode_plus:trims/color_palettes/pink_topaz",
+        "silver": "galosphere:trims/color_palettes/silver",
+        "allurite": "galosphere:trims/color_palettes/allurite",
+        "lumiere": "galosphere:trims/color_palettes/lumiere",
+        "glowworm_silk": "biomesoplenty:trims/color_palettes/glowworm_silk",
+        "rose_quartz": "biomesoplenty:trims/color_palettes/rose_quartz",
+        "zanite": "aether:trims/color_palettes/zanite",
+        "gravitite": "aether:trims/color_palettes/gravitite",
+        "golden_amber": "aether:trims/color_palettes/golden_amber",
+        "skyjade": "deep_aether:trims/color_palettes/skyjade",
+        "skyjade_darker": "deep_aether:trims/color_palettes/skyjade_darker",
+        "stratus": "deep_aether:trims/color_palettes/stratus",
+        "stratus_darker": "deep_aether:trims/color_palettes/stratus_darker"
+      }
+    }
+  ]
+}
