@@ -4,15 +4,15 @@ package net.cyber_rat.extra_compat.core.registry.forge.aether;
 import com.aetherteam.aether.item.miscellaneous.bucket.SkyrootBucketItem;
 import com.aetherteam.aether.item.miscellaneous.bucket.SkyrootMobBucketItem;
 import com.github.alexthe666.alexsmobs.item.AMItemRegistry;
-import com.uraneptus.sullysmod.core.registry.SMItems;
+import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
 import net.cyber_rat.extra_compat.core.registry.facade.AEItemFactory;
 import net.minecraftforge.registries.RegistryObject;
 
 
 public class AlexsMobsAEExtraItems {
+    public static final AEItemFactory ITEM_FACTORY = InjectionContext.getInstance().getObject(AEItemFactory.class);
 
-    public static final AEItemFactory ITEM_FACTORY = AEItemFactory.getInstance();
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_SMALL_CATFISH_BUCKET = ITEM_FACTORY.createSkyrootCatfishBucket("skyroot_small_catfish_bucket");
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_MEDIUM_CATFISH_BUCKET = ITEM_FACTORY.createSkyrootCatfishBucket("skyroot_medium_catfish_bucket");
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_LARGE_CATFISH_BUCKET = ITEM_FACTORY.createSkyrootCatfishBucket("skyroot_large_catfish_bucket");
@@ -44,6 +44,7 @@ public class AlexsMobsAEExtraItems {
         SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.TRIOPS_BUCKET, AlexsMobsAEExtraItems.SKYROOT_TRIOPS_BUCKET);
         SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.TERRAPIN_BUCKET, AlexsMobsAEExtraItems.SKYROOT_TERRAPIN_BUCKET);
     }
+
     public static void register() {
         ExtraCompat.LOGGER.info("Aether compatibility has been initialized!");
     }

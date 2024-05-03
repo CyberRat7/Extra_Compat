@@ -1,5 +1,6 @@
 package net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons;
 
+import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
 import net.cyber_rat.extra_compat.core.registry.facade.SWItemFactory;
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatTiers;
@@ -9,7 +10,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.registries.RegistryObject;
 
 public class NetherDungeonSWExtraItems {
-    public static final SWItemFactory ITEM_FACTORY = SWItemFactory.getInstance();
+    public static final SWItemFactory ITEM_FACTORY = InjectionContext.getInstance().getObject(SWItemFactory.class);
 
     public static final RegistryObject<? extends SwordItem> REINFORCED_GREATSWORD = ITEM_FACTORY.createGreatSword("reinforced_gold_greatsword", ExtraCompatTiers.EXTRA_COMPAT_REINFORCED_GOLD, 8, -2.9f);
     public static final RegistryObject<? extends AxeItem> REINFORCED_GREAT_AXE = ITEM_FACTORY.createGreatAxe("reinforced_gold_great_axe", ExtraCompatTiers.EXTRA_COMPAT_REINFORCED_GOLD, 10, -3.2f);

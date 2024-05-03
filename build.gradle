@@ -61,7 +61,7 @@ repositories {
 }
 
 dependencies {
-    implementation fg.deobf("curse.maven:temporalapi-970291:5150949")
+    implementation fg.deobf("curse.maven:temporalapi-970291:5313606")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
@@ -69,8 +69,13 @@ dependencies {
     implementation fg.deobf("curse.maven:nethers-delight-496394:4736227")
     implementation fg.deobf("curse.maven:aether-255308:5263397")
     implementation fg.deobf("curse.maven:sullys-mod-386534:4976375")
+    implementation fg.deobf("curse.maven:blueprint-382216:5292242")
+    implementation fg.deobf("curse.maven:geckolib-388172:5188427")
     implementation fg.deobf("curse.maven:quark-243121:5264412")
+    implementation fg.deobf("curse.maven:zeta-968868:5254672")
+    implementation fg.deobf("curse.maven:curios-309927:5296876")
     implementation fg.deobf("curse.maven:alexs-mobs-426558:5160697")
+    implementation fg.deobf("curse.maven:citadel-331936:5143956")
 }
 
 tasks.named('processResources', ProcessResources).configure {

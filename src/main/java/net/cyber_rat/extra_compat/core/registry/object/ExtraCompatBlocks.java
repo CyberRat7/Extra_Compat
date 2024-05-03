@@ -1,11 +1,12 @@
 package net.cyber_rat.extra_compat.core.registry.object;
 
+import com.temporal.api.core.engine.io.context.InjectionContext;
+import com.temporal.api.core.engine.io.metadata.annotation.Injected;
+import com.temporal.api.core.engine.io.metadata.annotation.Registry;
 import com.temporal.api.core.registry.factory.common.BlockFactory;
-import com.temporal.api.core.registry.factory.common.ItemFactory;
-import net.minecraftforge.eventbus.api.IEventBus;
 
+@Injected
 public class ExtraCompatBlocks {
-    public static void register(IEventBus eventBus) {
-        BlockFactory.getInstance().register(eventBus);
-    }
+    @Registry
+    public static final BlockFactory BLOCK_FACTORY = InjectionContext.getInstance().getObject(BlockFactory.class);
 }
