@@ -45,6 +45,8 @@
   "effect.netherdungeons.vampirism.description": "When the affected player kills an entity they gain a few health points.",
   "effect.netherdungeons.durability.description": "When being hurt the affected entity has a 25% chance to ignore all damage.",
   "effect.netherdungeons.vulnerability.description": "Causes the affected entity to take more damage when hurt.",
+  "effect.seasonals.rooted.description": "Prevents the affected player from jumping but provides a large boost to armor and knockback resistance.",
+  "effect.seasonals.stuffed.description": "Fully restores the hunger bar until the effect runs out.",
 
   "fluid.extra_compat.animal_oil_bottle": "Animal Oil",
   "fluid.extra_compat.nut_butter_bottle": "Nut Butter",
