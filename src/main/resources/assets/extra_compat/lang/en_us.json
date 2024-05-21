@@ -47,6 +47,8 @@
   "effect.netherdungeons.vulnerability.description": "Causes the affected entity to take more damage when hurt.",
   "effect.seasonals.rooted.description": "Prevents the affected player from jumping but provides a large boost to armor and knockback resistance.",
   "effect.seasonals.stuffed.description": "Fully restores the hunger bar until the effect runs out.",
+  "effect.mynethersdelight.g_pungent.description": "Causes heat sources to deal more damage, if fire resistance is applied causes heat sources to instead heal the entity.",
+  "effect.mynethersdelight.b_pungent.description": "Causes heat sources to deal more damage, if fire resistance is applied causes heat sources to instead heal the entity.",
 
   "fluid.extra_compat.animal_oil_bottle": "Animal Oil",
   "fluid.extra_compat.nut_butter_bottle": "Nut Butter",
