@@ -6,7 +6,7 @@ import com.aetherteam.aether.item.miscellaneous.bucket.SkyrootMobBucketItem;
 import com.github.alexthe666.alexsmobs.item.AMItemRegistry;
 import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
-import net.cyber_rat.extra_compat.core.registry.facade.AEItemFactory;
+import net.cyber_rat.extra_compat.core.registry.factory.AEItemFactory;
 import net.minecraftforge.registries.RegistryObject;
 
 

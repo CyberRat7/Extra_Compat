@@ -2,7 +2,7 @@ package net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons;
 
 import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
-import net.cyber_rat.extra_compat.core.registry.facade.SWItemFactory;
+import net.cyber_rat.extra_compat.core.registry.factory.SWItemFactory;
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatTiers;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.PickaxeItem;

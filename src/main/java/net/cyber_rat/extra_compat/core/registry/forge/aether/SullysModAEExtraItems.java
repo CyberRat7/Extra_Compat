@@ -6,7 +6,7 @@ import com.aetherteam.aether.item.miscellaneous.bucket.SkyrootMobBucketItem;
 import com.temporal.api.core.engine.io.context.InjectionContext;
 import com.uraneptus.sullysmod.core.registry.SMItems;
 import net.cyber_rat.extra_compat.ExtraCompat;
-import net.cyber_rat.extra_compat.core.registry.facade.AEItemFactory;
+import net.cyber_rat.extra_compat.core.registry.factory.AEItemFactory;
 import net.minecraftforge.registries.RegistryObject;
 
 

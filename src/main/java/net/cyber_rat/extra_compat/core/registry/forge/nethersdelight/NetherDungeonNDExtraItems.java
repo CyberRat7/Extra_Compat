@@ -2,7 +2,7 @@ package net.cyber_rat.extra_compat.core.registry.forge.nethersdelight;
 
 import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
-import net.cyber_rat.extra_compat.core.registry.facade.NDItemFactory;
+import net.cyber_rat.extra_compat.core.registry.factory.NDItemFactory;
 import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatTiers;
 import net.minecraftforge.registries.RegistryObject;
 import umpaz.nethersdelight.common.item.MacheteItem;

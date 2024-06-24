@@ -2,7 +2,7 @@ package net.cyber_rat.extra_compat.core.registry.forge.incubation;
 
 import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
-import net.cyber_rat.extra_compat.core.registry.facade.IncubationBlockFactory;
+import net.cyber_rat.extra_compat.core.registry.factory.IncubationBlockFactory;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;

@@ -4,8 +4,7 @@ import com.aetherteam.aether.item.AetherCreativeTabs;
 import com.temporal.api.core.engine.io.metadata.annotation.Dependency;
 import com.temporal.api.core.engine.io.metadata.annotation.Execution;
 import com.temporal.api.core.engine.io.metadata.annotation.Injected;
-import com.temporal.api.core.engine.io.metadata.annotation.Injection;
-import com.temporal.api.core.event.tab.SimpleTabAdder;
+import com.temporal.api.core.event.tab.SimpleTabDirector;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AlexsMobsAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.SullysModAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.NetherDungeonFDExtraItems;
@@ -19,8 +18,6 @@ import vectorwing.farmersdelight.common.registry.ModCreativeTabs;
 
 @Injected
 public class CompatCore {
-    @Injection
-    private SimpleTabAdder tabAdder;
     @Dependency("farmersdelight")
     private boolean hasFarmersDelight;
     @Dependency("sniffsweapons")
@@ -70,25 +67,21 @@ public class CompatCore {
         }
     }
 
-    @SuppressWarnings("unchecked")
     public void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (hasIncubation){
-            if (hasSullysMod){
-                tabAdder.addAllToTab(event, CreativeModeTabs.BUILDING_BLOCKS,
-                        IncubationSMExtraBlocks.TORTOISE_EGG_CRATE
-                );
+        final SimpleTabDirector tabDirector = SimpleTabDirector.create(event);
+        if (hasIncubation) {
+            if (hasSullysMod) {
+                tabDirector.addToTab(CreativeModeTabs.BUILDING_BLOCKS, IncubationSMExtraBlocks.TORTOISE_EGG_CRATE);
             }
         }
 
         if (hasAether) {
-            if (hasSullysMod){
-                tabAdder.addAllToTab(event, AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
-                        SullysModAEExtraItems.SKYROOT_LANTERNFISH_BUCKET
-                );
+            if (hasSullysMod) {
+                tabDirector.addToTab(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), SullysModAEExtraItems.SKYROOT_LANTERNFISH_BUCKET);
             }
 
-            if (hasAlexsMobs){
-                tabAdder.addAllToTab(event, AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
+            if (hasAlexsMobs) {
+                tabDirector.addToTab(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
                         AlexsMobsAEExtraItems.SKYROOT_SMALL_CATFISH_BUCKET,
                         AlexsMobsAEExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET,
                         AlexsMobsAEExtraItems.SKYROOT_LARGE_CATFISH_BUCKET,
@@ -109,13 +102,11 @@ public class CompatCore {
 
         if (hasNetherDungeons) {
             if (hasFarmersDelight) {
-                tabAdder.addAllToTab(event, ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(),
-                        NetherDungeonFDExtraItems.REINFORCED_GOLD_KNIFE
-                );
+                tabDirector.addToTab(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), NetherDungeonFDExtraItems.REINFORCED_GOLD_KNIFE);
             }
 
             if (hasSniffsWeapons) {
-                tabAdder.addAllToTab(event, CreativeModeTabs.COMBAT,
+                tabDirector.addToTab(CreativeModeTabs.COMBAT,
                         NetherDungeonSWExtraItems.REINFORCED_GREATSWORD,
                         NetherDungeonSWExtraItems.REINFORCED_GREAT_AXE,
                         NetherDungeonSWExtraItems.REINFORCED_GREAT_PICKAXE
@@ -123,11 +114,8 @@ public class CompatCore {
             }
 
             if (hasNetherDelight) {
-                tabAdder.addAllToTab(event, NDCreativeTab.NETHERS_DELIGHT_TAB.getKey(),
-                        NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE
-                ).addAllToTab(event, CreativeModeTabs.TOOLS_AND_UTILITIES,
-                        NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE
-                );
+                tabDirector.addToTab(NDCreativeTab.NETHERS_DELIGHT_TAB.getKey(), NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE)
+                        .addToTab(CreativeModeTabs.TOOLS_AND_UTILITIES, NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE);
             }
         }
     }

@@ -12,12 +12,16 @@ import java.util.function.Supplier;
 @SuppressWarnings("unchecked")
 public interface FDKnifeExtension {
     default RegistryObject<KnifeItem> createKnife(String name, Tier tier, float damage, float speed) {
-        ItemFactory factory = InjectionContext.getInstance().getObject(ItemFactory.class);
-        return (RegistryObject<KnifeItem>) factory.createTyped(name, () -> new KnifeItem(tier, damage, speed, new Item.Properties()));
+        return this.createKnife(name, tier, damage, speed, new Item.Properties());
+    }
+
+    default RegistryObject<KnifeItem> createKnife(String name, Tier tier, float damage, float speed, Item.Properties properties) {
+        ItemFactory factory = InjectionContext.getFromInstance(ItemFactory.class);
+        return (RegistryObject<KnifeItem>) factory.createTyped(name, () -> new KnifeItem(tier, damage, speed, properties));
     }
 
     default RegistryObject<? extends KnifeItem> createKnife(String name, Supplier<? extends KnifeItem> tTypedSupplier) {
-        ItemFactory factory = InjectionContext.getInstance().getObject(ItemFactory.class);
+        ItemFactory factory = InjectionContext.getFromInstance(ItemFactory.class);
         return (RegistryObject<KnifeItem>) factory.createTyped(name, tTypedSupplier);
     }
 }
