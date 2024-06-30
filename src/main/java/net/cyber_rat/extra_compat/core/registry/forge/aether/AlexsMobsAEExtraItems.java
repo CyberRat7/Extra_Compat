@@ -4,14 +4,13 @@ package net.cyber_rat.extra_compat.core.registry.forge.aether;
 import com.aetherteam.aether.item.miscellaneous.bucket.SkyrootBucketItem;
 import com.aetherteam.aether.item.miscellaneous.bucket.SkyrootMobBucketItem;
 import com.github.alexthe666.alexsmobs.item.AMItemRegistry;
-import com.temporal.api.core.engine.io.context.InjectionContext;
 import net.cyber_rat.extra_compat.ExtraCompat;
 import net.cyber_rat.extra_compat.core.registry.factory.AEItemFactory;
 import net.minecraftforge.registries.RegistryObject;
 
 
 public class AlexsMobsAEExtraItems {
-    public static final AEItemFactory ITEM_FACTORY = InjectionContext.getInstance().getObject(AEItemFactory.class);
+    public static final AEItemFactory ITEM_FACTORY = new AEItemFactory();
 
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_SMALL_CATFISH_BUCKET = ITEM_FACTORY.createSkyrootCatfishBucket("skyroot_small_catfish_bucket");
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_MEDIUM_CATFISH_BUCKET = ITEM_FACTORY.createSkyrootCatfishBucket("skyroot_medium_catfish_bucket");

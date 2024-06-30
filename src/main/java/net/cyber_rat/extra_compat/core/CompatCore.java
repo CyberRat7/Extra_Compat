@@ -5,6 +5,7 @@ import com.temporal.api.core.engine.io.metadata.annotation.Dependency;
 import com.temporal.api.core.engine.io.metadata.annotation.Execution;
 import com.temporal.api.core.engine.io.metadata.annotation.Injected;
 import com.temporal.api.core.event.tab.SimpleTabDirector;
+import com.temporal.api.core.event.tab.TabDirector;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AlexsMobsAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.SullysModAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.NetherDungeonFDExtraItems;
@@ -37,11 +38,12 @@ public class CompatCore {
 
     @Execution
     public void register() {
-        if(hasIncubation){
+        if (hasIncubation){
             if (hasSullysMod){
                 IncubationSMExtraBlocks.register();
             }
         }
+
         if (hasAether) {
             if (hasAlexsMobs){
                 AlexsMobsAEExtraItems.register();
@@ -52,6 +54,7 @@ public class CompatCore {
                 SullysModAEExtraItems.setupBucketReplacements();
             }
         }
+
         if (hasNetherDungeons) {
             if (hasFarmersDelight) {
                 NetherDungeonFDExtraItems.register();
@@ -67,21 +70,22 @@ public class CompatCore {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public void addCreative(BuildCreativeModeTabContentsEvent event) {
-        final SimpleTabDirector tabDirector = SimpleTabDirector.create(event);
+        final TabDirector tabDirector = SimpleTabDirector.create(event);
         if (hasIncubation) {
             if (hasSullysMod) {
-                tabDirector.addToTab(CreativeModeTabs.BUILDING_BLOCKS, IncubationSMExtraBlocks.TORTOISE_EGG_CRATE);
+                tabDirector.direct(CreativeModeTabs.BUILDING_BLOCKS, IncubationSMExtraBlocks.TORTOISE_EGG_CRATE);
             }
         }
 
         if (hasAether) {
             if (hasSullysMod) {
-                tabDirector.addToTab(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), SullysModAEExtraItems.SKYROOT_LANTERNFISH_BUCKET);
+                tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), SullysModAEExtraItems.SKYROOT_LANTERNFISH_BUCKET);
             }
 
             if (hasAlexsMobs) {
-                tabDirector.addToTab(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
+                tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
                         AlexsMobsAEExtraItems.SKYROOT_SMALL_CATFISH_BUCKET,
                         AlexsMobsAEExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET,
                         AlexsMobsAEExtraItems.SKYROOT_LARGE_CATFISH_BUCKET,
@@ -102,11 +106,11 @@ public class CompatCore {
 
         if (hasNetherDungeons) {
             if (hasFarmersDelight) {
-                tabDirector.addToTab(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), NetherDungeonFDExtraItems.REINFORCED_GOLD_KNIFE);
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), NetherDungeonFDExtraItems.REINFORCED_GOLD_KNIFE);
             }
 
             if (hasSniffsWeapons) {
-                tabDirector.addToTab(CreativeModeTabs.COMBAT,
+                tabDirector.direct(CreativeModeTabs.COMBAT,
                         NetherDungeonSWExtraItems.REINFORCED_GREATSWORD,
                         NetherDungeonSWExtraItems.REINFORCED_GREAT_AXE,
                         NetherDungeonSWExtraItems.REINFORCED_GREAT_PICKAXE
@@ -114,8 +118,8 @@ public class CompatCore {
             }
 
             if (hasNetherDelight) {
-                tabDirector.addToTab(NDCreativeTab.NETHERS_DELIGHT_TAB.getKey(), NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE)
-                        .addToTab(CreativeModeTabs.TOOLS_AND_UTILITIES, NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE);
+                tabDirector.direct(NDCreativeTab.NETHERS_DELIGHT_TAB.getKey(), NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE)
+                        .direct(CreativeModeTabs.TOOLS_AND_UTILITIES, NetherDungeonNDExtraItems.REINFORCED_GOLD_MACHETE);
             }
         }
     }
