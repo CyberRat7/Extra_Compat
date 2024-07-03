@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "wilderness:overgrown_spruce_wood"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "minecraft:spruce_wood"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "wilderness:overgrown_oak_log"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "minecraft:oak_log"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

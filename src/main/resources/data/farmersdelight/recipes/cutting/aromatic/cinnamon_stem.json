@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "aromatic:cinnamon_log_thin"
+    }
+  ],
+  "result": [
+    {
+      "item": "aromatic:cinnamon_bark"
+    },
+    {
+      "item": "aromatic:stripped_cinnamon_log_thin"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "axe_strip"
+  }
+}

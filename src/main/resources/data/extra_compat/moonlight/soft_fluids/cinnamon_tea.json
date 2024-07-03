@@ -1,0 +1,20 @@
+{
+  "color": "#3c2404",
+  "containers": [
+    {
+      "filled": [
+        "aromatic:cinnamon_tea"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "aromatic:cinnamon_tea"
+  },
+  "from_mod": "aromatic",
+  "still_texture": "minecraft:block/water_still",
+  "translation_key": "item.aromatic.cinnamon_tea"
+}
