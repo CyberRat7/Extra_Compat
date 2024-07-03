@@ -760,6 +760,30 @@
     {
       "id": "mynethersdelight:plate_of_stuffed_hoglin",
       "required": false
+    },
+    {
+      "id": "mynethersdelight:ghasta",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:spicy_cotton",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:plate_of_ghasta_with_cream",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:spicy_skewer",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:spicy_noodle_soup",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:ghast_salad",
+      "required": false
     }
   ]
 }
