@@ -1,0 +1,20 @@
+{
+  "color": "#df6d0c",
+  "containers": [
+    {
+      "filled": [
+        "mynethersdelight:spicy_hoglin_stew"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "mynethersdelight:spicy_hoglin_stew"
+  },
+  "from_mod": "mynethersdelight",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.mynethersdelight.spicy_hoglin_stew"
+}

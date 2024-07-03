@@ -1,0 +1,20 @@
+{
+  "color": "#9f262d",
+  "containers": [
+    {
+      "filled": [
+        "seasonals:pumpkin_adzuki_stew"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "seasonals:pumpkin_adzuki_stew"
+  },
+  "from_mod": "seasonals",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.seasonals.pumpkin_adzuki_stew"
+}
