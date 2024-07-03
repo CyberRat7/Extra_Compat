@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "galosphere:pastel_pink_salt_slab"
+    }
+  ],
+  "result": {
+    "item": "galosphere:polished_pastel_pink_salt_slab"
+  }
+}

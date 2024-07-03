@@ -1,0 +1,12 @@
+{
+  "type": "sullysmod:grindstone_polishing",
+  "experience": 0,
+  "ingredients": [
+    {
+      "item": "galosphere:rose_pink_salt"
+    }
+  ],
+  "result": {
+    "item": "galosphere:polished_rose_pink_salt"
+  }
+}
