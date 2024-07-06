@@ -10,6 +10,7 @@
   "enchantment.galosphere.sustain.desc": "Extends the duration of the saltbound tablet's pillars.",
   "enchantment.galosphere.enfeeble.desc": "Inflicts slowness on entities hit by the saltbound tablet's pillars.",
   "enchantment.spawnersplus.soul_stealing.desc": "Causes certain mobs to drop their souls when killed.",
+  "enchantment.toughasnails.thermal_tuning.desc": "Neutralizes climate effects.",
 
   "item.extra_compat.reinforced_gold_knife": "Reinforced Gold Knife",
   "item.extra_compat.reinforced_gold_great_axe": "Reinforced Gold Great Axe",
@@ -49,6 +50,9 @@
   "effect.seasonals.stuffed.description": "Fully restores the hunger bar until the effect runs out.",
   "effect.mynethersdelight.g_pungent.description": "Causes heat sources to deal more damage, if fire resistance is applied causes heat sources to instead heal the entity.",
   "effect.mynethersdelight.b_pungent.description": "Causes heat sources to deal more damage, if fire resistance is applied causes heat sources to instead heal the entity.",
+  "effect.toughasnails.thirst.description": "Increases thirst bar exhaustion; higher levels cause it to deplete faster.",
+  "effect.toughasnails.climate_clemency.description": "Causes player to be immune to climate effects.",
+  "effect.toughasnails.ice_resistance.description": "Grants immunity to freezing and freezing damage.",
 
   "fluid.extra_compat.animal_oil_bottle": "Animal Oil",
   "fluid.extra_compat.nut_butter_bottle": "Nut Butter",

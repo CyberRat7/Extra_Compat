@@ -1,0 +1,12 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "toughasnails:thirst",
+  "providers": [
+    {
+      "item": "toughasnails:dirty_water_bottle"
+    },
+    {
+      "item": "toughasnails:dirty_water_canteen"
+    }
+  ]
+}
