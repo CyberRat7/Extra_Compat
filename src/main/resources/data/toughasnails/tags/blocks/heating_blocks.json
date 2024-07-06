@@ -1,0 +1,101 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tintedcampfires:cyan_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:red_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:blue_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:yellow_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:black_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:brown_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:pink_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:white_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:purple_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:gray_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:green_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:magenta_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:light_blue_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:light_gray_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:lime_campfire",
+      "required": false
+    },
+    {
+      "id": "tintedcampfires:orange_campfire",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:stone_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:deepslate_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:end_stone_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:blackstone_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:netherrack_fire_ring",
+      "required": false
+    },
+    {
+      "id": "habitat:fairy_spore_lantern",
+      "required": false
+    },
+    {
+      "id": "endersdelight:endstone_stove",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:nether_bricks_stove",
+      "required": false
+    }
+  ]
+}

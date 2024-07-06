@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "piglinproliferation:stone_soul_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:deepslate_soul_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:end_stone_soul_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:blackstone_soul_fire_ring",
+      "required": false
+    },
+    {
+      "id": "piglinproliferation:netherrack_soul_fire_ring",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:tooth_lantern",
+      "required": false
+    }
+  ]
+}
