@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "toughasnails:empty_canteen"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:leather"
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  }
+}
