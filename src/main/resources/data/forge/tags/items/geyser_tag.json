@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "geologicexpansion:geyser",
+      "required": false
+    },
+    {
+      "id": "spelunkers_charm:deepslate_geyser",
+      "required": false
+    }
+  ]
+}
