@@ -1,0 +1,20 @@
+{
+  "color": "#fcec14",
+  "containers": [
+    {
+      "filled": [
+        "toughasnails:glow_berry_juice"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 1,
+    "item": "toughasnails:glow_berry_juice"
+  },
+  "from_mod": "toughasnails",
+  "still_texture": "minecraft:block/water_still",
+  "translation_key": "item.toughasnails.glow_berry_juice"
+}
