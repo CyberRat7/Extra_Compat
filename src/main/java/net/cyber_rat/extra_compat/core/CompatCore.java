@@ -8,6 +8,7 @@ import com.temporal.api.core.event.tab.SimpleTabDirector;
 import com.temporal.api.core.event.tab.TabDirector;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AlexsMobsAEExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.SullysModAEExtraItems;
+import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.GoatedFDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.NetherDungeonFDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.incubation.IncubationSMExtraBlocks;
 import net.cyber_rat.extra_compat.core.registry.forge.nethersdelight.NetherDungeonNDExtraItems;
@@ -35,6 +36,8 @@ public class CompatCore {
     private boolean hasAlexsMobs;
     @Dependency("incubation")
     private boolean hasIncubation;
+    @Dependency("goated")
+    private boolean hasGoated;
 
     @Execution
     public void register() {
@@ -52,6 +55,12 @@ public class CompatCore {
             if (hasSullysMod) {
                 SullysModAEExtraItems.register();
                 SullysModAEExtraItems.setupBucketReplacements();
+            }
+        }
+
+        if (hasFarmersDelight){
+            if (hasGoated){
+                GoatedFDExtraItems.register();
             }
         }
 
@@ -73,6 +82,14 @@ public class CompatCore {
     @SuppressWarnings("unchecked")
     public void addCreative(BuildCreativeModeTabContentsEvent event) {
         final TabDirector tabDirector = SimpleTabDirector.create(event);
+
+        if (hasFarmersDelight){
+            if(hasGoated){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), GoatedFDExtraItems.CHEVON_CHOP, GoatedFDExtraItems.COOKED_CHEVON_CHOP);
+            }
+        }
+
+
         if (hasIncubation) {
             if (hasSullysMod) {
                 tabDirector.direct(CreativeModeTabs.BUILDING_BLOCKS, IncubationSMExtraBlocks.TORTOISE_EGG_CRATE);

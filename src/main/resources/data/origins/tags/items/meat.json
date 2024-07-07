@@ -784,6 +784,14 @@
     {
       "id": "mynethersdelight:ghast_salad",
       "required": false
+    },
+    {
+      "id": "extra_compat:chevon_chop",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cooked_chevon_chop",
+      "required": false
     }
   ]
 }

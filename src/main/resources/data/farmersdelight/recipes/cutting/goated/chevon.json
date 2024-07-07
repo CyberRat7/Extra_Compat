@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "goated:chevon"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "extra_compat:chevon_chop"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}
