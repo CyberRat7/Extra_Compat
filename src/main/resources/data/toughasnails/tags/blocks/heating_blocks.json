@@ -86,6 +86,10 @@
       "required": false
     },
     {
+      "id": "mynethersdelight:nether_bricks_stove",
+      "required": false
+    },
+    {
       "id": "habitat:fairy_spore_lantern",
       "required": false
     },
@@ -94,7 +98,7 @@
       "required": false
     },
     {
-      "id": "mynethersdelight:nether_bricks_stove",
+      "id": "mynethersdelight:nether_stove",
       "required": false
     }
   ]
