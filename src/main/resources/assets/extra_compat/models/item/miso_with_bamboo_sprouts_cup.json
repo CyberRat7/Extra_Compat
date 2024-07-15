@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "extra_compat:item/miso_with_bamboo_sprouts_cup"
+  }
+}

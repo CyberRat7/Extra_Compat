@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "seasonals:pumpkin_puree"
+    },
+    {
+      "item": "neapolitan:adzuki_beans"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "seasonals:pupmkin_adzuki_stew"
+  }
+}

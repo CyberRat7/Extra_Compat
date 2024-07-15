@@ -1,16 +1,16 @@
 {
-  "color": "#9f262d",
+  "color": "#644c4c",
   "containers": [
     {
       "filled": [
-        "seasonals:pumpkin_adzuki_stew"
+        "miners_delight:bat_soup"
       ],
       "empty": "minecraft:bowl",
       "capacity": 2
     },
     {
       "filled": [
-        "extra_compat:pumpkin_adzuki_stew_cup"
+        "miners_delight:bat_soup_cup"
       ],
       "empty": "miners_delight:copper_cup",
       "capacity": 1
@@ -19,13 +19,13 @@
   "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
   "food": {
     "divider": 2,
-    "item": "seasonals:pumpkin_adzuki_stew"
+    "item": "miners_delight:bat_soup"
   },
   "food": {
     "divider": 1,
-    "item": "miners_delight:pumpkin_adzuki_stew_cup"
+    "item":  "miners_delight:bat_soup_cup"
   },
-  "from_mod": "seasonals",
+  "from_mod": "miners_delight",
   "still_texture": "moonlight:block/soft_fluids/soup_liquid",
-  "translation_key": "item.seasonals.pumpkin_adzuki_stew"
+  "translation_key": "item.miners_delight.bat_soup"
 }

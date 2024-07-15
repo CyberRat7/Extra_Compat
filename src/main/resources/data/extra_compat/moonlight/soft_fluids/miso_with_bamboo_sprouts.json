@@ -7,12 +7,23 @@
       ],
       "empty": "minecraft:bowl",
       "capacity": 2
+    },
+    {
+      "filled": [
+        "extra_compat:miso_with_bamboo_sprouts_cup"
+      ],
+      "empty": "miners_delight:copper_cup",
+      "capacity": 1
     }
   ],
   "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
   "food": {
     "divider": 2,
     "item": "quarkdelight:miso_with_bamboo_sprouts"
+  },
+  "food": {
+    "divider": 1,
+    "item": "extra_compat:miso_with_bamboo_sprouts_cup"
   },
   "from_mod": "quarkdelight",
   "still_texture": "moonlight:block/soft_fluids/soup_liquid",
