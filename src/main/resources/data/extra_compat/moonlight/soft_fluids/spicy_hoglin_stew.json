@@ -7,12 +7,23 @@
       ],
       "empty": "minecraft:bowl",
       "capacity": 2
+    },
+    {
+      "filled": [
+        "miners_delight:spicy_hoglin_stew_cup"
+      ],
+      "empty": "miners_delight:copper_cup",
+      "capacity": 1
     }
   ],
   "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
   "food": {
     "divider": 2,
     "item": "mynethersdelight:spicy_hoglin_stew"
+  },
+  "food": {
+    "divider": 1,
+    "item": "miners_delight:spicy_hoglin_stew_cup"
   },
   "from_mod": "mynethersdelight",
   "still_texture": "moonlight:block/soft_fluids/soup_liquid",

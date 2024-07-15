@@ -6,11 +6,12 @@ import com.temporal.api.core.engine.io.metadata.annotation.Execution;
 import com.temporal.api.core.engine.io.metadata.annotation.Injected;
 import com.temporal.api.core.event.tab.SimpleTabDirector;
 import com.temporal.api.core.event.tab.TabDirector;
-import net.cyber_rat.extra_compat.core.registry.forge.aether.AlexsMobsAEExtraItems;
-import net.cyber_rat.extra_compat.core.registry.forge.aether.SullysModAEExtraItems;
+import net.cyber_rat.extra_compat.core.registry.forge.aether.AEAMExtraItems;
+import net.cyber_rat.extra_compat.core.registry.forge.aether.AESMExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.GoatedFDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.farmersdelight.NetherDungeonFDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.incubation.IncubationSMExtraBlocks;
+import net.cyber_rat.extra_compat.core.registry.forge.miners_delight.*;
 import net.cyber_rat.extra_compat.core.registry.forge.nethersdelight.NetherDungeonNDExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons.NetherDungeonSWExtraItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -38,9 +39,42 @@ public class CompatCore {
     private boolean hasIncubation;
     @Dependency("goated")
     private boolean hasGoated;
+    @Dependency("miners_delight")
+    private boolean hasMinersDelight;
+    @Dependency("autumnity")
+    private boolean hasAutumnity;
+    @Dependency("quarkdelight")
+    private boolean hasQuarkDelight;
+    @Dependency("neapolitan")
+    private boolean hasNeapolitan;
+    @Dependency("seasonals")
+    private boolean hasSeasonals;
+    @Dependency("alexsdelight")
+    private boolean hasAlexsDelight;
 
     @Execution
     public void register() {
+
+        if (hasMinersDelight){
+            if (hasAlexsDelight){
+                MDADExtraItems.register();
+            }
+            if (hasAlexsMobs){
+                MDAMExtraItems.register();
+            }
+            if (hasNeapolitan){
+                MDNExtraItems.register();
+            }
+            if (hasSeasonals){
+                MDSExtraItems.register();
+            }
+            if (hasQuarkDelight){
+                MDQDExtraItems.register();
+            }
+            if (hasAutumnity){
+                MDATExtraItems.register();
+            }
+        }
         if (hasIncubation){
             if (hasSullysMod){
                 IncubationSMExtraBlocks.register();
@@ -49,12 +83,12 @@ public class CompatCore {
 
         if (hasAether) {
             if (hasAlexsMobs){
-                AlexsMobsAEExtraItems.register();
-                AlexsMobsAEExtraItems.setupBucketReplacements();
+                AEAMExtraItems.register();
+                AEAMExtraItems.setupBucketReplacements();
             }
             if (hasSullysMod) {
-                SullysModAEExtraItems.register();
-                SullysModAEExtraItems.setupBucketReplacements();
+                AESMExtraItems.register();
+                AESMExtraItems.setupBucketReplacements();
             }
         }
 
@@ -89,6 +123,26 @@ public class CompatCore {
             }
         }
 
+        if (hasMinersDelight){
+            if(hasAlexsMobs){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDAMExtraItems.MOSQUITO_REPELLENT_STEW_CUP);
+            }
+            if(hasAlexsDelight){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDADExtraItems.KANGAROO_STEW_CUP, MDADExtraItems.ACACIA_BLOSSOM_SOUP_CUP);
+            }
+            if(hasQuarkDelight){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDQDExtraItems.CAVERN_EXPLORER_STEW_CUP, MDQDExtraItems.MISO_WITH_BAMBOO_SPROUTS_CUP);
+            }
+            if(hasAutumnity){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDATExtraItems.FOUL_SOUP_CUP);
+            }
+            if(hasSeasonals){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDSExtraItems.PUMPKIN_ADZUKI_STEW_CUP);
+            }
+            if(hasNeapolitan){
+                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDNExtraItems.ADZUKI_STEW_CUP);
+            }
+        }
 
         if (hasIncubation) {
             if (hasSullysMod) {
@@ -98,25 +152,25 @@ public class CompatCore {
 
         if (hasAether) {
             if (hasSullysMod) {
-                tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), SullysModAEExtraItems.SKYROOT_LANTERNFISH_BUCKET);
+                tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), AESMExtraItems.SKYROOT_LANTERNFISH_BUCKET);
             }
 
             if (hasAlexsMobs) {
                 tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
-                        AlexsMobsAEExtraItems.SKYROOT_SMALL_CATFISH_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_LARGE_CATFISH_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_COMB_JELLEY_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_BLOBFISH_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_DEVILS_HOLE_PUPFISH_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_FRILLED_SHARK_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_FLYING_FISH_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_LOBSTER_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_MIMIC_OCTOPUS_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_MUDSKIPPER_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_TERRAPIN_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_TRIOPS_BUCKET,
-                        AlexsMobsAEExtraItems.SKYROOT_PLATYPUS_BUCKET
+                        AEAMExtraItems.SKYROOT_SMALL_CATFISH_BUCKET,
+                        AEAMExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET,
+                        AEAMExtraItems.SKYROOT_LARGE_CATFISH_BUCKET,
+                        AEAMExtraItems.SKYROOT_COMB_JELLEY_BUCKET,
+                        AEAMExtraItems.SKYROOT_BLOBFISH_BUCKET,
+                        AEAMExtraItems.SKYROOT_DEVILS_HOLE_PUPFISH_BUCKET,
+                        AEAMExtraItems.SKYROOT_FRILLED_SHARK_BUCKET,
+                        AEAMExtraItems.SKYROOT_FLYING_FISH_BUCKET,
+                        AEAMExtraItems.SKYROOT_LOBSTER_BUCKET,
+                        AEAMExtraItems.SKYROOT_MIMIC_OCTOPUS_BUCKET,
+                        AEAMExtraItems.SKYROOT_MUDSKIPPER_BUCKET,
+                        AEAMExtraItems.SKYROOT_TERRAPIN_BUCKET,
+                        AEAMExtraItems.SKYROOT_TRIOPS_BUCKET,
+                        AEAMExtraItems.SKYROOT_PLATYPUS_BUCKET
                 );
             }
         }

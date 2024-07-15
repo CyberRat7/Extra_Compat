@@ -1,16 +1,16 @@
 {
-  "color": "#932628",
+  "color": "#9ca494",
   "containers": [
     {
       "filled": [
-        "mynethersdelight:spicy_noodle_soup"
+        "miners_delight:insect_stew"
       ],
       "empty": "minecraft:bowl",
       "capacity": 2
     },
     {
       "filled": [
-        "miners_delight:spicy_noodle_soup_cup"
+        "miners_delight:insect_stew_cup"
       ],
       "empty": "miners_delight:copper_cup",
       "capacity": 1
@@ -19,13 +19,13 @@
   "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
   "food": {
     "divider": 2,
-    "item": "mynethersdelight:spicy_noodle_soup"
+    "item": "miners_delight:insect_stew"
   },
   "food": {
     "divider": 1,
-    "item": "miners_delight:spicy_noodle_soup_cup"
+    "item":  "miners_delight:insect_stew_cup"
   },
-  "from_mod": "mynethersdelight",
+  "from_mod": "miners_delight",
   "still_texture": "moonlight:block/soft_fluids/soup_liquid",
-  "translation_key": "item.mynethersdelight.spicy_noodle_soup"
+  "translation_key": "item.miners_delight.insect_stew"
 }
