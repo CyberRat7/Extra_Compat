@@ -7,7 +7,9 @@ adding many different blocks, items, effects and entities to tags where they are
 
 ## **Mods Supported:**
 
-- Aether Delight 
+- Aether Delight
+  
+- Alex's Delight
 
 - Alexs Mobs
 
