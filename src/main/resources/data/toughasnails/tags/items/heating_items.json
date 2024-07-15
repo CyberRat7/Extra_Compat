@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "oreganized:molten_lead_bucket",
+      "required": false
+    }
+  ]
+}
