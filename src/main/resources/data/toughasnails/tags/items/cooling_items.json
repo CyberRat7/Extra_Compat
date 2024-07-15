@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "miners_delight:powder_snow_cup",
+      "required": false
+    }
+  ]
+}
