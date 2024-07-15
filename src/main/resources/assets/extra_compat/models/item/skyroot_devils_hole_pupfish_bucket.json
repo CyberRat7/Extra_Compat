@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "extra_compat:item/skyroot_devils_hole_pupfish_bucket"
   }
