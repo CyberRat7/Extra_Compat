@@ -4,6 +4,10 @@
     {
       "id": "nyliumnasturtium:nylium_nasturtium_seeds",
       "required": false
+    },
+    {
+      "id": "habitat:fairy_ring_mushroom",
+      "required": false
     }
   ]
 }
