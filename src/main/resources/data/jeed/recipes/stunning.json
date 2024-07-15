@@ -1,0 +1,21 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "oreganized:stunning",
+  "providers": [
+    {
+      "item": "oreganized:lead_ingot"
+    },
+    {
+      "item": "oreganized:lead_nugget"
+    },
+    {
+      "item": "oreganized:lead_ore"
+    },
+    {
+      "item": "oreganized:deepslate_lead_ore"
+    },
+    {
+      "item": "oreganized:molten_lead_bucket"
+    }
+  ]
+}
