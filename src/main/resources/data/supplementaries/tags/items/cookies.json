@@ -24,6 +24,10 @@
     {
       "id": "aetherdelight:oat_cookie",
       "required": false
+    },
+    {
+      "id": "miners_delight:bat_cookie",
+      "required": false
     }
   ]
 }
