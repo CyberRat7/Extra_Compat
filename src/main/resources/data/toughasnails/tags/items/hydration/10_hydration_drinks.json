@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersrespite:strong_hot_cocoa",
+      "required": false
+    },
+    {
+      "id": "quark_delight:cloud_latte",
+      "required": false
+    }
+  ]
+}

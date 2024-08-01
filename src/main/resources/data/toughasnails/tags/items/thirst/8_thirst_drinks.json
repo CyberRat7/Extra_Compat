@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersrespite:green_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:long_green_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:strong_green_tea",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersrespite:purulent_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:strong_purulent_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:long_purulent_tea",
+      "required": false
+    }
+  ]
+}

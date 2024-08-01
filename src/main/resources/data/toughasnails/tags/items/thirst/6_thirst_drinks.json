@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersrespite:strong_hot_cocoa",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:strong_rose_hip_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:long_rose_hip_tea",
+      "required": false
+    }
+  ]
+}

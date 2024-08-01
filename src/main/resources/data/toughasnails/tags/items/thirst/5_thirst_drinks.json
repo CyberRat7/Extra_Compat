@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersrespite:strong_melon_juice",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:long_dandelion_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:dandelion_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:black_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:strong_black_tea",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:long_black_tea",
+      "required": false
+    }
+  ]
+}
