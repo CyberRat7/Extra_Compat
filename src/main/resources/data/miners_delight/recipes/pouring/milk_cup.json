@@ -1,0 +1,11 @@
+{
+  "type": "farmersrespite:kettle_pouring",
+  "amount": 1000,
+  "container": {
+    "item": "miners_delight:copper_cup"
+  },
+  "fluid": "minecraft:milk",
+  "output": {
+    "item": "miners_delight:milk_cup"
+  }
+}
