@@ -81,6 +81,8 @@ dependencies {
     implementation fg.deobf("curse.maven:seasonals-416471:5297088")
     implementation fg.deobf("curse.maven:neapolitan-382016:5296594")
     implementation fg.deobf("curse.maven:alexs-mobs-426558:5160697")
+    implementation fg.deobf("curse.maven:farmers-respite-551453:5543547")
+    implementation fg.deobf("curse.maven:alexs-delight-556448:5028450")
 }
 
 tasks.named('processResources', ProcessResources).configure {
