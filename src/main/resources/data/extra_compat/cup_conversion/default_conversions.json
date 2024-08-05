@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "bowl": "autumnity:foul_soup",
+      "cup": "extra_compat:foul_soup_cup"
+    },
+    {
+      "bowl": "quarkdelight:cavern_explorer_stew",
+      "cup": "extra_compat:cavern_explorer_stew_cup"
+    },
+    {
+      "bowl": "quarkdelight:miso_with_bamboo_sprouts",
+      "cup": "extra_compat:miso_with_bamboo_sprouts_cup"
+    },
+    {
+      "bowl": "neapolitan:adzuki_stew",
+      "cup": "extra_compat:adzuki_stew_cup"
+    },
+    {
+      "bowl": "seasonals:pumpkin_adzuki_stew",
+      "cup": "extra_compat:pumpkin_adzuki_stew_cup"
+    },
+    {
+      "bowl": "alexsdelight:kangaroo_stew",
+      "cup": "extra_compat:kangaroo_stew_cup"
+    },
+    {
+      "bowl": "alexsdelight:acacia_blossom_soup",
+      "cup": "extra_compat:acacia_blossom_soup_cup"
+    },
+    {
+      "bowl": "alexsmobs:mosquito_repellent_stew",
+      "cup": "extra_compat:mosquito_repellent_stew_cup"
+    }
+  ]
+}

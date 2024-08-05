@@ -123,7 +123,7 @@ public class CompatCore {
             }
         }
 
-       /* if (hasMinersDelight){
+       if (hasMinersDelight){
             if(hasAlexsMobs){
                 tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDAMExtraItems.MOSQUITO_REPELLENT_STEW_CUP);
             }
@@ -143,7 +143,7 @@ public class CompatCore {
                 tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDNExtraItems.ADZUKI_STEW_CUP);
             }
         }
-        */
+
 
 
         if (hasIncubation) {
