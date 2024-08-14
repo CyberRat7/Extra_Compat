@@ -25,7 +25,9 @@ adding many different blocks, items, effects and entities to tags where they are
 
 - Deep Aether 
 
-- Delightful 
+- Delightful
+
+- Dungeon Now Loading 1%
 
 - Enderman Overhaul 
 
@@ -36,6 +38,8 @@ adding many different blocks, items, effects and entities to tags where they are
 - Enders Delight
 
 - Farmers Delight
+
+- Farmers Respite
 
 - Frame Changer
 
@@ -52,6 +56,8 @@ adding many different blocks, items, effects and entities to tags where they are
 - Illager Invasion 
 
 - JEED
+
+- L_Enders_Cataclysm
 
 - Marigolds 
 
@@ -114,3 +120,4 @@ adding many different blocks, items, effects and entities to tags where they are
 - Wisdom Enchantment 
 
 - World of Wonder
+  
