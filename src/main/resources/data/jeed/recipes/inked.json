@@ -1,0 +1,15 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "theinkarena:inked",
+  "providers": [
+    {
+      "item": "theinkarena:ink_bucket"
+    },
+    {
+      "item": "theinkarena:ink_power_scroll"
+    },
+    {
+      "item": "theinkarena:inkstained_grimoire"
+    }
+  ]
+}

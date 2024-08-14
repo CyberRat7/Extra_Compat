@@ -1,0 +1,12 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "theinkarena:soulform",
+  "providers": [
+    {
+      "item": "theinkarena:soul_power_scroll"
+    },
+    {
+      "item": "theinkarena:inkstained_grimoire"
+    }
+  ]
+}
