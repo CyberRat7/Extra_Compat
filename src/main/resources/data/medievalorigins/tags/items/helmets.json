@@ -52,6 +52,14 @@
     {
       "id": "conjurer_illager:conjurer_hat",
       "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_helmet",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:spawner_helmet",
+      "required": false
     }
   ]
 }

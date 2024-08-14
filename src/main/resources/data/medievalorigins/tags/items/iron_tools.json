@@ -20,6 +20,22 @@
     {
       "id": "nethersdelight:iron_machete",
       "required": false
+    },
+    {
+      "id": "basicweapons:iron_hammer",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_spear",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_club",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_quarterstaff",
+      "required": false
     }
   ]
 }
