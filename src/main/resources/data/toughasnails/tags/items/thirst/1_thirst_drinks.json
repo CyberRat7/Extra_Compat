@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "neapolitan:milk_bottle",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:milk_bottle",
+      "required": false
+    }
+  ]
+}

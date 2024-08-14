@@ -59,13 +59,34 @@
   "effect.toughasnails.thirst.description": "Increases thirst bar exhaustion; higher levels cause it to deplete faster.",
   "effect.toughasnails.climate_clemency.description": "Causes player to be immune to climate effects.",
   "effect.toughasnails.ice_resistance.description": "Grants immunity to freezing and freezing damage.",
+  "effect.cataclysm.blessing_of_amethyst.description": "Grants immunity to Darkness, Abyssal Fear and Abyssal Burn",
+  "effect.cataclysm.abyssal_burn.description": "Inflicts lethal damage over time.",
+  "effect.cataclysm.abyssal_curse.description": "Inflicts lethal damage over time.",
+  "effect.cataclysm.abyssal_fear.description": "Prevents health regeneration.",
+  "effect.cataclysm.bone_fracture.description": "Slightly reduces swim speed and walk speed.",
+  "effect.cataclysm.stun.description": "Paralyses the player preventing any movement or interations with items, blocks and entities also aggressively shakes the players screen.",
+  "effect.cataclysm.curse_of_desert.description": "Inverts the movement controls.",
+  "effect.cataclysm.blazing_brand.description": "Reduces armor and armor toughness.",
+  "effect.cataclysm.monstrous.description": "Increases armor, armor toughness and knockback resistance.",
+  "effect.theinkarena.soul_marked.description": "When a mob walks over a blue rune marked is applied. When a mob walks over a black rune all nearby mobs with marked explode and take damage.",
+  "effect.theinkarena.inked.description": "The bottom corners of the players screen are covered with black ink.",
+  "effect.theinkarena.soulform.description": "Affected entities drip blue particles and float.",
 
   "fluid.extra_compat.animal_oil_bottle": "Animal Oil",
   "fluid.extra_compat.nut_butter_bottle": "Nut Butter",
 
-  "item.horseexpert.monocle.tooltip": " ",
+  "painting.alexsmobs.dog_poker.title": "Dog Poker",
+  "painting.alexsmobs.dog_poker.author": "Unknown",
+
+  "painting.alexsmobs.nft.title": "NFT",
+  "painting.alexsmobs.nft.author": "Unknown",
+
 
   "item.minecraft.tipped_arrow.effect.astral" : "Arrow of Astral",
 
-  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate"
+  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate",
+
+
+  "effect.theinkarena.inked": "Inked",
+  "effect.theinkarena.soulform": "Soulform"
 }

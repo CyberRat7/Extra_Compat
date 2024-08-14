@@ -2,19 +2,19 @@
   "replace": false,
   "values": [
     {
-      "id": "galosphere:sterling_helmet",
+      "id": "endermanoverhaul:badlands_hood",
       "required": false
     },
     {
-      "id": "scuba_gear:scuba_helmet",
+      "id": "endermanoverhaul:savanna_hood",
       "required": false
     },
     {
-      "id": "scuba_gear:scuba_helmet",
+      "id": "endermanoverhaul:snowy_hood",
       "required": false
     },
     {
-      "id": "cataclysm:monstrous_helm",
+      "id": "alexsmobs:froststalker_helmet",
       "required": false
     }
   ]

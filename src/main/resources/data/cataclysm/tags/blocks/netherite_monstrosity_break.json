@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "twigs:silt",
+      "required": false
+    },
+    {
+      "id": "twigs:bloodstone",
+      "required": false
+    }
+  ]
+}

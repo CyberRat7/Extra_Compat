@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "habitat:slime_fern",
+      "required": false
+    },
+    {
+      "id": "autumnity:snail_goo",
+      "required": false
+    },
+    {
+      "id": "autumnity:snail_goo_block",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:banana_slug_slime",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:banana_slug_slime_block",
+      "required": false
+    }
+  ]
+}

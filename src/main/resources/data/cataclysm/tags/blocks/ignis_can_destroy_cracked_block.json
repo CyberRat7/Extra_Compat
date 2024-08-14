@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "twigs:cracked_polished_tuff_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_cobblestone_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_silt_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_polished_calcite_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_polished_schist_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_polished_rhyolite_bricks",
+      "required": false
+    },
+    {
+      "id": "twigs:cracked_polished_bloodstone_bricks",
+      "required": false
+    }
+  ]
+}

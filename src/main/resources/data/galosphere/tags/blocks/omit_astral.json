@@ -87,6 +87,42 @@
     {
       "id": "frame_changer:crying_obsidian_pillar",
       "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_explosion_trap_bricks",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_bricks",
+      "required": false
+    },
+    {
+      "id": "cataclysm:chiseled_obsidian_bricks",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_brick_slab",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "cataclysm:obsidian_brick_wall",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:chaos_spawner_barrier_vertex",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:chaos_spawner_barrier_center",
+      "required": false
+    },
+    {
+      "id": "dungeonnowloading:chaos_spawner_barrier_edge",
+      "required": false
     }
   ]
 }

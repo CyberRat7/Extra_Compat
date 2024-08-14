@@ -8,6 +8,18 @@
     {
       "id": "habitat:fairy_ring_mushroom",
       "required": false
+    },
+    {
+      "id": "farmersrespite:tea_seeds",
+      "required": false
+    },
+    {
+      "id": "galosphere:bowl_lichen",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:soulblight_fungus",
+      "required": false
     }
   ]
 }

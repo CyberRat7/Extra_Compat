@@ -1,0 +1,9 @@
+{
+  "type": "jeed:effect_provider",
+  "effect": "theinkarena:soul_marked",
+  "providers": [
+    {
+      "item": "theinkarena:soul_brush"
+    }
+  ]
+}
