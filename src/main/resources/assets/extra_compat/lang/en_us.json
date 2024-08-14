@@ -88,5 +88,11 @@
 
 
   "effect.theinkarena.inked": "Inked",
-  "effect.theinkarena.soulform": "Soulform"
+  "effect.theinkarena.soulform": "Soulform",
+
+  "entity.cataclysm.lionfish": "Corrupted Lionfish",
+  "entity.cataclysm.lionfish_spike": "Corrupted Lionfish's Spike",
+  "item.cataclysm.lionfish": "Corrupted Lionfish",
+  "item.cataclysm.lionfish_spike": "Corrupted Lionfish's Spike",
+  "item.cataclysm.lionfish_spawn_egg": "Corrupted Lionfish Spawn Egg"
 }
