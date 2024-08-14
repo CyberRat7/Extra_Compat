@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "sniffsweapons:golden_great_pickaxe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_great_axe",
+      "required": false
+    },
+    {
+      "id": "basicweapons:golden_hammer",
+      "required": false
+    },
+    {
+      "id": "basicweapons:golden_club",
+      "required": false
+    },
+    {
+      "id": "basicweapons:golden_dagger",
+      "required": false
+    },
+    {
+      "id": "basicweapons:golden_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "basicweapons:golden_spear",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_horned_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:golden_surcoat",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:plated_golden_chestplate",
+      "required": false
+    },
+    {
+      "id": "morebows:gold_bow",
+      "required": false
+    },
+    {
+      "id": "shieldexp:golden_shield",
+      "required": false
+    },
+    {
+      "id": "galosphere:golden_lichen_cordyceps",
+      "required": false
+    }
+  ]
+}
