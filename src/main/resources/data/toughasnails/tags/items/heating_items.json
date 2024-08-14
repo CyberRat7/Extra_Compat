@@ -4,6 +4,14 @@
     {
       "id": "oreganized:molten_lead_bucket",
       "required": false
+    },
+    {
+      "id": "cataclysm:dying_ember",
+      "required": false
+    },
+    {
+      "id": "cataclysm:burning_ashes",
+      "required": false
     }
   ]
 }
