@@ -786,11 +786,135 @@
       "required": false
     },
     {
+      "id": "mynethersdelight:ghast_dough",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:ghasmati",
+      "required": false
+    },
+    {
       "id": "extra_compat:chevon_chop",
       "required": false
     },
     {
       "id": "extra_compat:cooked_chevon_chop",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bat_soup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bat_cookie",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bat_rolls",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bat_rolls",
+      "required": false
+    },
+    {
+      "id": "miners_delight:seasoned_arthropods",
+      "required": false
+    },
+    {
+      "id": "miners_delight:insect_stew",
+      "required": false
+    },
+    {
+      "id": "miners_delight:insect_wrap",
+      "required": false
+    },
+    {
+      "id": "miners_delight:insect_sandwich",
+      "required": false
+    },
+    {
+      "id": "miners_delight:squid_sandwich",
+      "required": false
+    },
+    {
+      "id": "miners_delight:takoyaki",
+      "required": false
+    },
+    {
+      "id": "miners_delight:glow_ink_pasta",
+      "required": false
+    },
+    {
+      "id": "miners_delight:blazing_chili",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bowl_of_stuffed_squid",
+      "required": false
+    },
+    {
+      "id": "miners_delight:beef_stew_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:insect_stew_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:rabbit_stew_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:baked_cod_stew_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:spicy_hoglin_stew_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:strider_stew_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:bat_soup_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:chicken_soup_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:rock_soup_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:noodle_soup_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:spicy_noodle_soup_cup",
+      "required": false
+    },
+    {
+      "id": "miners_delight:pumpkin_soup_cup",
+      "required": false
+    },
+    {
+      "id": "extra_compat:foul_soup_cup",
+      "required": false
+    },
+    {
+      "id": "extra_compat:kangaroo_stew_cup",
+      "required": false
+    },
+    {
+      "id": "cataclysm:lionfish",
+      "required": false
+    },
+    {
+      "id": "queen_bee:stinger",
       "required": false
     }
   ]
