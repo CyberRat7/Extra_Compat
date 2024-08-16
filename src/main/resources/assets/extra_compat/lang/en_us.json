@@ -84,9 +84,5 @@
 
   "item.minecraft.tipped_arrow.effect.astral" : "Arrow of Astral",
 
-  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate",
-
-
-  "effect.theinkarena.inked": "Inked",
-  "effect.theinkarena.soulform": "Soulform"
+  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate"
 }

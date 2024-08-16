@@ -1,0 +1,65 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "neapolitan:adzuki_cake",
+      "required": false
+    },
+    {
+      "id": "neapolitan:vanilla_cake",
+      "required": false
+    },
+    {
+      "id": "neapolitan:chocolate_cake",
+      "required": false
+    },
+    {
+      "id": "neapolitan:mint_cake",
+      "required": false
+    },
+    {
+      "id": "neapolitan:banana_cake",
+      "required": false
+    },
+    {
+      "id": "neapolitan:strawberry_cake",
+      "required": false
+    },
+    {
+      "id": "seasonals:beetroot_cake",
+      "required": false
+    },
+    {
+      "id": "seasonals:pumpkin_cake",
+      "required": false
+    },
+    {
+      "id": "seasonals:sweet_berry_cake",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:coffe_cake",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:rose_hip_pie",
+      "required": false
+    },
+    {
+      "id": "galosphere:bowl_lichen",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:soulblight_fungus",
+      "required": false
+    },
+    {
+      "id": "habitat:fairy_ring_mushroom",
+      "required": false
+    },
+    {
+      "id": "quark:glowshroom",
+      "required": false
+    }
+  ]
+}

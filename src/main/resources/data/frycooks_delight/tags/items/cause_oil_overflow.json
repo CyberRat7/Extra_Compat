@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "neapolitan:ice_cubes",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:frostalker_helmet",
+      "required": false
+    }
+  ]
+}
