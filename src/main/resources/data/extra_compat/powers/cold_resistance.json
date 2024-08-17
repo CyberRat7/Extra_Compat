@@ -1,0 +1,17 @@
+{
+	"name": "Frostborne",
+	"description": "You were raised in the ice and snow, cold weather has no effect on you.",
+	"type": "origins:action_over_time",
+	"entity_action": {
+	  "type": "origins:apply_effect",
+	  "effect": {
+		"effect": "toughasnails:ice_resistance",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false,
+		"amplifier": 0,
+		"duration": 100
+	  }
+	},
+	"interval": 20
+  }

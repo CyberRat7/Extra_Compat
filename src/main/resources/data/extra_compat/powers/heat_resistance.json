@@ -1,0 +1,10 @@
+{
+  "name": "Heat Resistance",
+  "description": "You were raised in raging fires, hot weather has no effect on you.",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "survive:generic.heat_resistance",
+    "value": 1024,
+    "operation": "addition"
+  }
+}

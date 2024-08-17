@@ -1,0 +1,34 @@
+{
+	"name": "Thermal Regulator",
+	"description": "As a being forged of fire, you are completely immune to temperature unless wet.",
+	"type": "origins:action_over_time",
+	"condition": {
+	  "type": "origins:or",
+	  "conditions": [
+		{
+		  "type": "origins:submerged_in",
+		  "fluid": "minecraft:water"
+		},
+		{
+		  "type": "origins:in_rain"
+		}
+	  ],
+	  "inverted": true
+	},
+	"entity_action": {
+	  "type": "origins:apply_effect",
+	  "effect": {
+		"effect": "toughasnails:climate_clemency",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false,
+		"amplifier": 0,
+		"duration": 250
+	  }
+	},
+	"falling_action": {
+	  "type": "origins:clear_effect",
+	  "effect": "toughasnails:climate_clemency"
+	},
+	"interval": 20
+}

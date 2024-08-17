@@ -1,0 +1,108 @@
+{
+  "name": "Lava Drinker",
+  "description": "You can fill your flask with lava instead of water.",
+  "type": "origins:multiple",
+  "from_empty": {
+    "type": "origins:active_self",
+    "key": "key.use",
+    "entity_action": {
+      "type": "origins:replace_inventory",
+      "slot": "weapon.mainhand",
+      "stack": {
+        "item": "toughasnails:purified_water_canteen",
+        "tag": "{Damage: 0}"
+      },
+      "inventory_type": "inventory",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "toughasnails:empty_canteen"
+        }
+      }
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "toughasnails:empty_canteen"
+            }
+          }
+        },
+        {
+          "type": "origins:raycast",
+          "distance": 6,
+          "block": true,
+          "entity": false,
+          "shape_type": "visual",
+          "fluid_handling": "any",
+          "block_condition": {
+            "type": "origins:fluid",
+            "fluid_condition": {
+              "type": "origins:in_tag",
+              "tag": "minecraft:lava"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "partially_filled": {
+    "type": "origins:action_on_item_use",
+    "trigger": "start",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "toughasnails:purified_water_canteen"
+          }
+        },
+        {
+          "type": "origins:nbt",
+          "nbt": "{Damage: 0}",
+          "inverted": true
+        }
+      ]
+    },
+    "item_action": {
+      "type": "origins:merge_nbt",
+      "nbt": "{Damage: 0}"
+    },
+    "condition": {
+      "type": "origins:raycast",
+      "distance": 6,
+      "block": true,
+      "entity": false,
+      "shape_type": "visual",
+      "fluid_handling": "any",
+      "block_condition": {
+        "type": "origins:fluid",
+        "fluid_condition": {
+          "type": "origins:in_tag",
+          "tag": "minecraft:lava"
+        }
+      }
+    }
+  },
+  "tooltip": {
+		"type": "apoli:tooltip",
+		"item_condition": {
+			"type": "apoli:ingredient",
+			"ingredient": {
+				"tag": "origins_toughasnails:flasks"
+			}
+		},
+		"texts": [
+			{
+				"text": "Can fill with lava",
+				"color": "gold"
+			}
+		]
+	}
+}
