@@ -886,10 +886,6 @@
       "required": false
     },
     {
-      "id": "miners_delight:rock_soup_cup",
-      "required": false
-    },
-    {
       "id": "miners_delight:noodle_soup_cup",
       "required": false
     },
@@ -915,6 +911,26 @@
     },
     {
       "id": "queen_bee:stinger",
+      "required": false
+    },
+    {
+      "id": "frycooks_delight:fried_fish_slice",
+      "required": false
+    },
+    {
+      "id": "frycooks_delight:fried_chicken_leg",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:hot_wings_bucket",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:burnt_roll",
+      "required": false
+    },
+    {
+      "id": "farmersrespite:blazing_chili",
       "required": false
     }
   ]
