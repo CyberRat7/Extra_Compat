@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "undergarden:icy_sea",
+      "required": false
+    },
+    {
+      "id": "undergarden:frostfields",
+      "required": false
+    },
+    {
+      "id": "undergarden:frosty_smogstem_forest",
+      "required": false
+    }
+  ]
+}
