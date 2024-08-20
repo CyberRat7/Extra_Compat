@@ -3,14 +3,14 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "undergarden:frosteel_ingot"
+      "item": "undergarden:froststeel_ingot"
     }
   },
   "pattern": [
     "# #"
   ],
   "result": {
-    "item": "extra_compat:frosteel_gloves"
+    "item": "extra_compat:froststeel_gloves"
   },
   "show_notification": true
 }
