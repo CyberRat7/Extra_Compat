@@ -20,6 +20,22 @@
     {
       "id": "gardens_of_the_dead:soulblight_fungus",
       "required": false
+    },
+    {
+      "id": "undergarden:blood_mushroom",
+      "required": false
+    },
+    {
+      "id": "undergarden:ink_mushroom",
+      "required": false
+    },
+    {
+      "id": "undergarden:indigo_mushroom",
+      "required": false
+    },
+    {
+      "id": "undergarden:veil_mushroom",
+      "required": false
     }
   ]
 }
