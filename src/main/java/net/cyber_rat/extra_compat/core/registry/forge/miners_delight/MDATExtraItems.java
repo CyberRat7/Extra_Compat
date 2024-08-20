@@ -4,7 +4,6 @@ import com.sammy.minersdelight.content.item.CopperCupFoodItem;
 import com.teamabnormals.autumnity.core.registry.AutumnityMobEffects;
 import net.cyber_rat.extra_compat.ExtraCompat;
 import net.cyber_rat.extra_compat.core.registry.factory.MDItemFactory;
-import net.cyber_rat.extra_compat.core.registry.factory.NDItemFactory;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;

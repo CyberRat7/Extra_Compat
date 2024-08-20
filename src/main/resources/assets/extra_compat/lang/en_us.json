@@ -12,11 +12,7 @@
   "enchantment.spawnersplus.soul_stealing.desc": "Causes certain mobs to drop their souls when killed.",
   "enchantment.toughasnails.thermal_tuning.desc": "Neutralizes climate effects.",
 
-  "item.extra_compat.reinforced_gold_knife": "Reinforced Gold Knife",
-  "item.extra_compat.reinforced_gold_great_axe": "Reinforced Gold Great Axe",
-  "item.extra_compat.reinforced_gold_great_pickaxe": "Reinforced Gold Great Pickaxe",
-  "item.extra_compat.reinforced_gold_greatsword": "Reinforced Gold Greatsword",
-  "item.extra_compat.reinforced_gold_machete": "Reinforced Gold Machete",
+
   "item.extra_compat.skyroot_lanternfish_bucket": "Skyroot Bucket of Lanternfish",
   "item.extra_compat.skyroot_small_catfish_bucket": "Skyroot Bucket of Small Catfish",
   "item.extra_compat.skyroot_medium_catfish_bucket": "Skyroot Bucket of Medium Catfish",
@@ -43,6 +39,38 @@
   "item.extra_compat.kangaroo_stew_cup": "Kangaroo Stew Cup",
   "item.extra_compat.acacia_blossom_soup_cup": "Acacia Blossom Soup Cup",
   "item.extra_compat.mosquito_repellent_stew_cup": "Mosquito Repellent Stew Cup",
+  "item.extra_compat.froststeel_gloves": "Froststeel Gloves",
+  "item.extra_compat.cloggrum_gloves": "Cloggrum Gloves",
+  "item.extra_compat.utherium_gloves": "Utherium Gloves",
+  "item.extra_compat.cloggrum_hammer": "Cloggrum Hammer",
+  "item.extra_compat.cloggrum_dagger": "Cloggrum Dagger",
+  "item.extra_compat.cloggrum_club": "Cloggrum Club",
+  "item.extra_compat.cloggrum_spear": "Cloggrum Spear",
+  "item.extra_compat.cloggrum_quarterstaff": "Cloggrum Quarterstaff",
+  "item.extra_compat.cloggrum_great_axe": "Cloggrum Great Axe",
+  "item.extra_compat.cloggrum_great_sword": "Cloggrum Great Sword",
+  "item.extra_compat.forgotten_hammer": "Forgotten Hammer",
+  "item.extra_compat.forgotten_dagger": "Forgotten Dagger",
+  "item.extra_compat.forgotten_club": "Forgotten Club",
+  "item.extra_compat.forgotten_spear": "Forgotten Spear",
+  "item.extra_compat.forgotten_quarterstaff": "Forgotten Quarterstaff",
+  "item.extra_compat.forgotten_great_axe": "Forgotten Great Axe",
+  "item.extra_compat.forgotten_great_sword": "Forgotten Great Sword",
+  "item.extra_compat.froststeel_hammer": "Froststeel Hammer",
+  "item.extra_compat.froststeel_dagger": "Froststeel Dagger",
+  "item.extra_compat.froststeel_club": "Froststeel Club",
+  "item.extra_compat.froststeel_spear": "Froststeel Spear",
+  "item.extra_compat.froststeel_quarterstaff": "Froststeel Quarterstaff",
+  "item.extra_compat.froststeel_great_axe": "Froststeel Great Axe",
+  "item.extra_compat.froststeel_great_sword": "Froststeel Great Sword",
+  "item.extra_compat.utherium_hammer": "Utherium Hammer",
+  "item.extra_compat.utherium_dagger": "Utherium Dagger",
+  "item.extra_compat.utherium_club": "Utherium Club",
+  "item.extra_compat.utherium_spear": "Utherium Spear",
+  "item.extra_compat.utherium_quarterstaff": "Utherium Quarterstaff",
+  "item.extra_compat.utherium_great_axe": "Utherium Great Axe",
+  "item.extra_compat.utherium_great_sword": "Utherium Great Sword",
+
 
   "effect.habitat.prickling.description": "Causes damage to enemies attacking the affected entity.",
   "effect.galosphere.astral.description": "Allows the affected player to phase through blocks.",
@@ -84,5 +112,10 @@
 
   "item.minecraft.tipped_arrow.effect.astral" : "Arrow of Astral",
 
-  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate"
+  "block.quarkdelight.ancient_fruit_crate": "Enchanted Fruit Crate",
+
+  "tooltip.extra_compat.forgotten_tool": "Mines Undergarden blocks 1.5x as fast.",
+  "tooltip.extra_compat.forgotten_weapon": "Deals 1.5x damage to non-boss Undergarden mobs.",
+  "tooltip.extra_compat.froststeel_weapon": "Slows targets.",
+  "tooltip.extra_compat.utherium_weapon": "Deals 1.5x damage to Rotspawn."
 }

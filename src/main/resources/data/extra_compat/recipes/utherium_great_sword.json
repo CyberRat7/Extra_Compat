@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "undergarden:utherium_sword"
+    },
+    "X": {
+      "item": "undergarden:utherium_crystal"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    " XX",
+    "XWX",
+    "#X "
+  ],
+  "result": {
+    "item": "extra_compat:utherium_great_sword"
+  }
+}

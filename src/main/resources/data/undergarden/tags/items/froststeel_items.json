@@ -1,0 +1,36 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extra_compat:froststeel_gloves",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_dagger",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_spear",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_club",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_hammer",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_great_sword",
+      "required": false
+    },
+    {
+      "id": "extra_compat:froststeel_great_axe",
+      "required": false
+    }
+  ]

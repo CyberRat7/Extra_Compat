@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "extra_compat:item/spear/froststeel_spear"
+  }
+}

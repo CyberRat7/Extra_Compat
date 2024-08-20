@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "undergarden:froststeel_sword"
+    },
+    "X": {
+      "item": "undergarden:froststeel_ingot"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    " XX",
+    "XWX",
+    "#X "
+  ],
+  "result": {
+    "item": "extra_compat:froststeel_great_sword"
+  }
+}

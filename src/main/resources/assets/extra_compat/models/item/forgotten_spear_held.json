@@ -1,0 +1,6 @@
+{
+  "parent": "basicweapons:item/handheld_big_spear",
+  "textures": {
+    "layer0": "extra_compat:item/spear/forgotten_spear_held"
+  }
+}

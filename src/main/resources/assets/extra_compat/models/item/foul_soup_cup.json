@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "extra_compat:item/foul_soup_cup"
-  }
-}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergarden:forgotten_ingot"
+  },
+  "base": {
+    "item": "extra_compat:cloggrum_spear"
+  },
+  "result": {
+    "item": "extra_compat:forgotten_spear"
+  },
+  "template": {
+    "item": "undergarden:forgotten_upgrade_smithing_template"
+  }
+}

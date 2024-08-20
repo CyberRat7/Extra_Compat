@@ -1,0 +1,21 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  /",
+    " O ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "undergarden:cloggrum_ingot"
+    }
+  },
+  "result": {
+    "item": "extra_compat:cloggrum_quarterstaff",
+    "count": 1
+  }
+}

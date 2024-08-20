@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extra_compat:cloggrum_gloves",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_dagger",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_spear",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_club",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_hammer",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_great_sword",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_great_axe",
+      "required": false
+    }
+  ]
+}

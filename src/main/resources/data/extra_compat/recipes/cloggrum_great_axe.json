@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "undergarden:cloggrum_axe"
+    },
+    "X": {
+      "item": "undergarden:cloggrum_ingot"
+    },
+    "W": {
+      "item": "sniffsweapons:binding_string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XW ",
+    "X# "
+  ],
+  "result": {
+    "item": "extra_compat:cloggrum_great_axe"
+  }
+}

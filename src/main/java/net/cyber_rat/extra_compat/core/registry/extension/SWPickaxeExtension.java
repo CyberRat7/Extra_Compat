@@ -8,7 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import nl.sniffiandros.sniffsweapons.item.GreatPickaxeItem;
 
 public interface SWPickaxeExtension extends PickaxeExtension {
-    default RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, Tier tier, int damage, float speed) {
-        return createPickaxe(name, () -> new GreatPickaxeItem(tier, damage, speed, new Item.Properties()));
+    default RegistryObject<? extends PickaxeItem> createGreatPickaxe(String name, Tier tier, int damage, float speed, Item.Properties properties) {
+        return createPickaxe(name, () -> new GreatPickaxeItem(tier, damage, speed, properties));
     }
 }

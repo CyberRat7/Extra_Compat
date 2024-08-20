@@ -1,0 +1,6 @@
+{
+  "parent": "basicweapons:item/handheld_big_staff",
+  "textures": {
+    "layer0": "extra_compat:item/quarterstaff/utherium_quarterstaff_held"
+  }
+}

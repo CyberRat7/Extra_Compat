@@ -1,0 +1,6 @@
+{
+  "parent": "basicweapons:item/handheld_big_staff",
+  "textures": {
+    "layer0": "extra_compat:item/quarterstaff/forgotten_quarterstaff_held"
+  }
+}

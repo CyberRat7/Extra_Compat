@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergarden:forgotten_ingot"
+  },
+  "base": {
+    "item": "extra_compat:cloggrum_quarterstaff"
+  },
+  "result": {
+    "item": "extra_compat:forgotten_quarterstaff"
+  },
+  "template": {
+    "item": "undergarden:forgotten_upgrade_smithing_template"
+  }
+}

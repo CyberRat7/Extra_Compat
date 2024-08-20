@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:heavy_axe",
+  "attributes": {
+    "attack_range": 2.5,
+    "pose": ""
+  }
+}

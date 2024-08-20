@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  /",
+    " O ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "undergarden:utherium_crystal"
+    }
+  },
+  "result": {
+    "item": "extra_compat:utherium_quarterstaff",
+    "count": 1
+  }
+}

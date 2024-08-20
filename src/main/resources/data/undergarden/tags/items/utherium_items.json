@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extra_compat:utherium_gloves",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_dagger",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_spear",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_club",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_hammer",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_great_sword",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_great_axe",
+      "required": false
+    }
+  ]
+}
