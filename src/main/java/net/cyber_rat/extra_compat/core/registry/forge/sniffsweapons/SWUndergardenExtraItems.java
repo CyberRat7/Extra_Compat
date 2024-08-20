@@ -2,31 +2,23 @@ package net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons;
 
 import net.cyber_rat.extra_compat.ExtraCompat;
 import net.cyber_rat.extra_compat.core.registry.factory.SWItemFactory;
-import net.cyber_rat.extra_compat.core.registry.forge.basicweapons.BWUndergardenExtraItems;
-import net.cyber_rat.extra_compat.core.registry.object.ExtraCompatTiers;
-import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.network.protocol.Packet;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.registries.RegistryObject;
 import quek.undergarden.Undergarden;
-import quek.undergarden.network.CreateCritParticlePacket;
 import quek.undergarden.registry.*;
 
-import java.util.function.Supplier;
 
 public class SWUndergardenExtraItems {
     public static final SWItemFactory ITEM_FACTORY = new SWItemFactory();

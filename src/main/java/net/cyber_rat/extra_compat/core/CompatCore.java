@@ -6,7 +6,6 @@ import com.temporal.api.core.engine.io.metadata.annotation.Execution;
 import com.temporal.api.core.engine.io.metadata.annotation.Injected;
 import com.temporal.api.core.event.tab.SimpleTabDirector;
 import com.temporal.api.core.event.tab.TabDirector;
-import net.cyber_rat.extra_compat.ExtraCompat;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AEAlexsMobsExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AESullysModExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AEUndergardenExtraItems;
@@ -16,13 +15,8 @@ import net.cyber_rat.extra_compat.core.registry.forge.incubation.IncubationSMExt
 import net.cyber_rat.extra_compat.core.registry.forge.miners_delight.*;
 import net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons.SWUndergardenExtraItems;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import quek.undergarden.registry.UGCreativeModeTabs;
-import umpaz.nethersdelight.common.registry.NDCreativeTab;
 import vectorwing.farmersdelight.common.registry.ModCreativeTabs;
 
 @Injected
@@ -174,6 +168,11 @@ public class CompatCore {
             }
         }
 
+        if (hasSniffsWeapons){
+            tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE, SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD, SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE, SWUndergardenExtraItems.CLOGGRUM_GREATSWORD);
+
+        }
+
         if (hasBasicWeapons){
             if(hasUndergarden){
                 tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), BWUndergardenExtraItems.CLOGGRUM_CLUB, BWUndergardenExtraItems.CLOGGRUM_SPEAR, BWUndergardenExtraItems.CLOGGRUM_QUARTERSTAFF, BWUndergardenExtraItems.CLOGGRUM_DAGGER, BWUndergardenExtraItems.CLOGGRUM_HAMMER, BWUndergardenExtraItems.FORGOTTEN_HAMMER, BWUndergardenExtraItems.FORGOTTEN_CLUB, BWUndergardenExtraItems.FORGOTTEN_SPEAR, BWUndergardenExtraItems.FORGOTTEN_QUARTERSTAFF, BWUndergardenExtraItems.FORGOTTEN_DAGGER, BWUndergardenExtraItems.FROSTSTEEL_CLUB, BWUndergardenExtraItems.FROSTSTEEL_HAMMER, BWUndergardenExtraItems.FROSTSTEEL_SPEAR, BWUndergardenExtraItems.FROSTSTEEL_QUARTERSTAFF, BWUndergardenExtraItems.FROSTSTEEL_DAGGER, BWUndergardenExtraItems.UTHERIUM_DAGGER,  BWUndergardenExtraItems.UTHERIUM_HAMMER,  BWUndergardenExtraItems.UTHERIUM_SPEAR,  BWUndergardenExtraItems.UTHERIUM_QUARTERSTAFF,  BWUndergardenExtraItems.UTHERIUM_CLUB);
@@ -209,11 +208,15 @@ public class CompatCore {
             }
         }
 
-        if (hasUndergarden){
+        /*if (hasUndergarden){
             if(hasSniffsWeapons){
-                tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE, SWUndergardenExtraItems.CLOGGRUM_GREATSWORD, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD, SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE, SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE, SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD);
+                tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE,
+                        SWUndergardenExtraItems.CLOGGRUM_GREATSWORD, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD,
+                        SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE,
+                        SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE,
+                        SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD);
 
             }
+       */
         }
-    }
 }
