@@ -12,6 +12,10 @@
     {
       "id": "whatareyouvotingfor:penguin_egg",
       "required": false
+    },
+    {
+      "id": "hauntedharvest:corn",
+      "required": false
     }
   ]
 }

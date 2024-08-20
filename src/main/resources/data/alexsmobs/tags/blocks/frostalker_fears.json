@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cataclysm:altar_of_fire",
+      "required": false
+    }
+  ]
+}

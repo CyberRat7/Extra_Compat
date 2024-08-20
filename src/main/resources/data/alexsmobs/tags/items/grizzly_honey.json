@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "buzzierbees:honey_apple",
+      "required": false
+    },
+    {
+      "id": "buzzierbees:honey_porkchop",
+      "required": false
+    },
+    {
+      "id": "buzzierbees:honey_bread",
+      "required": false
+    }
+  ]
+}

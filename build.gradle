@@ -70,7 +70,6 @@ dependencies {
     implementation fg.deobf("curse.maven:aether-255308:5263397")
     implementation fg.deobf("curse.maven:sullys-mod-386534:4976375")
     implementation fg.deobf("curse.maven:blueprint-382216:5292242")
-    implementation fg.deobf("curse.maven:geckolib-388172:5188427")
     implementation fg.deobf("curse.maven:quark-243121:5264412")
     implementation fg.deobf("curse.maven:zeta-968868:5254672")
     implementation fg.deobf("curse.maven:curios-309927:5296876")
@@ -83,6 +82,9 @@ dependencies {
     implementation fg.deobf("curse.maven:alexs-mobs-426558:5160697")
     implementation fg.deobf("curse.maven:farmers-respite-551453:5543547")
     implementation fg.deobf("curse.maven:alexs-delight-556448:5028450")
+    implementation fg.deobf("curse.maven:the-undergarden-379849:5113339")
+    implementation fg.deobf("curse.maven:basic-weapons-917144:5395560")
+    implementation fg.deobf("curse.maven:geckolib-388172:5060416")
 }
 
 tasks.named('processResources', ProcessResources).configure {

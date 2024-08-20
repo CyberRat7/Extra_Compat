@@ -8,6 +8,14 @@
     {
       "id": "illagerinvasion:illusionary_dust",
       "required": false
+    },
+    {
+      "id": "alexscaves:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "alexscaves:moth_dust",
+      "required": false
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "gardens_of_the_dead:whistlecane",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:soul_spore",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:blightwart_block",
+      "required": false
+    }
+  ]
+}
