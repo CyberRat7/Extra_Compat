@@ -50,7 +50,14 @@
         "deep_aether_stratus": "deep_aether:entity/decorated_pot_trim_palettes/stratus",
         "geode_plus_wrappist": "geode_plus:entity/decorated_pot_trim_palettes/wrappist",
         "geode_plus_celestite": "geode_plus:entity/decorated_pot_trim_palettes/celestite",
-        "geode_plus_pink_topaz": "geode_plus:entity/decorated_pot_trim_palettes/pink_topaz"
+        "geode_plus_pink_topaz": "geode_plus:entity/decorated_pot_trim_palettes/pink_topaz",
+        "undergarden_cloggrum": "undergarden:entity/decorated_pot_trim_palettes/cloggrum",
+        "undergarden_froststeel": "undergarden:entity/decorated_pot_trim_palettes/froststeel",
+        "undergarden_utherium": "undergarden:entity/decorated_pot_trim_palettes/utherium",
+        "undergarden_regalium": "undergarden:entity/decorated_pot_trim_palettes/regalium",
+        "undergarden_forgotten": "undergarden:entity/decorated_pot_trim_palettes/forgotten",
+        "cataclysm_witherite": "cataclysm:entity/decorated_pot_trim_palettes/witherite",
+        "cataclysm_ignitium": "cataclysm:entity/decorated_pot_trim_palettes/ignitium"
       }
     }
   ]
