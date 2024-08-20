@@ -9,7 +9,7 @@ import net.cyber_rat.extra_compat.core.registry.factory.AEItemFactory;
 import net.minecraftforge.registries.RegistryObject;
 
 
-public class AEAMExtraItems {
+public class AEAlexsMobsExtraItems {
     public static final AEItemFactory ITEM_FACTORY = new AEItemFactory();
 
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_SMALL_CATFISH_BUCKET = ITEM_FACTORY.createSkyrootCatfishBucket("skyroot_small_catfish_bucket");
@@ -28,23 +28,23 @@ public class AEAMExtraItems {
     public static final RegistryObject<SkyrootMobBucketItem> SKYROOT_TERRAPIN_BUCKET = ITEM_FACTORY.createSkyrootTerrapinBucket("skyroot_terrapin_bucket");
 
     public static void setupBucketReplacements() {
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.SMALL_CATFISH_BUCKET, AEAMExtraItems.SKYROOT_SMALL_CATFISH_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.MEDIUM_CATFISH_BUCKET, AEAMExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.LARGE_CATFISH_BUCKET, AEAMExtraItems.SKYROOT_LARGE_CATFISH_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.BLOBFISH_BUCKET, AEAMExtraItems.SKYROOT_BLOBFISH_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.COMB_JELLY_BUCKET, AEAMExtraItems.SKYROOT_COMB_JELLEY_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.DEVILS_HOLE_PUPFISH_BUCKET, AEAMExtraItems.SKYROOT_DEVILS_HOLE_PUPFISH_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.FLYING_FISH_BUCKET, AEAMExtraItems.SKYROOT_FLYING_FISH_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.FRILLED_SHARK_BUCKET, AEAMExtraItems.SKYROOT_FRILLED_SHARK_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.MIMIC_OCTOPUS_BUCKET, AEAMExtraItems.SKYROOT_MIMIC_OCTOPUS_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.MUDSKIPPER_BUCKET, AEAMExtraItems.SKYROOT_MUDSKIPPER_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.LOBSTER_BUCKET, AEAMExtraItems.SKYROOT_LOBSTER_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.PLATYPUS_BUCKET, AEAMExtraItems.SKYROOT_PLATYPUS_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.TRIOPS_BUCKET, AEAMExtraItems.SKYROOT_TRIOPS_BUCKET);
-        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.TERRAPIN_BUCKET, AEAMExtraItems.SKYROOT_TERRAPIN_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.SMALL_CATFISH_BUCKET, AEAlexsMobsExtraItems.SKYROOT_SMALL_CATFISH_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.MEDIUM_CATFISH_BUCKET, AEAlexsMobsExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.LARGE_CATFISH_BUCKET, AEAlexsMobsExtraItems.SKYROOT_LARGE_CATFISH_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.BLOBFISH_BUCKET, AEAlexsMobsExtraItems.SKYROOT_BLOBFISH_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.COMB_JELLY_BUCKET, AEAlexsMobsExtraItems.SKYROOT_COMB_JELLEY_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.DEVILS_HOLE_PUPFISH_BUCKET, AEAlexsMobsExtraItems.SKYROOT_DEVILS_HOLE_PUPFISH_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.FLYING_FISH_BUCKET, AEAlexsMobsExtraItems.SKYROOT_FLYING_FISH_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.FRILLED_SHARK_BUCKET, AEAlexsMobsExtraItems.SKYROOT_FRILLED_SHARK_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.MIMIC_OCTOPUS_BUCKET, AEAlexsMobsExtraItems.SKYROOT_MIMIC_OCTOPUS_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.MUDSKIPPER_BUCKET, AEAlexsMobsExtraItems.SKYROOT_MUDSKIPPER_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.LOBSTER_BUCKET, AEAlexsMobsExtraItems.SKYROOT_LOBSTER_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.PLATYPUS_BUCKET, AEAlexsMobsExtraItems.SKYROOT_PLATYPUS_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.TRIOPS_BUCKET, AEAlexsMobsExtraItems.SKYROOT_TRIOPS_BUCKET);
+        SkyrootBucketItem.REPLACEMENTS.put(AMItemRegistry.TERRAPIN_BUCKET, AEAlexsMobsExtraItems.SKYROOT_TERRAPIN_BUCKET);
     }
 
     public static void register() {
-        ExtraCompat.LOGGER.info("Aether compatibility has been initialized!");
+        ExtraCompat.LOGGER.info("Aether/Alexs Mobs compatibility has been initialized!");
     }
 }

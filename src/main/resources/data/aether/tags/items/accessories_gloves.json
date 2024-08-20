@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "extra_compat:froststeel_gloves",
+      "required": false
+    },
+    {
+      "id": "extra_compat:cloggrum_gloves",
+      "required": false
+    },
+    {
+      "id": "extra_compat:utherium_gloves",
+      "required": false
+    }
+  ]
+}
