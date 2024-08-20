@@ -13,7 +13,9 @@ adding many different blocks, items, effects and entities to tags where they are
 
 - Alexs Mobs
 
-- Autumnity  
+- Autumnity
+
+- Basic Weapons
 
 - Better Archeology 
 
@@ -111,7 +113,9 @@ adding many different blocks, items, effects and entities to tags where they are
 
 - Twigs
 
-- Upgrade Aquatic 
+- Upgrade Aquatic
+
+- Undergarden
 
 - Wallpapers 
 
