@@ -4,7 +4,9 @@
       "type": "paletted_permutations",
       "textures": [
         "wilderness:trims/models/armor/roots",
-        "wilderness:trims/models/armor/roots_leggings"
+        "wilderness:trims/models/armor/roots_leggings",
+        "neapolitan:trims/models/armor/primal",
+        "neapolitan:trims/models/armor/primal_leggings"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
@@ -22,7 +24,15 @@
         "skyjade": "deep_aether:trims/color_palettes/skyjade",
         "skyjade_darker": "deep_aether:trims/color_palettes/skyjade_darker",
         "stratus": "deep_aether:trims/color_palettes/stratus",
-        "stratus_darker": "deep_aether:trims/color_palettes/stratus_darker"
+        "stratus_darker": "deep_aether:trims/color_palettes/stratus_darker",
+        "cloggrum": "undergarden:trims/color_palettes/cloggrum",
+        "froststeel": "undergarden:trims/color_palettes/froststeel",
+        "utherium": "undergarden:trims/color_palettes/utherium",
+        "regalium": "undergarden:trims/color_palettes/regalium",
+        "forgotten": "undergarden:trims/color_palettes/forgotten",
+        "tooth": "upgrade_aquatic:trims/color_palettes/tooth",
+        "ignitium": "cataclysm:trims/color_palettes/ignitium",
+        "witherite": "cataclysm:trims/color_palettes/witherite"
       }
     }
   ]
