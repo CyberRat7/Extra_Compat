@@ -1,0 +1,31 @@
+{
+  "color": "#446cb4",
+  "containers": [
+    {
+      "filled": [
+        "undergarden:indigo_stew"
+      ],
+      "empty": "minecraft:bowl",
+      "capacity": 2
+    },
+    {
+      "filled": [
+        "extra_compat:indigo_stew_cup"
+      ],
+      "empty": "miners_delight:copper_cup",
+      "capacity": 1
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": 2,
+    "item": "undergarden:indigo_stew"
+  },
+  "food": {
+    "divider": 1,
+    "item": "extra_compat:indigo_stew_cup"
+  },
+  "from_mod": "undergarden",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.undergarden.indigo_stew"
+}
