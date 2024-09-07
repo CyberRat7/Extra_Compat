@@ -8,6 +8,8 @@ adding many different blocks, items, effects and entities to tags where they are
 ## **Mods Supported:**
 
 - Aether Delight
+
+- AllBarkAllBite
   
 - Alex's Delight
 
