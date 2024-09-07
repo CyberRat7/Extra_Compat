@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "all_bark_all_bite:houndmaster",
+      "required": false
+    },
+    {
+      "id": "all_bark_all_bite:scavenger",
+      "required": false
+    }
+  ]
+}

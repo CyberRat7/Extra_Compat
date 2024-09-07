@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "twigs:twig",
+      "required": false
+    },
+    {
+      "id": "undergarden:twisty_twig",
+      "required": false
+    }
+  ]
+}
