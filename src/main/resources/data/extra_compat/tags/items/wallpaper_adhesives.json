@@ -7,6 +7,10 @@
     {
       "id": "autumnity:snail_goo",
       "required": false
+    },
+    {
+      "id": "undergarden:goo_ball",
+      "required": false
     }
   ]
 }
