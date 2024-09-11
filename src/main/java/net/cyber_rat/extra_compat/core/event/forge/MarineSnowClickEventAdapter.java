@@ -10,6 +10,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.BlockGetter;
@@ -20,7 +21,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.eventbus.api.Event;
 
 import java.util.Map;
 
@@ -64,14 +64,16 @@ public class MarineSnowClickEventAdapter implements EventAdapter<PlayerInteractE
                 }
 
                 if (flag) {
+                    Player player = event.getEntity();
+                    player.swing(event.getHand());
                     if (!level.isClientSide) {
                         level.levelEvent(1505, clickedBlockPos, 0);
                     }
-                    if(!event.getEntity().isCreative()){
+                    if(!player.isCreative()){
                         handItemStack.shrink(1);
                     }
 
-                    event.setResult(Event.Result.ALLOW);
+                    event.setResult(event.getUseItem());
                 }
             }
         }

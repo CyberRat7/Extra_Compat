@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -18,30 +17,30 @@ import org.slf4j.Logger;
 public class ExtraCompat {
     public static final String MODID = "extra_compat";
     public static final Logger LOGGER = LogUtils.getLogger();
-    private final CompatCore compatCore;
 
     public ExtraCompat() {
         TemporalEngine.run(ExtraCompat.class);
-        InjectionContext.getFromInstance(IEventBus.class).addListener(this::addCreative);
-        this.compatCore = InjectionContext.getFromInstance(CompatCore.class);
+        MinecraftForge.EVENT_BUS.addListener(this::observePlayerInteraction);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        this.compatCore.addCreative(event);
-    }
-
-    private void rightClick(PlayerInteractEvent.RightClickBlock event) {
-        this.compatCore.rightClick(event);
+    private void observePlayerInteraction(PlayerInteractEvent.RightClickBlock event) {
+        CompatCore compatCore = InjectionContext.getFromInstance(CompatCore.class);
+        compatCore.rightClick(event);
     }
 
     @Mod.EventBusSubscriber(modid = ExtraCompat.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public class ExtraCompatClientEvents {
+    public class ExtraCompatEventObserver {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
+        public static void observeClientSetup(FMLClientSetupEvent event) {
             CompatCore compatCore = InjectionContext.getFromInstance(CompatCore.class);
             compatCore.registerCuriosRenders();
+        }
+
+        @SubscribeEvent
+        public static void observeCreativeAdditions(BuildCreativeModeTabContentsEvent event) {
+            CompatCore compatCore = InjectionContext.getFromInstance(CompatCore.class);
+            compatCore.addCreative(event);
         }
     }
 }

@@ -74,7 +74,7 @@ dependencies {
     implementation fg.deobf("curse.maven:zeta-968868:5254672")
     implementation fg.deobf("curse.maven:curios-309927:5296876")
     implementation fg.deobf("curse.maven:alexs-mobs-426558:5160697")
-    implementation fg.deobf("curse.maven:citadel-331936:5143956")
+    implementation fg.deobf("curse.maven:citadel-331936:5633260")
     implementation fg.deobf("curse.maven:miners-delight-plus-689630:5038950")
     implementation fg.deobf("curse.maven:autumnity-365045:5292346")
     implementation fg.deobf("curse.maven:seasonals-416471:5297088")
