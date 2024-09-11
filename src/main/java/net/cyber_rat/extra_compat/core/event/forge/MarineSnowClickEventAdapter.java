@@ -3,9 +3,6 @@ package net.cyber_rat.extra_compat.core.event.forge;
 import com.github.alexmodguy.alexscaves.server.block.ACBlockRegistry;
 import com.github.alexmodguy.alexscaves.server.block.MusselBlock;
 import com.github.alexmodguy.alexscaves.server.item.MarineSnowItem;
-import com.google.common.collect.Maps;
-import com.teamabnormals.upgrade_aquatic.core.registry.UABlocks;
-import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
@@ -22,15 +19,12 @@ import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class MarineSnowClickEventAdapter implements EventAdapter<PlayerInteractEvent.RightClickBlock> {
-    private Map<Block, Block> growsInteractions;
-    private Map<Block, ItemStack> duplicatesInteractions;
-
-    public MarineSnowClickEventAdapter() {
-        initGrowth();
-    }
+    public static final Map<Block, Block> GROWTH_INTERACTIONS = new HashMap<>();
+    public static final Map<Block, ItemStack> DUPLICATES_INTERACTIONS = new HashMap<>();
 
     @Override
     public void adapt(PlayerInteractEvent.RightClickBlock event) {
@@ -43,17 +37,17 @@ public class MarineSnowClickEventAdapter implements EventAdapter<PlayerInteractE
                 boolean flag = false;
                 BlockState clickedBlockState = level.getBlockState(clickedBlockPos);
                 Block clickedBlock = clickedBlockState.getBlock();
-                if (growsInteractions.containsKey(clickedBlock)) {
+                if (GROWTH_INTERACTIONS.containsKey(clickedBlock)) {
                     flag = true;
-                    BlockState transform = growsInteractions.getOrDefault(clickedBlock, Blocks.AIR).defaultBlockState();
+                    BlockState transform = GROWTH_INTERACTIONS.getOrDefault(clickedBlock, Blocks.AIR).defaultBlockState();
                     for (Property property : clickedBlockState.getProperties()) {
                         transform = transform.hasProperty(property) ? transform.setValue(property, clickedBlockState.getValue(property)) : transform;
                     }
                     level.setBlockAndUpdate(clickedBlockPos, transform);
-                } else if(duplicatesInteractions.containsKey(clickedBlock)) {
+                } else if(DUPLICATES_INTERACTIONS.containsKey(clickedBlock)) {
                     flag = true;
                     if (level.getRandom().nextInt(2) == 0) {
-                        ItemStack spawn = duplicatesInteractions.getOrDefault(clickedBlock, ItemStack.EMPTY);
+                        ItemStack spawn = DUPLICATES_INTERACTIONS.getOrDefault(clickedBlock, ItemStack.EMPTY);
                         Vec3 spawnItemAt = event.getHitVec().getLocation();
                         ItemEntity itemEntity = new ItemEntity(level, spawnItemAt.x, spawnItemAt.y, spawnItemAt.z, spawn);
                         level.addFreshEntity(itemEntity);
@@ -90,106 +84,5 @@ public class MarineSnowClickEventAdapter implements EventAdapter<PlayerInteractE
             }
             return false;
         }
-    }
-
-    private void initGrowth() {
-        growsInteractions = Util.make(Maps.newHashMap(), map -> {
-            map.put(UABlocks.DEAD_ACAN_CORAL_BLOCK.get(), UABlocks.ACAN_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_BRANCH_CORAL_BLOCK.get(), UABlocks.BRANCH_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_FINGER_CORAL_BLOCK.get(), UABlocks.FINGER_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_STAR_CORAL_BLOCK.get(), UABlocks.STAR_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_MOSS_CORAL_BLOCK.get(), UABlocks.MOSS_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_PETAL_CORAL_BLOCK.get(), UABlocks.PETAL_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_ROCK_CORAL_BLOCK.get(), UABlocks.ROCK_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_PILLOW_CORAL_BLOCK.get(), UABlocks.PILLOW_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_SILK_CORAL_BLOCK.get(), UABlocks.SILK_CORAL_BLOCK.get());
-            map.put(UABlocks.DEAD_CHROME_CORAL_BLOCK.get(), UABlocks.CHROME_CORAL_BLOCK.get());
-            map.put(UABlocks.ELDER_PRISMARINE_CORAL_BLOCK.get(), UABlocks.PRISMARINE_CORAL_BLOCK.get());
-
-            map.put(UABlocks.DEAD_ACAN_CORAL.get(), UABlocks.ACAN_CORAL.get());
-            map.put(UABlocks.DEAD_BRANCH_CORAL.get(), UABlocks.BRANCH_CORAL.get());
-            map.put(UABlocks.DEAD_FINGER_CORAL.get(), UABlocks.FINGER_CORAL.get());
-            map.put(UABlocks.DEAD_STAR_CORAL.get(), UABlocks.STAR_CORAL.get());
-            map.put(UABlocks.DEAD_MOSS_CORAL.get(), UABlocks.MOSS_CORAL.get());
-            map.put(UABlocks.DEAD_PETAL_CORAL.get(), UABlocks.PETAL_CORAL.get());
-            map.put(UABlocks.DEAD_ROCK_CORAL.get(), UABlocks.ROCK_CORAL.get());
-            map.put(UABlocks.DEAD_PILLOW_CORAL.get(), UABlocks.PILLOW_CORAL.get());
-            map.put(UABlocks.DEAD_SILK_CORAL.get(), UABlocks.SILK_CORAL.get());
-            map.put(UABlocks.DEAD_CHROME_CORAL.get(), UABlocks.CHROME_CORAL.get());
-            map.put(UABlocks.ELDER_PRISMARINE_CORAL.get(), UABlocks.PRISMARINE_CORAL.get());
-
-            map.put(UABlocks.DEAD_ACAN_CORAL_FAN.get(), UABlocks.ACAN_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_BRANCH_CORAL_FAN.get(), UABlocks.BRANCH_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_FINGER_CORAL_FAN.get(), UABlocks.FINGER_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_STAR_CORAL_FAN.get(), UABlocks.STAR_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_MOSS_CORAL_FAN.get(), UABlocks.MOSS_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_PETAL_CORAL_FAN.get(), UABlocks.PETAL_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_ROCK_CORAL_FAN.get(), UABlocks.ROCK_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_PILLOW_CORAL_FAN.get(), UABlocks.PILLOW_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_SILK_CORAL_FAN.get(), UABlocks.SILK_CORAL_FAN.get());
-            map.put(UABlocks.DEAD_CHROME_CORAL_FAN.get(), UABlocks.CHROME_CORAL_FAN.get());
-            map.put(UABlocks.ELDER_PRISMARINE_CORAL_FAN.get(), UABlocks.PRISMARINE_CORAL_FAN.get());
-
-            map.put(UABlocks.DEAD_ACAN_CORAL_WALL_FAN.get(), UABlocks.ACAN_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_BRANCH_CORAL_WALL_FAN.get(), UABlocks.BRANCH_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_FINGER_CORAL_WALL_FAN.get(), UABlocks.FINGER_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_STAR_CORAL_WALL_FAN.get(), UABlocks.STAR_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_MOSS_CORAL_WALL_FAN.get(), UABlocks.MOSS_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_PETAL_CORAL_WALL_FAN.get(), UABlocks.PETAL_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_ROCK_CORAL_WALL_FAN.get(), UABlocks.ROCK_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_PILLOW_CORAL_WALL_FAN.get(), UABlocks.PILLOW_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_SILK_CORAL_WALL_FAN.get(), UABlocks.SILK_CORAL_WALL_FAN.get());
-            map.put(UABlocks.DEAD_CHROME_CORAL_WALL_FAN.get(), UABlocks.CHROME_CORAL_WALL_FAN.get());
-            map.put(UABlocks.ELDER_PRISMARINE_CORAL_WALL_FAN.get(), UABlocks.PRISMARINE_CORAL_WALL_FAN.get());
-        });
-        duplicatesInteractions = Util.make(Maps.newHashMap(), map -> {
-            map.put(UABlocks.ACAN_CORAL_BLOCK.get(), new ItemStack(UABlocks.ACAN_CORAL_BLOCK.get()));
-            map.put(UABlocks.BRANCH_CORAL_BLOCK.get(), new ItemStack(UABlocks.BRANCH_CORAL_BLOCK.get()));
-            map.put(UABlocks.FINGER_CORAL_BLOCK.get(), new ItemStack(UABlocks.FINGER_CORAL_BLOCK.get()));
-            map.put(UABlocks.STAR_CORAL_BLOCK.get(), new ItemStack(UABlocks.STAR_CORAL_BLOCK.get()));
-            map.put(UABlocks.MOSS_CORAL_BLOCK.get(), new ItemStack(UABlocks.MOSS_CORAL_BLOCK.get()));
-            map.put(UABlocks.PETAL_CORAL_BLOCK.get(), new ItemStack(UABlocks.PETAL_CORAL_BLOCK.get()));
-            map.put(UABlocks.ROCK_CORAL_BLOCK.get(), new ItemStack(UABlocks.ROCK_CORAL_BLOCK.get()));
-            map.put(UABlocks.PILLOW_CORAL_BLOCK.get(), new ItemStack(UABlocks.PILLOW_CORAL_BLOCK.get()));
-            map.put(UABlocks.SILK_CORAL_BLOCK.get(), new ItemStack(UABlocks.SILK_CORAL_BLOCK.get()));
-            map.put(UABlocks.CHROME_CORAL_BLOCK.get(), new ItemStack(UABlocks.CHROME_CORAL_BLOCK.get()));
-            map.put(UABlocks.PRISMARINE_CORAL_BLOCK.get(), new ItemStack(UABlocks.PRISMARINE_CORAL_BLOCK.get()));
-
-            map.put(UABlocks.ACAN_CORAL.get(), new ItemStack(UABlocks.ACAN_CORAL.get()));
-            map.put(UABlocks.BRANCH_CORAL.get(), new ItemStack(UABlocks.BRANCH_CORAL.get()));
-            map.put(UABlocks.FINGER_CORAL.get(), new ItemStack(UABlocks.FINGER_CORAL.get()));
-            map.put(UABlocks.STAR_CORAL.get(), new ItemStack(UABlocks.STAR_CORAL.get()));
-            map.put(UABlocks.MOSS_CORAL.get(), new ItemStack(UABlocks.MOSS_CORAL.get()));
-            map.put(UABlocks.PETAL_CORAL.get(), new ItemStack(UABlocks.PETAL_CORAL.get()));
-            map.put(UABlocks.ROCK_CORAL.get(), new ItemStack(UABlocks.ROCK_CORAL.get()));
-            map.put(UABlocks.PILLOW_CORAL.get(), new ItemStack(UABlocks.PILLOW_CORAL.get()));
-            map.put(UABlocks.SILK_CORAL.get(), new ItemStack(UABlocks.SILK_CORAL.get()));
-            map.put(UABlocks.CHROME_CORAL.get(), new ItemStack(UABlocks.CHROME_CORAL.get()));
-            map.put(UABlocks.PRISMARINE_CORAL.get(), new ItemStack(UABlocks.PRISMARINE_CORAL.get()));
-
-            map.put(UABlocks.ACAN_CORAL_FAN.get(), new ItemStack(UABlocks.ACAN_CORAL_FAN.get()));
-            map.put(UABlocks.BRANCH_CORAL_FAN.get(), new ItemStack(UABlocks.BRANCH_CORAL_FAN.get()));
-            map.put(UABlocks.FINGER_CORAL_FAN.get(), new ItemStack(UABlocks.FINGER_CORAL_FAN.get()));
-            map.put(UABlocks.STAR_CORAL_FAN.get(), new ItemStack(UABlocks.STAR_CORAL_FAN.get()));
-            map.put(UABlocks.MOSS_CORAL_FAN.get(), new ItemStack(UABlocks.MOSS_CORAL_FAN.get()));
-            map.put(UABlocks.PETAL_CORAL_FAN.get(), new ItemStack(UABlocks.PETAL_CORAL_FAN.get()));
-            map.put(UABlocks.ROCK_CORAL_FAN.get(), new ItemStack(UABlocks.ROCK_CORAL_FAN.get()));
-            map.put(UABlocks.PILLOW_CORAL_FAN.get(), new ItemStack(UABlocks.PILLOW_CORAL_FAN.get()));
-            map.put(UABlocks.SILK_CORAL_FAN.get(), new ItemStack(UABlocks.SILK_CORAL_FAN.get()));
-            map.put(UABlocks.CHROME_CORAL_FAN.get(), new ItemStack(UABlocks.CHROME_CORAL_FAN.get()));
-            map.put(UABlocks.PRISMARINE_CORAL_FAN.get(), new ItemStack(UABlocks.PRISMARINE_CORAL_FAN.get()));
-
-            map.put(UABlocks.ACAN_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.ACAN_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.BRANCH_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.BRANCH_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.FINGER_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.FINGER_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.STAR_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.STAR_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.MOSS_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.MOSS_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.PETAL_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.PETAL_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.ROCK_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.ROCK_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.PILLOW_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.PILLOW_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.SILK_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.SILK_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.CHROME_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.CHROME_CORAL_WALL_FAN.get()));
-            map.put(UABlocks.PRISMARINE_CORAL_WALL_FAN.get(), new ItemStack(UABlocks.PRISMARINE_CORAL_WALL_FAN.get()));
-        });
     }
 }

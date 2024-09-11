@@ -6,8 +6,7 @@ import com.temporal.api.core.engine.io.metadata.annotation.Execution;
 import com.temporal.api.core.engine.io.metadata.annotation.Injected;
 import com.temporal.api.core.event.tab.SimpleTabDirector;
 import com.temporal.api.core.event.tab.TabDirector;
-import net.cyber_rat.extra_compat.core.event.forge.EventAdapter;
-import net.cyber_rat.extra_compat.core.event.forge.MarineSnowClickEventAdapter;
+import net.cyber_rat.extra_compat.core.event.forge.*;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AEAlexsMobsExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AESullysModExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AEUndergardenExtraItems;
@@ -58,6 +57,8 @@ public class CompatCore {
     private boolean hasAlexCaves;
     @Dependency("upgrade_aquatic")
     private boolean hasUpgradeAquatic;
+    @Dependency("unusualprehistory")
+    private boolean hasUnusualPrehistory;
 
     @Execution
     public void register() {
@@ -114,7 +115,6 @@ public class CompatCore {
                 GoatedFDExtraItems.register();
             }
         }
-
 
         if (hasUndergarden) {
             if(hasSniffsWeapons) {
@@ -228,10 +228,18 @@ public class CompatCore {
 
     public void rightClick(PlayerInteractEvent.RightClickBlock event) {
         if (hasAlexCaves) {
+            EventAdapter<PlayerInteractEvent.RightClickBlock> marineSnowClickEventAdapter = new MarineSnowClickEventAdapter();
             if (hasUpgradeAquatic) {
-                EventAdapter<PlayerInteractEvent.RightClickBlock> marineSnowClickEventAdapter = new MarineSnowClickEventAdapter();
-                marineSnowClickEventAdapter.adapt(event);
+                MarineSnowInteractionsInitializer initializer = new UAMarineSnowInteractionsInitializer();
+                initializer.initialize();
             }
+
+            if (hasUnusualPrehistory) {
+                MarineSnowInteractionsInitializer initializer = new UPMarineSnowInteractionsInitializer();
+                initializer.initialize();
+            }
+
+            marineSnowClickEventAdapter.adapt(event);
         }
     }
 }
