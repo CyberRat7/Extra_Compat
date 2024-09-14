@@ -104,6 +104,38 @@
     {
       "id": "farmersrespite:strong_melon_juice",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:invisibility_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_invisibility_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evasion_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_evasion_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:oakskin_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_oakskin_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_ale",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_potion_of_healing",
+      "required": false
     }
   ]
 }

@@ -24,6 +24,10 @@
     {
       "id": "farmersrespite:long_black_tea",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_ale",
+      "required": false
     }
   ]
 }

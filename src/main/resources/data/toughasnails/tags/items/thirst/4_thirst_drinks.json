@@ -24,6 +24,26 @@
     {
       "id": "farmersrespite:long_gamblers_tea",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:invisibility_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_invisibility_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:evasion_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_evasion_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_potion_of_healing",
+      "required": false
     }
   ]
 }

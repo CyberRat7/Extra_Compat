@@ -16,6 +16,14 @@
     {
       "id": "farmersrespite:long_rose_hip_tea",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:oakskin_elixir",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_oakskin_elixir",
+      "required": false
     }
   ]
 }
