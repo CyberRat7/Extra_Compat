@@ -10,6 +10,8 @@ adding many different blocks, items, effects and entities to tags where they are
 - Aether Delight
 
 - AllBarkAllBite
+
+- Alex's Caves
   
 - Alex's Delight
 
@@ -118,6 +120,8 @@ adding many different blocks, items, effects and entities to tags where they are
 - Upgrade Aquatic
 
 - Undergarden
+
+- Unsual Fish Mod
 
 - Wallpapers 
 
