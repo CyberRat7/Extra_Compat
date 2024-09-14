@@ -6,6 +6,7 @@ import com.temporal.api.core.engine.io.metadata.annotation.Execution;
 import com.temporal.api.core.engine.io.metadata.annotation.Injected;
 import com.temporal.api.core.event.tab.SimpleTabDirector;
 import com.temporal.api.core.event.tab.TabDirector;
+import net.cyber_rat.extra_compat.core.event.forge.*;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AEAlexsMobsExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AESullysModExtraItems;
 import net.cyber_rat.extra_compat.core.registry.forge.aether.AEUndergardenExtraItems;
@@ -16,12 +17,12 @@ import net.cyber_rat.extra_compat.core.registry.forge.miners_delight.*;
 import net.cyber_rat.extra_compat.core.registry.forge.sniffsweapons.SWUndergardenExtraItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import quek.undergarden.registry.UGCreativeModeTabs;
 import vectorwing.farmersdelight.common.registry.ModCreativeTabs;
 
 @Injected
 public class CompatCore {
-
     @Dependency("farmersdelight")
     private boolean hasFarmersDelight;
     @Dependency("sniffsweapons")
@@ -52,48 +53,54 @@ public class CompatCore {
     private boolean hasUndergarden;
     @Dependency("basicweapons")
     private boolean hasBasicWeapons;
+    @Dependency("alexscaves")
+    private boolean hasAlexCaves;
+    @Dependency("upgrade_aquatic")
+    private boolean hasUpgradeAquatic;
+    @Dependency("unusualprehistory")
+    private boolean hasUnusualPrehistory;
 
     @Execution
     public void register() {
-        if (hasMinersDelight){
-            if (hasAlexsDelight){
+        if (hasMinersDelight) {
+            if (hasAlexsDelight) {
                 MDADExtraItems.register();
             }
-            if (hasAlexsMobs){
+            if (hasAlexsMobs) {
                 MDAMExtraItems.register();
             }
-            if (hasNeapolitan){
+            if (hasNeapolitan) {
                 MDNExtraItems.register();
             }
-            if (hasSeasonals){
+            if (hasSeasonals) {
                 MDSExtraItems.register();
             }
-            if (hasQuarkDelight){
+            if (hasQuarkDelight) {
                 MDQDExtraItems.register();
             }
-            if (hasAutumnity){
+            if (hasAutumnity) {
                 MDATExtraItems.register();
             }
 
         }
-        if (hasIncubation){
-            if (hasSullysMod){
+        if (hasIncubation) {
+            if (hasSullysMod) {
                 IncubationSMExtraBlocks.register();
             }
         }
 
-        if (hasBasicWeapons){
-            if (hasUndergarden){
+        if (hasBasicWeapons) {
+            if (hasUndergarden) {
                 BWUndergardenExtraItems.register();
                 BWUndergardenExtraItems.setupToolEvents();
             }
         }
 
         if (hasAether) {
-            if (hasUndergarden){
+            if (hasUndergarden) {
                 AEUndergardenExtraItems.register();
             }
-            if (hasAlexsMobs){
+            if (hasAlexsMobs) {
                 AEAlexsMobsExtraItems.register();
                 AEAlexsMobsExtraItems.setupBucketReplacements();
             }
@@ -103,15 +110,14 @@ public class CompatCore {
             }
         }
 
-        if (hasFarmersDelight){
-            if (hasGoated){
+        if (hasFarmersDelight) {
+            if (hasGoated) {
                 GoatedFDExtraItems.register();
             }
         }
 
-
-        if (hasUndergarden){
-            if(hasSniffsWeapons){
+        if (hasUndergarden) {
+            if(hasSniffsWeapons) {
                 SWUndergardenExtraItems.register();
                SWUndergardenExtraItems.setupToolEvents();
             }
@@ -120,12 +126,12 @@ public class CompatCore {
 
 
 
-    public void registerCuriosRenders(){
-        if (hasAether){
-            if(hasUndergarden)
+    public void registerCuriosRenders() {
+        if (hasAether) {
+            if (hasUndergarden) {
                 AEUndergardenExtraItems.registerCuriosRenderers();
+            }
         }
-
     }
 
 
@@ -183,7 +189,7 @@ public class CompatCore {
             if (hasSullysMod) {
                 tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), AESullysModExtraItems.SKYROOT_LANTERNFISH_BUCKET);
             }
-            
+
             if (hasUndergarden){
                 tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), AEUndergardenExtraItems.CLOGGRUM_GLOVES, AEUndergardenExtraItems.FROSTSTEEL_GLOVES, AEUndergardenExtraItems.UTHERIUM_GLOVES);
             }
@@ -218,5 +224,22 @@ public class CompatCore {
 
             }
        */
+    }
+
+    public void rightClick(PlayerInteractEvent.RightClickBlock event) {
+        if (hasAlexCaves) {
+            EventAdapter<PlayerInteractEvent.RightClickBlock> marineSnowClickEventAdapter = new MarineSnowClickEventAdapter();
+            if (hasUpgradeAquatic) {
+                MarineSnowInteractionsInitializer initializer = new UAMarineSnowInteractionsInitializer();
+                initializer.initialize();
+            }
+
+            if (hasUnusualPrehistory) {
+                MarineSnowInteractionsInitializer initializer = new UPMarineSnowInteractionsInitializer();
+                initializer.initialize();
+            }
+
+            marineSnowClickEventAdapter.adapt(event);
         }
+    }
 }
