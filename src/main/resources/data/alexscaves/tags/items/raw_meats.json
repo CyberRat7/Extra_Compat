@@ -1,0 +1,122 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_fishes",
+    {
+      "id": "undergarden:raw_gloomper_leg",
+      "required": false
+    },
+    {
+      "id": "undergarden:raw_dweller_meat",
+      "required": false
+    },
+    {
+      "id": "undergarden:raw_gwibling",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:mutton_chops",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:salmon_slice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cod_slice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bacon",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chicken_cuts",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:ham",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:minced_beef",
+      "required": false
+    },
+    {
+      "id": "quark:crab_leg",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:hoglin_loin",
+      "required": false
+    },
+    {
+      "id": "mynethersdelight:hoglin_sausage",
+      "required": false
+    },
+    {
+      "id": "miners_delight:tentacles",
+      "required": false
+    },
+    {
+      "id": "miners_delight:squid",
+      "required": false
+    },
+    {
+      "id": "miners_delight:glow_squid",
+      "required": false
+    },
+    {
+      "id": "miners_delight:arthropod",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:raw_bunfungus",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:raw_bunfungus_drumstick",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:bison_mince",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:loose_moose_rib",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:raw_catfish_slice",
+      "required": false
+    },
+    {
+      "id": "alexsdelight:kangaroo_shank",
+      "required": false
+    },
+    {
+      "id": "extra_compat:chevon_chop",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_blizzard_tuna",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_shockcat",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_mossthorn",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_lobster",
+      "required": false
+    },
+    {
+      "id": "goated:raw_chevon",
+      "required": false
+    }
+  ]
+}

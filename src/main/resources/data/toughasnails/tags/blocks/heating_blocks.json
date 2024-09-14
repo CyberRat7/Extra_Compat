@@ -104,6 +104,14 @@
     {
       "id": "mynethersdelight:nether_stove",
       "required": false
+    },
+    {
+      "id": "alexscaves:primal_magma",
+      "required": false
+    },
+    {
+      "id": "alexscaves:volcanic_core",
+      "required": false
     }
   ]
 }

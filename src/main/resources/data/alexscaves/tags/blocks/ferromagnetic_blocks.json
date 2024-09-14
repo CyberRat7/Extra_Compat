@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quark:raw_iron_bricks",
+      "required": false
+    },
+    {
+      "id": "quark:raw_iron_bricks_stairs",
+      "required": false
+    },
+    {
+      "id": "quark:raw_iron_bricks_wall",
+      "required": false
+    },
+    {
+      "id": "quark:raw_iron_bricks_slab",
+      "required": false
+    },
+    {
+      "id": "quark:grate",
+      "required": false
+    },
+    {
+      "id": "quark:iron_gate",
+      "required": false
+    },
+    {
+      "id": "quark:iron_button",
+      "required": false
+    },
+    {
+      "id": "quark:iron_rod",
+      "required": false
+    },
+    {
+      "id": "sootychimenys:iron_chimney",
+      "required": false
+    },
+    {
+      "id": "sootychimenys:dirty_iron_chimney",
+      "required": false
+    }
+
+  ]
+}

@@ -10,15 +10,15 @@
       "required": false
     },
     {
-      "id": "scuba_gear:scuba_helmet",
-      "required": false
-    },
-    {
       "id": "cataclysm:monstrous_helm",
       "required": false
     },
     {
       "id": "irons_spellbooks:priest_helmet",
+      "required": false
+    },
+    {
+      "id": "alexscaves:diving_helmet",
       "required": false
     }
   ]

@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "suppsquared:iron_plaque",
+      "required": false
+    },
+    {
+      "id": "shieldexp:iron_shield",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:iron_knife",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_dagger",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_hammer",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_spear",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "basicweapons:iron_club",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_surcoat",
+      "required": false
+    },
+    {
+      "id": "chimes:iron_chimes",
+      "required": false
+    }
+  ]
+}
