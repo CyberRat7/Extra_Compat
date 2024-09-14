@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "#forge:raw_fishes",
+    "#minecraft:fishes",
+    {
+      "id": "#alexscaves:raw_meats",
+      "required": false
+    },
     {
       "id": "upgrade_aquatic:perch",
       "required": false
@@ -931,6 +937,50 @@
     },
     {
       "id": "farmersrespite:blazing_chili",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:weird_goldfish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:unusual_sandwich",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_aero_mono_stick",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:pickledish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:strange_broth",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:cooked_lobster",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:odd_fishsticks",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:lobster_roll",
+      "required": false
+    },
+    {
+      "id": "alexscaves:vesper_wing",
+      "required": false
+    },
+    {
+      "id": "alexscaves:seething_stew",
+      "required": false
+    },
+    {
+      "id": "alexscaves:primordial_soup",
       "required": false
     }
   ]
