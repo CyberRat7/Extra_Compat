@@ -3,6 +3,22 @@
     {
       "id": "habitat:fairy_ring_mushroom",
       "required": false
+    },
+    {
+      "id": "undergarden:indigo_mushroom",
+      "required": false
+    },
+    {
+      "id": "undergarden:ink_mushroom",
+      "required": false
+    },
+    {
+      "id": "undergarden:veil_mushroom",
+      "required": false
+    },
+    {
+      "id": "undergarden:blood_mushroom",
+      "required": false
     }
   ]
 }
