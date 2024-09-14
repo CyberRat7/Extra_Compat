@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "galosphere:salted_jerky",
+      "required": false
+    },
+    {
+      "id": "galosphere:preserved_flesh",
+      "required": false
+    }
+  ]
+}
