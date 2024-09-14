@@ -16,6 +16,10 @@
     {
       "id": "cataclysm:monstrous_helm",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:priest_helmet",
+      "required": false
     }
   ]
 }
