@@ -408,10 +408,6 @@
       "required": false
     },
     {
-      "id": "alexsmobs:mosquito_repellent_stew",
-      "required": false
-    },
-    {
       "id": "alexsmobs:maggot",
       "required": false
     },
@@ -981,6 +977,14 @@
     },
     {
       "id": "alexscaves:primordial_soup",
+      "required": false
+    },
+    {
+      "id": "undergarden:raw_gwibling",
+      "required": false
+    },
+    {
+      "id": "undergarden:cooked_gwibling",
       "required": false
     }
   ]

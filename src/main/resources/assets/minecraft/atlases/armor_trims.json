@@ -6,7 +6,9 @@
         "wilderness:trims/models/armor/roots",
         "wilderness:trims/models/armor/roots_leggings",
         "neapolitan:trims/models/armor/primal",
-        "neapolitan:trims/models/armor/primal_leggings"
+        "neapolitan:trims/models/armor/primal_leggings",
+        "alexscaves:trims/models/armor/polarity",
+        "alexscaves:trims/models/armor/polarity_leggings"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
