@@ -11,11 +11,10 @@ import nl.sniffiandros.sniffsweapons.item.GreatAxeItem;
 import javax.annotation.Nullable;
 import java.util.List;
 
-public class FroststeelGreatAxeItem extends GreatAxeItem {
+public class FroststeelGreatAxeItem extends nl.sniffiandros.sniffsweapons.item.GreatAxeItem {
 
-
-    public FroststeelGreatAxeItem(Tier tier, float damage, float speed, Properties properties) {
-        super(tier, damage, speed, properties);
+    public FroststeelGreatAxeItem(Tier tier, int damage, float attackSpeed, Properties properties) {
+        super(tier, damage, attackSpeed, properties);
     }
 
     @Override

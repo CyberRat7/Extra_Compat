@@ -12,8 +12,8 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 public class FroststeelGreatSwordItem extends GreatSwordItem {
-    public FroststeelGreatSwordItem(Tier tier, int damage, float speed, Properties properties) {
-        super(tier, damage, speed, properties);
+    public FroststeelGreatSwordItem(Tier tier, int damage, float attackSpeed, Properties properties) {
+        super(tier, damage, attackSpeed, properties);
     }
 
     @Override

@@ -23,14 +23,14 @@ import quek.undergarden.registry.*;
 public class SWUndergardenExtraItems {
     public static final SWItemFactory ITEM_FACTORY = new SWItemFactory();
 
-    public static final RegistryObject<? extends SwordItem> CLOGGRUM_GREATSWORD = ITEM_FACTORY.createGreatSword("cloggrum_great_sword", UGItemTiers.CLOGGRUM, 8, -2.9f, new Item.Properties());
-    public static final RegistryObject<? extends AxeItem> CLOGGRUM_GREAT_AXE = ITEM_FACTORY.createGreatAxe("cloggrum_great_axe", UGItemTiers.CLOGGRUM, 10, -3.2f, new Item.Properties());
-    public static final RegistryObject<? extends SwordItem> FORGOTTEN_GREATSWORD = ITEM_FACTORY.createForgottenGreatSword("forgotten_great_sword", UGItemTiers.CLOGGRUM, 8, -2.9f, new Item.Properties().rarity(UGItems.FORGOTTEN));
-    public static final RegistryObject<? extends AxeItem> FORGOTTEN_GREAT_AXE = ITEM_FACTORY.createForgottenGreatAxe("forgotten_great_axe", UGItemTiers.CLOGGRUM, 10, -3.2f, new Item.Properties().rarity(UGItems.FORGOTTEN));
-    public static final RegistryObject<? extends SwordItem> FROSTSTEEL_GREATSWORD = ITEM_FACTORY.createFroststeelGreatSword("froststeel_great_sword", UGItemTiers.FROSTSTEEL, 8, -2.9f, new Item.Properties());
-    public static final RegistryObject<? extends AxeItem> FROSTSTEEL_GREAT_AXE = ITEM_FACTORY.createFroststeelGreatAxe("froststeel_great_axe", UGItemTiers.FROSTSTEEL, 8, -2.9f, new Item.Properties());
-    public static final RegistryObject<? extends SwordItem> UTHERIUM_GREATSWORD = ITEM_FACTORY.createUtheriumGreatSword("utherium_great_sword", UGItemTiers.UTHERIUM, 8.5, -2.9f, new Item.Properties());
-    public static final RegistryObject<? extends AxeItem> UTHERIUM_GREAT_AXE = ITEM_FACTORY.createUtheriumGreatAxe("utherium_great_axe", UGItemTiers.UTHERIUM, 8.5, -2.9f, new Item.Properties());
+    public static final RegistryObject<? extends SwordItem> CLOGGRUM_GREATSWORD = ITEM_FACTORY.createGreatSword("cloggrum_great_sword", UGItemTiers.CLOGGRUM, 6, -2.9f, new Item.Properties());
+    public static final RegistryObject<? extends AxeItem> CLOGGRUM_GREAT_AXE = ITEM_FACTORY.createGreatAxe("cloggrum_great_axe", UGItemTiers.CLOGGRUM, 8, -3.2f, new Item.Properties());
+    public static final RegistryObject<? extends SwordItem> FORGOTTEN_GREATSWORD = ITEM_FACTORY.createForgottenGreatSword("forgotten_great_sword", UGItemTiers.CLOGGRUM, 6, -2.9f, new Item.Properties().rarity(UGItems.FORGOTTEN));
+    public static final RegistryObject<? extends AxeItem> FORGOTTEN_GREAT_AXE = ITEM_FACTORY.createForgottenGreatAxe("forgotten_great_axe", UGItemTiers.CLOGGRUM, 8, -3.2f, new Item.Properties().rarity(UGItems.FORGOTTEN));
+    public static final RegistryObject<? extends SwordItem> FROSTSTEEL_GREATSWORD = ITEM_FACTORY.createFroststeelGreatSword("froststeel_great_sword", UGItemTiers.FROSTSTEEL, 4, -2.9f, new Item.Properties());
+    public static final RegistryObject<? extends AxeItem> FROSTSTEEL_GREAT_AXE = ITEM_FACTORY.createFroststeelGreatAxe("froststeel_great_axe", UGItemTiers.FROSTSTEEL, 6, -2.9f, new Item.Properties());
+    public static final RegistryObject<? extends SwordItem> UTHERIUM_GREATSWORD = ITEM_FACTORY.createUtheriumGreatSword("utherium_great_sword", UGItemTiers.UTHERIUM, 5, -2.9f, new Item.Properties());
+    public static final RegistryObject<? extends AxeItem> UTHERIUM_GREAT_AXE = ITEM_FACTORY.createUtheriumGreatAxe("utherium_great_axe", UGItemTiers.UTHERIUM, 7, -2.9f, new Item.Properties());
 
     public static void setupToolEvents() {
         MinecraftForge.EVENT_BUS.addListener(SWUndergardenExtraItems::SWforgottenAttackEvent);

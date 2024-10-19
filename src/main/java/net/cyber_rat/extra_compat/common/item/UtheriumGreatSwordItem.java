@@ -13,8 +13,8 @@ import java.util.List;
 
 public class UtheriumGreatSwordItem extends GreatSwordItem {
 
-    public UtheriumGreatSwordItem(Tier tier, double damage, float attackSpeed, Properties properties) {
-        super(tier, (int) damage, attackSpeed, properties);
+    public UtheriumGreatSwordItem(Tier tier, int damage, float attackSpeed, Properties properties) {
+        super(tier, damage, attackSpeed, properties);
     }
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {

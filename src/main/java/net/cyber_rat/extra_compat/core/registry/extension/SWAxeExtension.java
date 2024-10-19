@@ -20,7 +20,7 @@ public interface SWAxeExtension extends AxeExtension {
     default RegistryObject<? extends AxeItem> createFroststeelGreatAxe(String name, Tier tier, int damage, float speed, Item.Properties properties) {
         return createAxe(name, () -> new FroststeelGreatAxeItem(tier, damage, speed, properties));
     }
-    default RegistryObject<? extends AxeItem> createUtheriumGreatAxe(String name, Tier tier, double damage, float speed, Item.Properties properties) {
+    default RegistryObject<? extends AxeItem> createUtheriumGreatAxe(String name, Tier tier, int damage, float speed, Item.Properties properties) {
         return createAxe(name, () -> new UtheriumGreatAxeItem(tier, damage, speed, properties));
     }
 }

@@ -12,8 +12,8 @@ import java.util.List;
 
 public class UtheriumGreatAxeItem extends nl.sniffiandros.sniffsweapons.item.GreatAxeItem {
 
-    public UtheriumGreatAxeItem(Tier tier, double damage, float attackSpeed, Properties properties) {
-        super(tier, (float) damage, attackSpeed, properties);
+    public UtheriumGreatAxeItem(Tier tier, int damage, float attackSpeed, Properties properties) {
+        super(tier, damage, attackSpeed, properties);
     }
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {

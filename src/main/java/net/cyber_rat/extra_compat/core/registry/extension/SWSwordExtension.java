@@ -23,7 +23,7 @@ public interface SWSwordExtension extends SwordExtension {
         return createSword(name, () -> new FroststeelGreatSwordItem(tier, damage, speed, properties));
     }
 
-    default RegistryObject<? extends SwordItem> createUtheriumGreatSword(String name, Tier tier, double damage, float speed, Item.Properties properties) {
+    default RegistryObject<? extends SwordItem> createUtheriumGreatSword(String name, Tier tier, int damage, float speed, Item.Properties properties) {
         return createSword(name, () -> new UtheriumGreatSwordItem(tier, damage, speed, properties));
     }
 }
