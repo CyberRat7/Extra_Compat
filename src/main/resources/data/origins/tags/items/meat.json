@@ -986,6 +986,30 @@
     {
       "id": "undergarden:cooked_gwibling",
       "required": false
+    },
+    {
+      "id": "undergardendelight:dweller_meat_slice",
+      "required": false
+    },
+    {
+      "id": "undergardendelight:cooked_dweller_meat_slice",
+      "required": false
+    },
+    {
+      "id": "undergardendelight:gronglunch",
+      "required": false
+    },
+    {
+      "id": "undergardendelight:glitterwrap",
+      "required": false
+    },
+    {
+      "id": "undergardendelight:baked_gwibling_and_vegetables",
+      "required": false
+    },
+    {
+      "id": "undergardendelight:mogsteak",
+      "required": false
     }
   ]
 }
