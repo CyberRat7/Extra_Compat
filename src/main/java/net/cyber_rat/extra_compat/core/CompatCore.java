@@ -139,13 +139,14 @@ public class CompatCore {
     public void addCreative(BuildCreativeModeTabContentsEvent event) {
         final TabDirector tabDirector = SimpleTabDirector.create(event);
 
-        if (hasFarmersDelight){
-            if(hasGoated){
+        if (hasFarmersDelight) {
+            if (hasGoated) {
                 tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), GoatedFDExtraItems.CHEVON_CHOP, GoatedFDExtraItems.COOKED_CHEVON_CHOP);
             }
         }
 
-       /* if (hasMinersDelight){
+        /*
+       if (hasMinersDelight){
             if(hasAlexsMobs){
                 tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDAMExtraItems.MOSQUITO_REPELLENT_STEW_CUP);
             }
@@ -174,25 +175,40 @@ public class CompatCore {
             }
         }
 
-        if (hasSniffsWeapons){
-            tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE, SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD, SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE, SWUndergardenExtraItems.CLOGGRUM_GREATSWORD);
 
-        }
 
-        if (hasBasicWeapons){
-            if(hasUndergarden){
-                tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), BWUndergardenExtraItems.CLOGGRUM_CLUB, BWUndergardenExtraItems.CLOGGRUM_SPEAR, BWUndergardenExtraItems.CLOGGRUM_QUARTERSTAFF, BWUndergardenExtraItems.CLOGGRUM_DAGGER, BWUndergardenExtraItems.CLOGGRUM_HAMMER, BWUndergardenExtraItems.FORGOTTEN_HAMMER, BWUndergardenExtraItems.FORGOTTEN_CLUB, BWUndergardenExtraItems.FORGOTTEN_SPEAR, BWUndergardenExtraItems.FORGOTTEN_QUARTERSTAFF, BWUndergardenExtraItems.FORGOTTEN_DAGGER, BWUndergardenExtraItems.FROSTSTEEL_CLUB, BWUndergardenExtraItems.FROSTSTEEL_HAMMER, BWUndergardenExtraItems.FROSTSTEEL_SPEAR, BWUndergardenExtraItems.FROSTSTEEL_QUARTERSTAFF, BWUndergardenExtraItems.FROSTSTEEL_DAGGER, BWUndergardenExtraItems.UTHERIUM_DAGGER,  BWUndergardenExtraItems.UTHERIUM_HAMMER,  BWUndergardenExtraItems.UTHERIUM_SPEAR,  BWUndergardenExtraItems.UTHERIUM_QUARTERSTAFF,  BWUndergardenExtraItems.UTHERIUM_CLUB);
+        if (hasBasicWeapons) {
+            if (hasUndergarden) {
+                tabDirector.direct(CreativeModeTabs.COMBAT, BWUndergardenExtraItems.CLOGGRUM_CLUB, BWUndergardenExtraItems.CLOGGRUM_SPEAR, BWUndergardenExtraItems.CLOGGRUM_QUARTERSTAFF, BWUndergardenExtraItems.CLOGGRUM_DAGGER, BWUndergardenExtraItems.CLOGGRUM_HAMMER, BWUndergardenExtraItems.FORGOTTEN_HAMMER, BWUndergardenExtraItems.FORGOTTEN_CLUB, BWUndergardenExtraItems.FORGOTTEN_SPEAR, BWUndergardenExtraItems.FORGOTTEN_QUARTERSTAFF, BWUndergardenExtraItems.FORGOTTEN_DAGGER, BWUndergardenExtraItems.FROSTSTEEL_CLUB, BWUndergardenExtraItems.FROSTSTEEL_HAMMER, BWUndergardenExtraItems.FROSTSTEEL_SPEAR, BWUndergardenExtraItems.FROSTSTEEL_QUARTERSTAFF, BWUndergardenExtraItems.FROSTSTEEL_DAGGER, BWUndergardenExtraItems.UTHERIUM_DAGGER, BWUndergardenExtraItems.UTHERIUM_HAMMER, BWUndergardenExtraItems.UTHERIUM_SPEAR, BWUndergardenExtraItems.UTHERIUM_QUARTERSTAFF, BWUndergardenExtraItems.UTHERIUM_CLUB);
             }
         }
+
+          if (hasSniffsWeapons) {
+            tabDirector.direct(CreativeModeTabs.COMBAT, SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE, SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD, SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE, SWUndergardenExtraItems.CLOGGRUM_GREATSWORD);
+
+        }
+
+              if (hasUndergarden) {
+                tabDirector.direct(CreativeModeTabs.COMBAT, AEUndergardenExtraItems.CLOGGRUM_GLOVES, AEUndergardenExtraItems.FROSTSTEEL_GLOVES, AEUndergardenExtraItems.UTHERIUM_GLOVES);
+            }
+
+            if (hasUndergarden) {
+                if (hasSniffsWeapons) {
+                    tabDirector.direct(CreativeModeTabs.COMBAT, SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE,
+                            SWUndergardenExtraItems.CLOGGRUM_GREATSWORD, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD,
+                            SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE,
+                            SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE,
+                            SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD);
+
+                }
+            }
+
 
         if (hasAether) {
             if (hasSullysMod) {
                 tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), AESullysModExtraItems.SKYROOT_LANTERNFISH_BUCKET);
             }
 
-            if (hasUndergarden){
-                tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), AEUndergardenExtraItems.CLOGGRUM_GLOVES, AEUndergardenExtraItems.FROSTSTEEL_GLOVES, AEUndergardenExtraItems.UTHERIUM_GLOVES);
-            }
 
             if (hasAlexsMobs) {
                 tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
@@ -214,18 +230,7 @@ public class CompatCore {
             }
         }
 
-        /*if (hasUndergarden){
-            if(hasSniffsWeapons){
-                tabDirector.direct(UGCreativeModeTabs.TAB.getKey(), SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE,
-                        SWUndergardenExtraItems.CLOGGRUM_GREATSWORD, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD,
-                        SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE,
-                        SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE,
-                        SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD);
-
-            }
-       */
     }
-
     public void rightClick(PlayerInteractEvent.RightClickBlock event) {
         if (hasAlexCaves) {
             EventAdapter<PlayerInteractEvent.RightClickBlock> marineSnowClickEventAdapter = new MarineSnowClickEventAdapter();
