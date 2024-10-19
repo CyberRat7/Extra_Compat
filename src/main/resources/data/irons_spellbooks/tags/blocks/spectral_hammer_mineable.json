@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexscaves:galena",
+      "required": false
+    },
+    {
+      "id": "alexscaves:radrock",
+      "required": false
+    },
+    {
+      "id": "alexscaves:limestone",
+      "required": false
+    },
+    {
+      "id": "alexscaves:guanostone",
+      "required": false
+    },
+    {
+      "id": "alexscaves:coprolith",
+      "required": false
+    },
+    {
+      "id": "undergarden:shiverstone",
+      "required": false
+    },
+    {
+      "id": "undergarden:depthrock",
+      "required": false
+    },
+    {
+      "id": "twigs:schist",
+      "required": false
+    },
+    {
+      "id": "twigs:rhyloite",
+      "required": false
+    },
+    {
+      "id": "twigs:silt",
+      "required": false
+    },
+    {
+      "id": "twigs:bloodstone",
+      "required": false
+    },
+    {
+      "id": "quark:permafrost",
+      "required": false
+    }
+  ]
+}
