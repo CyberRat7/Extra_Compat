@@ -145,29 +145,6 @@ public class CompatCore {
             }
         }
 
-        /*
-       if (hasMinersDelight){
-            if(hasAlexsMobs){
-                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDAMExtraItems.MOSQUITO_REPELLENT_STEW_CUP);
-            }
-            if(hasAlexsDelight){
-                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDADExtraItems.KANGAROO_STEW_CUP, MDADExtraItems.ACACIA_BLOSSOM_SOUP_CUP);
-            }
-            if(hasQuarkDelight){
-                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDQDExtraItems.CAVERN_EXPLORER_STEW_CUP, MDQDExtraItems.MISO_WITH_BAMBOO_SPROUTS_CUP);
-            }
-            if(hasAutumnity){
-                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDATExtraItems.FOUL_SOUP_CUP);
-            }
-            if(hasSeasonals){
-                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDSExtraItems.PUMPKIN_ADZUKI_STEW_CUP);
-            }
-            if(hasNeapolitan){
-                tabDirector.direct(ModCreativeTabs.TAB_FARMERS_DELIGHT.getKey(), MDNExtraItems.ADZUKI_STEW_CUP);
-            }
-        }
-        */
-
 
         if (hasIncubation) {
             if (hasSullysMod) {
@@ -176,19 +153,15 @@ public class CompatCore {
         }
 
 
-
         if (hasBasicWeapons) {
             if (hasUndergarden) {
                 tabDirector.direct(CreativeModeTabs.COMBAT, BWUndergardenExtraItems.CLOGGRUM_CLUB, BWUndergardenExtraItems.CLOGGRUM_SPEAR, BWUndergardenExtraItems.CLOGGRUM_QUARTERSTAFF, BWUndergardenExtraItems.CLOGGRUM_DAGGER, BWUndergardenExtraItems.CLOGGRUM_HAMMER, BWUndergardenExtraItems.FORGOTTEN_HAMMER, BWUndergardenExtraItems.FORGOTTEN_CLUB, BWUndergardenExtraItems.FORGOTTEN_SPEAR, BWUndergardenExtraItems.FORGOTTEN_QUARTERSTAFF, BWUndergardenExtraItems.FORGOTTEN_DAGGER, BWUndergardenExtraItems.FROSTSTEEL_CLUB, BWUndergardenExtraItems.FROSTSTEEL_HAMMER, BWUndergardenExtraItems.FROSTSTEEL_SPEAR, BWUndergardenExtraItems.FROSTSTEEL_QUARTERSTAFF, BWUndergardenExtraItems.FROSTSTEEL_DAGGER, BWUndergardenExtraItems.UTHERIUM_DAGGER, BWUndergardenExtraItems.UTHERIUM_HAMMER, BWUndergardenExtraItems.UTHERIUM_SPEAR, BWUndergardenExtraItems.UTHERIUM_QUARTERSTAFF, BWUndergardenExtraItems.UTHERIUM_CLUB);
             }
         }
 
-          if (hasSniffsWeapons) {
-            tabDirector.direct(CreativeModeTabs.COMBAT, SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE, SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD, SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE, SWUndergardenExtraItems.CLOGGRUM_GREATSWORD);
 
-        }
-
-              if (hasUndergarden) {
+        if (hasUndergarden) {
+            if (hasAether) {
                 tabDirector.direct(CreativeModeTabs.COMBAT, AEUndergardenExtraItems.CLOGGRUM_GLOVES, AEUndergardenExtraItems.FROSTSTEEL_GLOVES, AEUndergardenExtraItems.UTHERIUM_GLOVES);
             }
 
@@ -198,38 +171,38 @@ public class CompatCore {
                             SWUndergardenExtraItems.CLOGGRUM_GREATSWORD, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD,
                             SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE,
                             SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE,
-                            SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD);
-
+                            SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD, SWUndergardenExtraItems.UTHERIUM_GREATSWORD, SWUndergardenExtraItems.UTHERIUM_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREAT_AXE, SWUndergardenExtraItems.FORGOTTEN_GREATSWORD, SWUndergardenExtraItems.FROSTSTEEL_GREAT_AXE, SWUndergardenExtraItems.FROSTSTEEL_GREATSWORD, SWUndergardenExtraItems.CLOGGRUM_GREAT_AXE, SWUndergardenExtraItems.CLOGGRUM_GREATSWORD);
                 }
             }
 
 
-        if (hasAether) {
-            if (hasSullysMod) {
-                tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), AESullysModExtraItems.SKYROOT_LANTERNFISH_BUCKET);
-            }
+            if (hasAether) {
+                if (hasSullysMod) {
+                    tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(), AESullysModExtraItems.SKYROOT_LANTERNFISH_BUCKET);
+                }
 
 
-            if (hasAlexsMobs) {
-                tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
-                        AEAlexsMobsExtraItems.SKYROOT_SMALL_CATFISH_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_LARGE_CATFISH_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_COMB_JELLEY_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_BLOBFISH_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_DEVILS_HOLE_PUPFISH_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_FRILLED_SHARK_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_FLYING_FISH_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_LOBSTER_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_MIMIC_OCTOPUS_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_MUDSKIPPER_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_TERRAPIN_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_TRIOPS_BUCKET,
-                        AEAlexsMobsExtraItems.SKYROOT_PLATYPUS_BUCKET
-                );
+                if (hasAlexsMobs) {
+                    tabDirector.direct(AetherCreativeTabs.AETHER_EQUIPMENT_AND_UTILITIES.getKey(),
+                            AEAlexsMobsExtraItems.SKYROOT_SMALL_CATFISH_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_MEDIUM_CATFISH_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_LARGE_CATFISH_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_COMB_JELLEY_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_BLOBFISH_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_DEVILS_HOLE_PUPFISH_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_FRILLED_SHARK_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_FLYING_FISH_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_LOBSTER_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_MIMIC_OCTOPUS_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_MUDSKIPPER_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_TERRAPIN_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_TRIOPS_BUCKET,
+                            AEAlexsMobsExtraItems.SKYROOT_PLATYPUS_BUCKET
+                    );
+                }
             }
+
         }
-
     }
     public void rightClick(PlayerInteractEvent.RightClickBlock event) {
         if (hasAlexCaves) {
