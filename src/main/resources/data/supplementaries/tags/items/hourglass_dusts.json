@@ -16,6 +16,26 @@
     {
       "id": "alexscaves:moth_dust",
       "required": false
+    },
+    {
+      "id": "tfmg:nitrate_dust",
+      "required": false
+    },
+    {
+      "id": "tfmg:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "tfmg:coal_coke_dust",
+      "required": false
+    },
+    {
+      "id": "tfmg:thermite_powder",
+      "required": false
+    },
+    {
+      "id": "tfmg:limesand",
+      "required": false
     }
   ]
 }

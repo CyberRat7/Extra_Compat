@@ -4,6 +4,14 @@
     {
       "id": "twigs:silt_brick",
       "required": false
+    },
+    {
+      "id": "tfmg:fireproof_brick",
+      "required": false
+    },
+    {
+      "id": "architects_palette:wardstone_brick",
+      "required": false
     }
   ]
 }
