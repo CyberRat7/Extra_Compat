@@ -1,0 +1,55 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:barrels",
+    "#forge:chests",
+    {
+      "id": "#supplementaries:sacks",
+      "required": false
+    },
+    {
+      "id": "#twigs:silt_pots",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:transmutation_table",
+      "required": false
+    },
+    {
+      "id": "alexscaves:spelunkery_table",
+      "required": false
+    },
+    {
+      "id": "alexscaves:nuclear_furnace_component",
+      "required": false
+    },
+    {
+      "id": "alexscaves:gingerbarrel",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:arcane_anvil",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:inscription_table",
+      "required": false
+    },
+    {
+      "id": "quark:chute",
+      "required": false
+    },
+    {
+      "id": "cataclysm:mechanical_fusion_anvil",
+      "required": false
+    },
+    {
+      "id": "clayworks:kiln",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cooking_pot",
+      "required": false
+    }
+  ]
+}

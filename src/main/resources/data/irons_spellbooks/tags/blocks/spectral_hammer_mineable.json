@@ -22,6 +22,18 @@
       "required": false
     },
     {
+      "id": "alexscaves:cake_layer",
+      "required": false
+    },
+    {
+      "id": "alexscaves:block_of_chocolate",
+      "required": false
+    },
+    {
+      "id": "alexscaves:block_of_frosted_chocolate",
+      "required": false
+    },
+    {
       "id": "undergarden:shiverstone",
       "required": false
     },
