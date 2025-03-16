@@ -13,17 +13,17 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "autumnity:foul_berries"
+      "item": "alexscaves:vesper_wing"
     },
     {
-      "item": "autumnity:foul_berries"
+      "item": "alexscaves:thornwood_branch"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:brown_mushroom"
     }
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "autumnity:foul_soup"
+    "item": "alexscaves:vesper_stew"
   }
 }
