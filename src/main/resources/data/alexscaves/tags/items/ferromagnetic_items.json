@@ -46,11 +46,127 @@
       "required": false
     },
     {
+      "id": "sniffsweapons:iron_horned_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_kabuto",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:clothed_iron_cuirass",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:plated_iron_chestplate",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:iron_do",
+      "required": false
+    },
+    {
       "id": "sniffsweapons:iron_surcoat",
       "required": false
     },
     {
-      "id": "chimes:iron_chimes",
+      "id": "supplementaries:iron_gate",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:netherite_knife",
+      "required": false
+    },
+    {
+      "id": "basicweapons:netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "basicweapons:netherite_hammer",
+      "required": false
+    },
+    {
+      "id": "basicweapons:netherite_spear",
+      "required": false
+    },
+    {
+      "id": "basicweapons:netherite_quarterstaff",
+      "required": false
+    },
+    {
+      "id": "basicweapons:netherite_club",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_great_sword",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_great_axe",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_surcoat",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_horned_helm",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_kabuto",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:clothed_netherite_cuirass",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:plated_netherite_chestplate",
+      "required": false
+    },
+    {
+      "id": "sniffsweapons:netherite_do",
+      "required": false
+    },
+    {
+      "id": "toughasnails:empty_iron_canteen",
+      "required": false
+    },
+    {
+      "id": "toughasnails:empty_netherite_canteen",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_effigy",
+      "required": false
+    },
+    {
+      "id": "sootychimneys:iron_chimney",
+      "required": false
+    },
+    {
+      "id": "sootychimneys:dirty_iron_chimney",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_boots",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_leggings",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_chestplate",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:netherite_mage_helmet",
       "required": false
     }
   ]
