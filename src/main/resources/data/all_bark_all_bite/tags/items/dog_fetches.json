@@ -8,6 +8,10 @@
     {
       "id": "undergarden:twisty_twig",
       "required": false
+    },
+    {
+      "id": "atmospheric:yucca_branch",
+      "required": false
     }
   ]
 }
