@@ -36,6 +36,10 @@
     {
       "id": "tfmg:limesand",
       "required": false
+    },
+    {
+      "id": "deeperdarker:soul_dust",
+      "required": false
     }
   ]
 }
