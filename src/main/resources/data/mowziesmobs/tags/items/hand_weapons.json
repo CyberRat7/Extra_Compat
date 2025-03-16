@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cataclysm:gauntlet_of_guard",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_bulwark",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_maelstrom",
+      "required": false
+    },
+    {
+      "id": "cataclysm:tidal_claws",
+      "required": false
+    }
+  ]
+}
