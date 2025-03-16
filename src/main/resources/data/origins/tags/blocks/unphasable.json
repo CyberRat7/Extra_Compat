@@ -1,12 +1,21 @@
 {
   "replace": false,
   "values": [
-    "quark:obsidian_pressure_plate",
     "minecraft:netherite_block",
     "minecraft:ancient_debris",
     "minecraft:reinforced_deepslate",
-    "supplementaries:netherite_door",
-    "supplementaries:netherite_trapdoor",
+    {
+      "id": "supplementaries:netherite_door",
+      "required": false
+    },
+    {
+      "id": "supplementaries:netherite_trapdoor",
+      "required": false
+    },
+    {
+      "id": "quark:obsidian_pressure_plate",
+      "required": false
+    },
     {
       "id": "frame_changer:obsidian_bricks",
       "required": false
@@ -121,6 +130,26 @@
     },
     {
       "id": "dungeonnowloading:chaos_spawner_barrier_edge",
+      "required": false
+    },
+    {
+      "id": "endergetic:mystical_obsidian",
+      "required": false
+    },
+    {
+      "id": "endergetic:mystical_obsidian_wall",
+      "required": false
+    },
+    {
+      "id": "endergetic:mystical_obsidian_rune",
+      "required": false
+    },
+    {
+      "id": "endergetic:mystical_obsidian_activation_rune",
+      "required": false
+    },
+    {
+      "id": "endergetic:activated_mystical_obsidian_activation_rune",
       "required": false
     }
   ]
