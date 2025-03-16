@@ -18,15 +18,7 @@
       "required": false
     },
     {
-      "id": "alexscaves:radgill",
-      "required": false
-    },
-    {
       "id": "alexscaves:tripodfish",
-      "required": false
-    },
-    {
-      "id": "cataclysm:lionfish",
       "required": false
     },
     {
@@ -67,6 +59,18 @@
     },
     {
       "id":  "rainbowreef:raw_tang",
+      "required": false
+    },
+    {
+      "id":  "rainbowreef:raw_tang",
+      "required": false
+    },
+    {
+      "id":  "upgrade_aquatic:raw_pike",
+      "required": false
+    },
+    {
+      "id":  "upgrade_aquatic:raw_perch",
       "required": false
     }
   ]
