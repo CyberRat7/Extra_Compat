@@ -16,6 +16,14 @@
     {
       "id": "supplementaries:flax_seeds",
       "required": false
+    },
+    {
+      "id": "farmersrespite:tea_seeds",
+      "required": false
+    },
+    {
+      "id": "frycooks_delight:canola_seeds",
+      "required": false
     }
   ]
 }

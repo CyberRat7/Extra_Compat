@@ -18,15 +18,7 @@
       "required": false
     },
     {
-      "id": "alexscaves:radgill",
-      "required": false
-    },
-    {
       "id": "alexscaves:tripodfish",
-      "required": false
-    },
-    {
-      "id": "cataclysm:lionfish",
       "required": false
     },
     {
