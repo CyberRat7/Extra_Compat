@@ -1,4 +1,4 @@
-{
+  {
   "replace": false,
   "values": [
     {
@@ -18,7 +18,51 @@
       "required": false
     },
     {
+      "id": "irons_spellbooks:plagued_helmet",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:shadowwalker_helmet",
+      "required": false
+    },
+    {
       "id": "alexscaves:diving_helmet",
+      "required": false
+    },
+    {
+      "id": "alexscaves:hazmat_mask",
+      "required": false
+    },
+    {
+      "id": "savage_and_ravage:mask_of_dishonesty",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sol_visage",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_mask_faith",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_mask_misery",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_mask_bliss",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_mask_rage",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_mask_fear",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthana_mask_fury",
       "required": false
     }
   ]
