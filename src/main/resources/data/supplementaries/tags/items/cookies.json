@@ -28,6 +28,14 @@
     {
       "id": "miners_delight:bat_cookie",
       "required": false
+    },
+    {
+      "id": "abnormals_delight:maple_cookie",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:cherry_cookie",
+      "required": false
     }
   ]
 }
