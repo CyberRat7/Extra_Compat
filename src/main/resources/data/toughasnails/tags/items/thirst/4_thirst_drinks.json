@@ -40,10 +40,6 @@
     {
       "id": "irons_spellbooks:greater_evasion_elixir",
       "required": false
-    },
-    {
-      "id": "irons_spellbooks:greater_potion_of_healing",
-      "required": false
     }
   ]
 }

@@ -12,6 +12,10 @@
     {
       "id": "farmersrespite:long_purulent_tea",
       "required": false
+    },
+    {
+      "id": "irons_spellbooks:greater_healing_potion",
+      "required": false
     }
   ]
 }
