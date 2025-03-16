@@ -4,6 +4,18 @@
     {
       "id": "cataclysm:coral_spear",
       "required": false
+    },
+    {
+      "id": "alexscaves:limestone_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:extinction_spear",
+      "required": false
+    },
+    {
+      "id": "alexscaves:frostmint_spear",
+      "required": false
     }
   ]
 }
