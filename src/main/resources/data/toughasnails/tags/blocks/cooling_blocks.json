@@ -24,6 +24,14 @@
     {
       "id": "upgrade_aquatic:tooth_lantern",
       "required": false
+    },
+    {
+      "id": "endergetic:ender_campfire",
+      "required": false
+    },
+    {
+      "id": "endergetic:ender_lantern",
+      "required": false
     }
   ]
 }
