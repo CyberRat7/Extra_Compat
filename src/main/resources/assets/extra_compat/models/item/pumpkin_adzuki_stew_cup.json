@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "extra_compat:item/pumpkin_adzuki_stew_cup"
-  }
-}

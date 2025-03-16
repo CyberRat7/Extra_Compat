@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "extra_compat:item/cavern_explorer_stew_cup"
-  }
-}

@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     {
+      "id": "farmersdelight:stove",
+      "required": false
+    },
+    {
       "id": "cataclysm:altar_of_fire",
       "required": false
     },
