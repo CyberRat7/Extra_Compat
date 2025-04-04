@@ -24,6 +24,360 @@
     {
       "id": "frycooks_delight:canola_seeds",
       "required": false
+    },
+    {
+      "id": "alexs_caves:sweetish_fish_red",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sweetish_fish_green",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sweetish_fish_yellow",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sweetish_fish_blue",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sweetish_fish_pink",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gelatin_red",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gelatin_green",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gelatin_yellow",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gelatin_blue",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gelatin_pink",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sharpened_candy_cane",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:peppermint_powder",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_chocolate",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_polished_chocolate",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_chiseled_chocolate",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_frosted_chocolate",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_frosting",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_vanilla_frosting",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:block_of_chocolate_frosting",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sweet_puff",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:cake_layer",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:dough_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:cookie_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:wafer_cookie_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:wafer_cookie_block_stairs",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:wafer_cookie_block_slab",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:wafer_cookie_block_wall",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:small_peppermint",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:large_peppermint",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sprinkles",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:giant_sweetberry",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:candy_cane",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:candy_cane_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:chiseled_candy_cane_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:stripped_candy_cane_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:candy_cane_pole",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:stripped_candy_cane_pole",
+      "required": false
+    },
+
+    {
+      "id": "alexs_caves:lolipop_bush",
+      "required": false
+    },
+
+    {
+      "id": "alexs_caves:frostmint",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sugar_glass",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:sundrop",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gummy_ring_red",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gummy_ring_green",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gummy_ring_yellow",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gummy_ring_blue",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gummy_ring_pink",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_cyan",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_red",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_blue",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_yellow",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_black",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_brown",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_pink",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_white",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_purple",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_gray",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_green",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_magenta",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_light_blue",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_light_gray",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_lime",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:rock_candy_orange",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_block",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_stairs",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_slab",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_wall",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_door",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_stairs",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_slab",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_wall",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_door",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_bricks",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_brick_slab",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_brick_wall",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_bricks",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_brick_slab",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:frosted_gingerbread_brick_wall",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:gingerbread_crumbs",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:caramel_apple",
+      "required": false
+    },
+    {
+      "id": "alexs_caves:caramel",
+      "required": false
+    },
+    {
+      "id": "buzzier_bees:honey_apple",
+      "required": false
+    },
+    {
+      "id": "supplementaries:candy",
+      "required": false
+    },
+    {
+      "id": "atmospheric:candied_oranges",
+      "required": false
+    },
+    {
+      "id": "neapolitan:mint_candies",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:sweet_berry_cookie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_cookie",
+      "required": false
     }
   ]
 }
