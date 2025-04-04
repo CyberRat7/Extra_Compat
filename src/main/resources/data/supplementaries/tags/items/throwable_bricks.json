@@ -12,6 +12,10 @@
     {
       "id": "architects_palette:wardstone_brick",
       "required": false
+    },
+    {
+      "id": "palegarden:resin",
+      "required": false
     }
   ]
 }
