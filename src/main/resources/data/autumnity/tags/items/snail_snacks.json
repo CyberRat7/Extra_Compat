@@ -19,6 +19,22 @@
     {
       "id": "undergarden:blood_mushroom",
       "required": false
+    },
+    {
+      "id": "farmersdelight:red_mushroom_colony",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:brown_mushroom_colony",
+      "required": false
+    },
+    {
+      "id": "gardens_of_the_dead:soulblight_fungus",
+      "required": false
+    },
+    {
+      "id": "wilderness:shelf_fungi",
+      "required": false
     }
   ]
 }
