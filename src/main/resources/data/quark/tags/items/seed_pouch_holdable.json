@@ -36,6 +36,18 @@
     {
       "id": "undergarden:veil_mushroom",
       "required": false
+    },
+    {
+      "id": "netherexp:cerebrage_seeds",
+      "required": false
+    },
+    {
+      "id": "deep_aether:squash_seeds",
+      "required": false
+    },
+    {
+      "id": "deep_aether:golden_grass_seeds",
+      "required": false
     }
   ]
 }
