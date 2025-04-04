@@ -40,6 +40,10 @@
     {
       "id": "deeperdarker:soul_dust",
       "required": false
+    },
+    {
+      "id": "better_end:ender_dust",
+      "required": false
     }
   ]
 }
