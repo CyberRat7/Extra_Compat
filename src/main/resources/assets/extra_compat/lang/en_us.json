@@ -4,7 +4,8 @@
   "enchantment.endlessbiomes.shared_pain.desc": "When a mob is killed with this weapon and more damage is dealt than necessary to kill it the excess damage will be dealt to other nearby enemies.",
   "enchantment.spawnersplus.soul_stealing.desc": "Causes certain mobs to drop their souls when killed.",
   "enchantment.toughasnails.thermal_tuning.desc": "Neutralizes climate effects.",
-
+  "enchantment.toughasnails.water_cleansing.desc": "Purifies any water collected with enchanted canteen.",
+  "enchantment.deep_aether.gloves_reach.desc": "Increases block placement reach.",
 
   "item.extra_compat.skyroot_lanternfish_bucket": "Skyroot Bucket of Lanternfish",
   "item.extra_compat.skyroot_small_catfish_bucket": "Skyroot Bucket of Small Catfish",
